@@ -11,10 +11,10 @@ const config: Config = {
       colors: {
         // Gymbox Noordwijk brand colors
         'primary': '#F5B800',        // Primary - geel/goud (buttons, accenten)
-        'black': '#1A1A1A',          // Tekst, headings
-        'white': '#FFFFFF',          // Achtergronden
-        'gray-light': '#F5F5F5',     // Secundaire achtergronden
-        'gray': '#9CA3AF',           // Subtiele elementen, secundaire tekst
+        'gymbox-black': '#1A1A1A',   // Tekst, headings
+        'gymbox-white': '#FFFFFF',   // Achtergronden
+        'gymbox-gray-light': '#F5F5F5', // Secundaire achtergronden
+        'gymbox-gray': '#9CA3AF',    // Subtiele elementen, secundaire tekst
         // Legacy color mappings for compatibility
         'cinnabar': '#F5B800',       // Map to primary gold
         'verdigris': '#1A1A1A',      // Map to black
