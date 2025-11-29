@@ -10,7 +10,7 @@
   "header": {
     "home": "Home",
     "about": "Over ons",
-    "aboutCFL": "Over CrossFit Leiden",
+    "aboutCFL": "Over Gymbox Noordwijk",
     "theTeam": "Het Team",
     "ourLocation": "Onze Locatie",
     "pricing": "Tarieven",
@@ -20,7 +20,6 @@
     "smallGroup": "Small Group Training",
     "personalTraining": "Personal Training",
     "hyrox": "HYROX",
-    "fysiofabriek": "Fysiofabriek",
     "sportPerformance": "Sport & Performance",
     "nutrition": "Voeding",
     "teens": "Teens",
@@ -31,15 +30,15 @@
     "hyroxSimulation": "HYROX Simulation",
     "testimonials": "Ervaringen",
     "contact": "Contact",
-    "planFreeIntro": "Plan een Gratis Intro"
+    "planFreeIntro": "Plan je Gratis Intake"
   },
   "footer": {
-    "tagline": "Everyday people, exceptionally strong",
+    "tagline": "Word weer fit, sterk & gezond",
     "navigation": "Navigatie",
     "info": "Info",
     "dropIn": "Drop-in",
     "privacyPolicy": "Privacy Policy",
-    "termsConditions": "Terms & Conditions",
+    "termsConditions": "Algemene Voorwaarden",
     "cancelMembership": "Abonnement opzeggen"
   },
   "navigation": {
@@ -53,16 +52,16 @@
   },
   "home": {
     "hero": {
-      "googleReviews": "265 plus Google reviews van 5 sterren",
-      "title": "Meer energie voor jouw gezin én jezelf",
-      "subtitle": "Voor drukke ouders en professionals die weer fit willen worden, zonder oordeel en met begeleiding op jouw niveau. Geen ervaring nodig, we leren je alles stap voor stap.",
-      "cta": "Plan een Gratis Intro",
-      "ctaNote": "👉 Geen workout, gewoon een gesprek. Ontdek of CrossFit Leiden bij je past."
+      "googleReviews": "265+ Google reviews van 5 sterren",
+      "title": "Word weer fit, sterk & gezond",
+      "subtitle": "Heb je last van jouw eindeloze to-do list? Weet je niet wat je moet doen om je doelen te behalen? Bij Gymbox Noordwijk krijg je 100% persoonlijke begeleiding. Het leukste uurtje van je dag.",
+      "cta": "Plan je Gratis Intake",
+      "ctaNote": "👉 Geen workout, gewoon een gesprek. Ontdek of Gymbox bij je past."
     },
     "why": {
-      "title": "Waarom CrossFit Leiden?",
-      "subtitle": "We snappen dat je druk bent en misschien al jaren niet meer gesport hebt. Daarom maken we het je makkelijk.",
-      "usp1Title": "Persoonlijke Begeleiding",
+      "title": "Waarom Gymbox Noordwijk?",
+      "subtitle": "De beste sportschool van Noordwijk. CrossFit, coaching & community met 100% persoonlijke begeleiding.",
+      "usp1Title": "100% Persoonlijke Begeleiding",
       "usp1Text": "Onze coaches kennen je naam, letten op je techniek en begeleiden je stap voor stap. Je bent nooit zomaar een nummer.",
       "usp2Title": "Perfect voor Beginners",
       "usp2Text": "Je hoeft niet fit te zijn om te starten. We passen alles aan op jouw niveau – of je nu 35 of 55 bent.",
@@ -70,20 +69,20 @@
       "usp3Text": "Sport met andere ouders en professionals. Hier support en moedig je elkaar aan – geen oordeel, alleen support.",
       "usp4Title": "Veilig & Verantwoord",
       "usp4Text": "Blessurepreventie staat voorop. We leren je de juiste techniek zodat je veilig sterker wordt, zonder risico.",
-      "usp5Title": "Past in je Drukke Schema",
+      "usp5Title": "Het Leukste Uurtje van je Dag",
       "usp5Text": "Van vroege ochtend tot late avond – er is altijd een les die past. Lessen duren 1 uur, inclusief warming-up."
     },
     "howItWorks": {
       "title": "Hoe werkt het?",
       "subtitle": "Drie simpele stappen – geen verplichtingen, geen druk. Gewoon kennismaken.",
-      "step1Title": "Plan een Gratis Intro",
+      "step1Title": "Plan je Gratis Intake",
       "step1Text": "Klik op de knop, kies een moment dat jou past en vul je gegevens in. Het duurt 30 seconden.",
       "step2Title": "Ontspannen Gesprek (Geen Training!)",
-      "step2Text": "We leren je kennen, beantwoorden al je vragen en laten je onze box zien. In dit gesprek leggen we ook het Kickstart-programma uit en kijken we of dat bij jou past. Je hoeft niet te sporten – gewoon een kop koffie en een praatje.",
-      "step2Note": "💡 Dit noemen we een \"No Sweat Intro\" – letterlijk: geen zweten!",
+      "step2Text": "We leren je kennen, beantwoorden al je vragen en laten je onze gym zien. In dit gesprek leggen we ook het Kickstart-programma uit en kijken we of dat bij jou past. Je hoeft niet te sporten – gewoon een kop koffie en een praatje.",
+      "step2Note": "💡 Gewoon een goed gesprek over jouw doelen – geen zweten!",
       "step3Title": "Jouw Persoonlijke Plan",
       "step3Text": "Als het klikt, maken we samen een plan dat past bij jouw doelen en schema. Wil je nog even nadenken? Prima!",
-      "cta": "Plan Mijn Gratis Intro"
+      "cta": "Plan je Gratis Intake"
     },
     "socialProof": {
       "title": "Zij gingen je voor"
@@ -91,36 +90,36 @@
     "faq": {
       "title": "Veelgestelde Vragen",
       "subtitle": "Deze vragen krijgen we vaak. Herken je jezelf?",
-      "q1": "Ben ik wel fit genoeg om te beginnen met CrossFit?",
+      "q1": "Ben ik wel fit genoeg om te beginnen?",
       "a1": "Absoluut! Je hoeft helemaal niet fit te zijn om te starten. 80% van onze leden had geen enkele sportervaring toen ze begonnen. We passen elke oefening aan op jouw niveau – of je nu 20 jaar niet hebt gesport of juist wel actief bent.",
       "q2": "Hoe vaak moet ik komen?",
       "a2": "We raden 2–3 keer per week aan voor goede resultaten. Hoe vaak je kunt komen hangt af van je lidmaatschap: tot 6 keer per week. Focus op kwaliteit en regelmaat, niet op extreme uren.",
       "q3": "Is CrossFit niet gevaarlijk? Ik wil geen blessures...",
       "a3p1": "Begrijpelijk dat je dat denkt! Maar juist door onze begeleiding is CrossFit véél veiliger dan alleen sporten. We leren je eerst de juiste techniek met lichte gewichten. Pas als je beweging goed zit, gaan we verder. Blessurepreventie staat bij ons voorop.",
-      "a3p2": "We samenwerken met Fysiofabriek, een professionele fysiopraktijk die een eigen behandelruimte in onze gym heeft. Hierdoor kunnen we snel schakelen bij pijntjes, revalidatie of advies.",
+      "a3p2": "Onze coaches hebben jarenlange ervaring en letten altijd op je techniek en bewegingskwaliteit.",
       "q4": "Ben ik niet te oud om te beginnen?",
       "a4": "Helemaal niet! Onze leden zijn tussen de 20 en 65 jaar, met de meesten tussen 35-50. CrossFit is juist perfect voor \"oudere\" beginners omdat we alles aanpassen aan jouw lichaam en doelen. Je bent nooit te oud om sterker en gezonder te worden!",
       "q5": "Heb ik echt geen tijd, met werk en kinderen...",
       "a5": "We snappen dat! Daarom duren onze lessen precies 1 uur (inclusief warming-up en cooling-down). Onze lessen lopen van 06:00 tot 22:00, dus er is altijd een moment dat past. Veel leden komen voor het werk, in de lunchpauze of 's avonds als de kids op bed liggen.",
-      "q6": "Wat gebeurt er tijdens de Gratis Intro?",
-      "a6": "De intro duurt 20-30 minuten. We leren je kennen, praten over je doelen en zorgen, laten je de box zien en beantwoorden al je vragen. Je hoeft NIET te sporten tijdens deze intro – gewoon kennismaken. Daarna maken we samen een plan als je door wilt. Geen verplichtingen, geen druk!"
+      "q6": "Wat gebeurt er tijdens de Gratis Intake?",
+      "a6": "De intake duurt 20-30 minuten. We leren je kennen, praten over je doelen en zorgen, laten je de gym zien en beantwoorden al je vragen. Je hoeft NIET te sporten tijdens deze intake – gewoon kennismaken. Daarna maken we samen een plan als je door wilt. Geen verplichtingen, geen druk!"
     },
     "footerCta": {
       "title": "Zie je jezelf hier al sporten?",
-      "subtitle": "Plan je gratis intro – het is vrijblijvend, duurt 20 minuten en je hoeft niet te sporten. Gewoon kennismaken en kijken of het klikt. We kijken ernaar uit!",
+      "subtitle": "Plan je gratis intake – het is vrijblijvend, duurt 20 minuten en je hoeft niet te sporten. Gewoon kennismaken en kijken of het klikt. We kijken ernaar uit!",
       "button": "Ja, ik wil kennismaken!"
     }
   },
   "dropIn": {
     "hero": {
-      "title": "Train een keer mee bij CrossFit Leiden",
-      "subtitle": "In de buurt of wil je onze box proberen? Boek een drop-in en doe mee op jouw niveau. Alleen voor ervaren CrossFitters.",
+      "title": "Train een keer mee bij Gymbox Noordwijk",
+      "subtitle": "In de buurt of wil je onze gym proberen? Boek een drop-in en doe mee op jouw niveau. Alleen voor ervaren CrossFitters.",
       "cta": "Boek een Drop-in"
     },
     "howItWorks": {
       "title": "Hoe werkt het?",
       "step1Title": "Kies je les",
-      "step1Text": "Selecteer eerst de vestiging <strong>CrossFit Leiden</strong> in SportBit. Vervolgens kies je uit twee lesopties:",
+      "step1Text": "Selecteer eerst de vestiging <strong>Gymbox Noordwijk</strong> in SportBit. Vervolgens kies je uit twee lesopties:",
       "step1Option1": "<strong>\"Training\"</strong> (reguliere CrossFit WOD) – drop-in fee €30",
       "step1Option2": "<strong>\"HYROX Training\"</strong> – €30 voor 60 minuten, €35 voor 90 minuten",
       "step1Note": "Andere lessen zijn niet beschikbaar voor drop-ins.",
@@ -144,7 +143,7 @@
     "faq": {
       "title": "Veelgestelde Vragen",
       "q1": "Kan ik ook als beginner een drop-in doen?",
-      "a1": "Nee. Drop-ins zijn alleen voor mensen met CrossFit-ervaring. Ben je helemaal nieuw? Plan dan eerst een gratis intro.",
+      "a1": "Nee. Drop-ins zijn alleen voor mensen met CrossFit-ervaring. Ben je helemaal nieuw? Plan dan eerst een gratis intake.",
       "q2": "Wat kost een drop-in?",
       "a2": "Afhankelijk van de les 30 tot 35 euro. Betaling gebeurt online tijdens de boeking.",
       "q3": "Welke les kan ik het beste kiezen?",
@@ -154,7 +153,7 @@
     },
     "cta": {
       "title": "Klaar om een keer mee te trainen?",
-      "subtitle": "Boek je drop-in en ervaar de CrossFit Leiden sfeer!",
+      "subtitle": "Boek je drop-in en ervaar de Gymbox sfeer!",
       "button": "Boek een Drop-in"
     }
   },
@@ -166,12 +165,12 @@
     "visitUs": {
       "title": "Bezoek ons",
       "address": "Adres",
-      "addressLine1": "Marie Diebenplaats 108",
-      "addressLine2": "2324 NG Leiden",
+      "addressLine1": "Keyserswey 26A",
+      "addressLine2": "2201 CW Noordwijk",
       "addressNote": "(Makkelijk bereikbaar met voldoende parkeerruimte)",
       "email": "E-mail",
       "phone": "Telefoon",
-      "phoneNumber": "071 - 234 0477",
+      "phoneNumber": "Neem contact op via e-mail",
       "openingHours": "Openingstijden",
       "monFri": "Ma - Vr: 06:00 - 22:00",
       "sat": "Za: 07:00 - 13:00",
@@ -180,9 +179,9 @@
     },
     "route": {
       "title": "Route & Parkeren",
-      "byCar": "<strong>Met de auto:</strong> Ruime parkeergelegenheid voor de deur (inclusief invalide parkeerplek). €0,20 per uur van 07:30 - 19:30 op ma-vr. Voor de rest gratis parkeren.",
-      "byBike": "<strong>Met de fiets:</strong> Station Leiden Centraal op 10 minuten fietsen. Station Leiden Lammerschans op 3 minuten fietsen.",
-      "byPublicTransport": "<strong>Met openbaar vervoer:</strong> Bushalte op 800 meter afstand."
+      "byCar": "<strong>Met de auto:</strong> Ruime parkeergelegenheid voor de deur.",
+      "byBike": "<strong>Met de fiets:</strong> Makkelijk bereikbaar vanuit heel Noordwijk.",
+      "byPublicTransport": "<strong>Met openbaar vervoer:</strong> Bushaltes in de buurt."
     },
     "form": {
       "title": "Stuur ons een bericht"
@@ -192,34 +191,34 @@
     },
     "welcome": {
       "title": "Loop gerust eens binnen!",
-      "text": "Loop gerust eens binnen om de sfeer te proeven. Je vindt ons aan de zuidkant van het sportcomplex met onze eigen ingang. De koffie staat klaar. ☕",
-      "introQuestion": "Wil je direct een <strong>gratis intro</strong> plannen?",
+      "text": "Loop gerust eens binnen om de sfeer te proeven. De koffie staat klaar. ☕",
+      "introQuestion": "Wil je direct een <strong>gratis intake</strong> plannen?",
       "introLink": "Klik hier →"
     }
   },
   "about": {
     "hero": {
-      "title": "Gewone mensen, buitengewone resultaten",
-      "subtitle": "CrossFit Leiden is een plek waar drukke ouders, young professionals, studenten, expats en mensen die lang niet hebben gesport samen sterker worden. Geen oordeel, geen druk. Gewoon samen trainen en groeien."
+      "title": "Word weer fit, sterk & gezond",
+      "subtitle": "Gymbox Noordwijk is een plek waar drukke ouders, young professionals, studenten en mensen die lang niet hebben gesport samen sterker worden. Geen oordeel, geen druk. Gewoon samen trainen en groeien."
     },
     "whyDifferent": {
-      "title": "Waarom CrossFit Leiden anders is",
-      "p1": "We zijn geen typische sportschool. CrossFit Leiden is opgericht vanuit een simpele gedachte: <strong>iedereen moet zich welkom voelen om te sporten</strong>, ongeacht je leeftijd, fitheid of ervaring.",
-      "p2": "Geen macho-cultuur of intimiderende sfeer. Hier train je naast ouders die na het kinderbedtijd nog komen, young professionals die voor hun werk komen, studenten die hun eerste barbell oppakken, expats die een nieuwe community zoeken, en mensen die 10 of 20 jaar niet hebben gesport. Ook leden die specifiek voor Hyrox trainen of extra uitdaging zoeken vinden hier hun plek. <strong>Iedereen begint ergens</strong>, en wij helpen je op weg.",
+      "title": "Waarom Gymbox Noordwijk anders is",
+      "p1": "We zijn geen typische sportschool. Gymbox is opgericht vanuit een simpele gedachte: <strong>iedereen moet zich welkom voelen om te sporten</strong>, ongeacht je leeftijd, fitheid of ervaring.",
+      "p2": "Geen macho-cultuur of intimiderende sfeer. Hier train je naast ouders die na het kinderbedtijd nog komen, young professionals die voor hun werk komen, studenten die hun eerste barbell oppakken, en mensen die 10 of 20 jaar niet hebben gesport. Ook leden die specifiek voor Hyrox trainen of extra uitdaging zoeken vinden hier hun plek. <strong>Iedereen begint ergens</strong>, en wij helpen je op weg.",
       "p3": "We begrijpen hoe het voelt om te twijfelen: \"Ben ik wel fit genoeg?\", \"Heb ik wel tijd?\", \"Pas ik hier wel?\" Het antwoord is altijd: <strong>ja!</strong> Onze community is gebouwd op support, niet op oordeel. Hier kennen we elkaars naam, vieren we elkaars successen (groot of klein), en moedigen we elkaar aan.",
-      "p4": "We trainen niet alleen in de gym. We gaan ook samen uitdagingen aan buiten de box: Hyrox events, runs, outdoor challenges en trips. De gym is het middel, maar het doel is dat je sterker en zelfverzekerder in je leven staat."
+      "p4": "We trainen niet alleen in de gym. We gaan ook samen uitdagingen aan buiten de gym: Hyrox events, runs, outdoor challenges en trips. De gym is het middel, maar het doel is dat je sterker en zelfverzekerder in je leven staat."
     },
     "story": {
-      "title": "Het verhaal achter CrossFit Leiden",
-      "p1": "Ik ben Jeroen, oprichter van CrossFit Leiden.",
-      "p2": "Voordat ik deze gym startte, werkte ik op kantoor als business controller bij Samsung. Ik zat hele dagen achter een bureau, voelde me steeds minder fit, werd zwaarder en merkte dat mijn zelfvertrouwen langzaam wegzakte. Ik was niet diep ongelukkig, maar ik voelde heel duidelijk: dit is het niet voor mij.",
-      "p3": "Rond 2013 zag ik online een video van iemand die CrossFit deed. Iemand die vol zelfvertrouwen aan het sporten was. Ik voelde meteen: dat mis ik. Kort daarna ben ik begonnen met trainen, eerst bij CrossFit Bink en later bij Gymbox Noordwijk. Langzaam veranderde alles. Ik werd sterker, fitter en vooral veel zekerder in mijn lijf. Die energie sloeg ook over op mijn vriendin, nu mijn vrouw.",
-      "p4": "Op een gegeven moment wist ik: ik wil niet alleen cijfers in Excel beter maken, ik wil mensen beter laten voelen in hun eigen lichaam. In 2016 ben ik samen met Kees Houwaart, eigenaar van Gymbox Noordwijk, CrossFit Leiden gestart.",
-      "p5": "Sindsdien hebben we al meer dan 3.000 mensen mogen helpen. We hebben zo veel geleerd, zo veel verhalen gehoord en een community gebouwd waar ik zelf elke dag trots binnenstap.",
-      "p6": "Inmiddels ben ik vader van twee kinderen en zie ik nog duidelijker hoe belangrijk het is dat mensen sterk en gezond blijven. We leven in een tijd waarin we bouwers nodig hebben: mensen met energie, veerkracht en plezier in wat ze doen. Ik wil dat CrossFit Leiden een positieve vuurtoren is in de stad. Een plek waar energie begint en zich verspreidt naar gezinnen, bedrijven en de straten van Leiden.",
-      "p7": "Daarom is onze missie heel concreet: de komende tien jaar willen we in Leiden elke maand ongeveer tien mensen veilig laten starten. Dat zijn zo'n 120 nieuwe leden per jaar, en uiteindelijk rond de 1.200 gezinnen en ongeveer 4.800 mensen die we helpen om sterker, positiever en energieker in het leven te staan.",
-      "p8": "Dat doen we niet met snelle trucs, maar met goede coaching, een sterke community en trainingen die je volhoudt. In de gym bouwen we aan kracht en vertrouwen, zodat jij daarbuiten meer durft: nieuwe uitdagingen aangaan, avonturen beleven, zakelijk groeien of gewoon weer met plezier achter je kinderen aanrennen.",
-      "p9": "CrossFit Leiden is daarvoor het middel. Een tweede huiskamer waar je je gezien voelt, waar je elkaar leert kennen en waar je elke week een beetje sterker wegloopt dan je binnenkwam."
+      "title": "Het verhaal achter Gymbox Noordwijk",
+      "p1": "Ik ben Kees Houwaart, oprichter van Gymbox Noordwijk.",
+      "p2": "Ik groeide op in een sportschool en ontdekte CrossFit in 2012. Die combinatie van functionele bewegingen, intensiteit en community raakte me direct.",
+      "p3": "In 2014 startte ik Gymbox Noordwijk met een duidelijke visie: een plek bouwen waar iedereen zich welkom voelt om sterker te worden. Geen intimiderende sfeer, maar een warme community waar je jezelf kunt zijn.",
+      "p4": "Sindsdien hebben we duizenden mensen mogen helpen. We hebben zo veel geleerd, zo veel verhalen gehoord en een community gebouwd waar ik zelf elke dag trots binnenstap.",
+      "p5": "Inmiddels woon ik met mijn vrouw Nathalie en onze twee zoons Neal en Jake in Katwijk aan Zee. Ik zie elke dag hoe belangrijk het is dat mensen sterk en gezond blijven.",
+      "p6": "We leven in een tijd waarin we bouwers nodig hebben: mensen met energie, veerkracht en plezier in wat ze doen. Gymbox Noordwijk is een positieve vuurtoren in de regio. Een plek waar energie begint en zich verspreidt naar gezinnen, bedrijven en de straten van Noordwijk.",
+      "p7": "Dat doen we niet met snelle trucs, maar met goede coaching, een sterke community en trainingen die je volhoudt. In de gym bouwen we aan kracht en vertrouwen, zodat jij daarbuiten meer durft.",
+      "p8": "Gymbox is daarvoor het middel. Een tweede huiskamer waar je je gezien voelt, waar je elkaar leert kennen en waar je elke week een beetje sterker wegloopt dan je binnenkwam.",
+      "p9": ""
     },
     "mission": {
       "title": "Onze missie",
@@ -252,16 +251,16 @@
     },
     "cta": {
       "title": "Wil je ons leren kennen?",
-      "subtitle": "Plan een gratis intro en ontmoet ons team, zie de box en ervaar de sfeer. Geen sporten, gewoon kennismaken over een kop koffie. We kijken ernaar uit!",
-      "button": "Plan een Gratis Intro"
+      "subtitle": "Plan een gratis intake en ontmoet ons team, zie de gym en ervaar de sfeer. Geen sporten, gewoon kennismaken over een kop koffie. We kijken ernaar uit!",
+      "button": "Plan je Gratis Intake"
     }
   },
   "pricing": {
     "hero": {
       "title": "Investeer in je gezondheid voor maar €4,50 per dag",
       "subtitle": "Persoonlijke coaching in kleine groepen, een warme community en maandelijks opzegbare memberships. Geen verborgen kosten.",
-      "button": "Plan Gratis Intro",
-      "imageAlt": "CrossFit Leiden gym"
+      "button": "Plan Gratis Intake",
+      "imageAlt": "Gymbox Noordwijk gym"
     },
     "comparison": {
       "title": "Waar ga je het aan uit?",
@@ -285,7 +284,7 @@
       },
       "crossfit": {
         "emoji": "💪",
-        "title": "CrossFit Leiden",
+        "title": "Gymbox Noordwijk",
         "price": "€135",
         "period": "per maand"
       },
@@ -455,27 +454,27 @@
       "a2": "Ja, gewoon even laten weten en we regelen het.",
       "q3": "Hoe werkt betalen?",
       "a3": "Automatische incasso. Geen inschrijfkosten. Geen kleine lettertjes.",
-      "q4": "Wat maakt CrossFit Leiden anders dan een normale sportschool?",
+      "q4": "Wat maakt Gymbox Noordwijk anders dan een normale sportschool?",
       "a4": "Kleine groepen, persoonlijke coaching, warme community. Bij ons hoef je het niet alleen te doen."
     },
     "cta": {
       "title": "Klaar om in jezelf te investeren?",
-      "subtitle": "Plan je gratis intro en kom kennismaken. Geen verplichtingen, gewoon ontdekken of CrossFit Leiden bij jou past.",
-      "button": "Plan Gratis Intro"
+      "subtitle": "Plan je gratis intake en kom kennismaken. Geen verplichtingen, gewoon ontdekken of Gymbox Noordwijk bij jou past.",
+      "button": "Plan Gratis Intake"
     }
   },
   "location": {
     "hero": {
       "title": "Onze Locatie",
-      "subtitle": "Makkelijk bereikbaar in Leiden, met veel parkeerruimte direct voor de deur.",
-      "imageAlt": "CrossFit Leiden faciliteit"
+      "subtitle": "Makkelijk bereikbaar in Noordwijk, met veel parkeerruimte direct voor de deur.",
+      "imageAlt": "Gymbox Noordwijk faciliteit"
     },
     "addressContact": {
       "title": "Adres & Contact",
       "addressTitle": "Adres",
-      "name": "CrossFit Leiden",
-      "street": "Marie Diebenplaats 108",
-      "city": "2324 NG Leiden",
+      "name": "Gymbox Noordwijk",
+      "street": "Keyserswey 26A",
+      "city": "2201 CW Noordwijk",
       "googleMaps": "Bekijk op Google Maps",
       "contactTitle": "Contact",
       "hoursTitle": "Openingstijden lessen",
@@ -492,16 +491,16 @@
       "parking": {
         "title": "Parkeren",
         "item1": "• Ruime parkeergelegenheid direct voor de deur",
-        "item2": "• Maandag t/m vrijdag van 07:30 tot 19:30 parkeer je de eerste twee uur voor €0,20 per uur",
-        "item3": "• Daarna geldt het normale tarief van de gemeente",
-        "item4": "• Op zaterdag en zondag is parkeren gratis",
-        "item5": "• Er is een invalide parkeerplek direct voor de deur"
+        "item2": "• Gratis parkeren",
+        "item3": "",
+        "item4": "",
+        "item5": ""
       },
       "fysiofabriek": {
-        "title": "Fysiofabriek in-house",
-        "text1": "We hebben een professionele fysiopraktijk direct in onze gym. Bij pijntjes, blessures of revalidatie kun je snel terecht.",
-        "text2": "Voor leden zijn er gratis inloopuren, zodat je laagdrempelig even kunt laten checken wat er aan de hand is.",
-        "link": "Meer over Fysiofabriek"
+        "title": "",
+        "text1": "",
+        "text2": "",
+        "link": ""
       },
       "facilities": {
         "title": "Faciliteiten",
@@ -512,28 +511,28 @@
         "item5": "• Waterstation om je bidon te vullen",
         "item6": "• Gratis koffie en thee in de lounge",
         "item7": "• Toiletten",
-        "item8": "• Rolstoeltoegankelijke entree",
-        "item9": "• Buitenruimte met rubberen tegels",
-        "item10": "• Hardloopmogelijkheden buiten"
+        "item8": "",
+        "item9": "",
+        "item10": ""
       }
     },
     "gallery": {
       "title": "Een kijkje in onze gym",
       "subtitle": "Krijg een indruk van onze gym, lounge en trainingsruimte.",
       "clickToEnlarge": "Klik op een foto voor een grotere weergave",
-      "imageAlt": "CrossFit Leiden faciliteit",
+      "imageAlt": "Gymbox Noordwijk faciliteit",
       "prevButton": "Vorige foto's",
       "nextButton": "Volgende foto's",
       "closeButton": "Sluit"
     },
     "map": {
       "title": "Vind ons",
-      "address": "Marie Diebenplaats 108, 2324 NG Leiden"
+      "address": "Keyserswey 26A, 2201 CW Noordwijk"
     },
     "cta": {
-      "title": "Kom langs voor een gratis intro",
-      "subtitle": "Nieuwsgierig? Plan je gratis intro en kom de gym, het team en de sfeer ontdekken.",
-      "button": "Plan een Gratis Intro"
+      "title": "Kom langs voor een gratis intake",
+      "subtitle": "Nieuwsgierig? Plan je gratis intake en kom de gym, het team en de sfeer ontdekken.",
+      "button": "Plan een Gratis Intake"
     }
   },
   "team": {
@@ -542,30 +541,30 @@
       "subtitle": "Kennismaken met de coaches die je begeleiden. Gewoon mensen met een passie voor beweging en community."
     },
     "owners": {
-      "intro": "CrossFit Leiden is opgericht door Kees en Jeroen, twee vrienden die geloven dat iedereen welkom moet zijn om te sporten.",
-      "title": "De Oprichters",
+      "intro": "Gymbox Noordwijk is opgericht door Kees Houwaart, die gelooft dat iedereen welkom moet zijn om te sporten.",
+      "title": "De Oprichter",
       "kees": {
         "name": "Kees Houwaart",
-        "bio": "Kees groeide op in een sportschool en ontdekte CrossFit in 2012. Hij startte in 2014 Gymbox Noordwijk. In 2015 richtte hij samen met Jeroen CrossFit Leiden op. Kees woont met zijn vrouw Nathalie en hun twee zoons Neal en Jake in Katwijk aan Zee."
+        "bio": "Kees groeide op in een sportschool en ontdekte CrossFit in 2012. In 2014 startte hij Gymbox Noordwijk met een duidelijke visie: een plek waar iedereen zich welkom voelt. Kees woont met zijn vrouw Nathalie en hun twee zoons Neal en Jake in Katwijk aan Zee."
       },
       "jeroen": {
-        "name": "Jeroen van Duijn",
-        "bio": "Jeroen was altijd actief, van voetbal tot surfen. In 2014 koos hij voor de fitnesswereld en trainde mensen in Chili voordat hij terugkwam naar Nederland. Samen met Kees bouwde hij CrossFit Leiden tot een plek waar iedereen zich thuis voelt. Jeroen woont met zijn vrouw Amanda en dochter Zoe in Katwijk aan Zee."
+        "name": "",
+        "bio": ""
       },
-      "story": "In 2015 startten Kees en Jeroen CrossFit Leiden met een simpel idee: een plek waar iedereen welkom is, ongeacht je niveau of ervaring. Wat begon als één gym is uitgegroeid tot een netwerk van sportscholen waar community voorop staat.",
-      "meetCta": "Wil je kennismaken met Kees, Jeroen en het team? Plan een gratis intro en kom een kopje koffie drinken."
+      "story": "In 2014 startte Kees Gymbox Noordwijk met een simpel idee: een plek waar iedereen welkom is, ongeacht je niveau of ervaring. Wat begon als één gym is uitgegroeid tot een warme community waar mensen elkaar helpen sterker te worden.",
+      "meetCta": "Wil je kennismaken met Kees en het team? Plan een gratis intake en kom een kopje koffie drinken."
     },
     "coaches": {
       "title": "Ons Coach Team",
       "saskia": {
         "name": "Saskia",
         "role": "General Manager",
-        "story": "Saskia kwam een paar jaar geleden naar CrossFit Leiden om van haar rugpijn af te komen, en het werkte zo goed dat ze van baan veranderde. Ze zorgt ervoor dat alles in de gym soepel loopt en dat iedereen zich welkom voelt."
+        "story": "Saskia kwam een paar jaar geleden naar Gymbox Noordwijk om van haar rugpijn af te komen, en het werkte zo goed dat ze van baan veranderde. Ze zorgt ervoor dat alles in de gym soepel loopt en dat iedereen zich welkom voelt."
       },
       "rochelle": {
         "name": "Rochelle",
         "role": "Lead Coach",
-        "story": "Rochelle is turncoach op nationaal niveau en brengt die expertise naar CrossFit Leiden. Ze is geweldig met kinderen en volwassenen, en helpt iedereen om bewegingen veilig te leren. Naast coaching bij ons, traint ze haar turnploeg voor wereldkampioenschappen."
+        "story": "Rochelle is turncoach op nationaal niveau en brengt die expertise naar Gymbox Noordwijk. Ze is geweldig met kinderen en volwassenen, en helpt iedereen om bewegingen veilig te leren. Naast coaching bij ons, traint ze haar turnploeg voor wereldkampioenschappen."
       },
       "jeffrey": {
         "name": "Jeffrey Perez Stoof",
@@ -600,7 +599,7 @@
       "erin": {
         "name": "Erin",
         "role": "Coach",
-        "story": "Erin coachte al in 2019 bij CrossFit Leiden en is nu terug. Overdag werkt ze bij Defensie waar ze militairen helpt mentaal sterk te blijven. In haar vrije tijd geeft ze salsalessen. Die combinatie van ritme, focus en veerkracht zie je terug in haar coaching."
+        "story": "Erin coachte al in 2019 bij Gymbox Noordwijk en is nu terug. Overdag werkt ze bij Defensie waar ze militairen helpt mentaal sterk te blijven. In haar vrije tijd geeft ze salsalessen. Die combinatie van ritme, focus en veerkracht zie je terug in haar coaching."
       },
       "hoite": {
         "name": "Hoite",
@@ -612,19 +611,19 @@
       "title": "Waarom onze coaches het verschil maken",
       "p1": "Onze coaches zijn geen drill-sergeants. Het zijn gewone mensen met drukke levens, net als jij. Ze begrijpen hoe het voelt om te twijfelen of onzeker te zijn.",
       "p2": "Persoonlijke aandacht staat voorop. We kennen je naam, onthouden je doelen en passen elke training aan op jouw niveau. Of je nu voor het eerst een barbell vasthoudt of al jaren traint, je krijgt de begeleiding die jij nodig hebt.",
-      "p3": "Bij CrossFit Leiden ben je geen nummer, maar een persoon met je eigen verhaal."
+      "p3": "Bij Gymbox Noordwijk ben je geen nummer, maar een persoon met je eigen verhaal."
     },
     "cta": {
       "title": "Klaar om kennis te maken?",
-      "subtitle": "Plan je gratis intro en ontmoet het team. Geen verplichtingen, gewoon een goed gesprek over jouw doelen.",
-      "button": "Plan een Gratis Intro"
+      "subtitle": "Plan je gratis intake en ontmoet het team. Geen verplichtingen, gewoon een goed gesprek over jouw doelen.",
+      "button": "Plan een Gratis Intake"
     }
   },
   "kickstartBlock": {
     "title": "Start veilig en sterk met onze Kickstart",
-    "imageAlt": "CrossFit Leiden Kickstart",
+    "imageAlt": "Gymbox Noordwijk Kickstart",
     "description": "Ons 28-dagen beginnersprogramma voor mensen zonder ervaring. Persoonlijke begeleiding, veilige opbouw, op jouw tempo.",
-    "important": "<strong>Belangrijk:</strong> Je begint altijd met een gratis intro. In dat gesprek kijken we samen of de Kickstart de beste start voor jou is.",
+    "important": "<strong>Belangrijk:</strong> Je begint altijd met een gratis intake. In dat gesprek kijken we samen of de Kickstart de beste start voor jou is.",
     "forWho": {
       "title": "Voor wie is de Kickstart?",
       "item1": "Beginners zonder ervaring",
@@ -641,7 +640,7 @@
     },
     "howToStart": {
       "title": "Hoe begin je?",
-      "step1Title": "Gratis Intro",
+      "step1Title": "Gratis Intake",
       "step1Text": "20 min kennismaken. Geen workout, gewoon een gesprek.",
       "step2Title": "Kickstart uitleg",
       "step2Text": "We leggen de Kickstart uit en checken samen of het bij jou past.",
@@ -669,7 +668,7 @@
     "cta": {
       "title": "Klaar om te beginnen?",
       "subtitle": "Plan een gratis gesprek. Geen verplichtingen, gewoon kennismaken.",
-      "button": "Plan een Gratis Intro"
+      "button": "Plan een Gratis Intake"
     }
   },
   "programs": {
@@ -700,7 +699,7 @@
       "feature3": "Volledig aangepast op jouw niveau",
       "feature4": "Elke dag meerdere tijden beschikbaar",
       "link": "Meer over Groepslessen",
-      "ctaLink": "Of plan meteen een gratis intro →"
+      "ctaLink": "Of plan meteen een gratis intake →"
     },
     "personal": {
       "title": "Personal Training",
@@ -759,7 +758,7 @@
       "link": "Bekijk het Volledige Rooster"
     },
     "whyUs": {
-      "title": "Waarom CrossFit Leiden?",
+      "title": "Waarom Gymbox Noordwijk?",
       "subtitle": "Wat maakt onze trainingen anders dan een reguliere sportschool?",
       "feature1": "<strong>Kleine groepen (max 14 personen)</strong> – Geen massale gyms waar je op jezelf bent. Hier krijg je persoonlijke aandacht.",
       "feature2": "<strong>Professionele coaching</strong> – Elke les wordt begeleid door gecertificeerde coaches die je techniek verbeteren en motiveren.",
@@ -769,8 +768,8 @@
     },
     "cta": {
       "title": "Nog twijfelen?",
-      "subtitle": "Plan een gratis intro en ervaar zelf waarom zoveel mensen hier trainen. Geen verplichtingen, gewoon kennismaken en kijken of het bij je past!",
-      "button": "Plan Mijn Gratis Intro"
+      "subtitle": "Plan een gratis intake en ervaar zelf waarom zoveel mensen hier trainen. Geen verplichtingen, gewoon kennismaken en kijken of het bij je past!",
+      "button": "Plan Mijn Gratis Intake"
     }
   },
   "schedule": {
@@ -780,7 +779,7 @@
     },
     "ourClasses": {
       "title": "Onze Lessen",
-      "subtitle": "Bij CrossFit Leiden hebben we een breed aanbod aan lessen. Van intense group classes tot persoonlijke small group training – er is voor ieder wat wils."
+      "subtitle": "Bij Gymbox Noordwijk hebben we een breed aanbod aan lessen. Van intense group classes tot persoonlijke small group training – er is voor ieder wat wils."
     },
     "groupClasses": {
       "title": "Group Classes",
@@ -855,8 +854,8 @@
       }
     },
     "scheduleInfo": {
-      "intro": "Hieronder zie je ons actuele rooster. Nog geen lid? Begin met een gratis intro!",
-      "link": "Plan een gratis intro →"
+      "intro": "Hieronder zie je ons actuele rooster. Nog geen lid? Begin met een gratis intake!",
+      "link": "Plan een gratis intake →"
     },
     "selector": {
       "groupClasses": {
@@ -891,8 +890,8 @@
     },
     "cta": {
       "title": "Zie je een tijd die bij jou past?",
-      "subtitle": "Probeer het eerst vrijblijvend met een gratis intro. We laten je de box zien, beantwoorden al je vragen en kijken samen welke lestijden bij jou passen!",
-      "button": "Plan Mijn Gratis Intro"
+      "subtitle": "Probeer het eerst vrijblijvend met een gratis intake. We laten je de box zien, beantwoorden al je vragen en kijken samen welke lestijden bij jou passen!",
+      "button": "Plan Mijn Gratis Intake"
     },
     "questions": {
       "text": "Geen idee welke tijd bij jou past of heb je vragen over het rooster? <a>Stuur ons een berichtje</a> – we helpen je graag!",
@@ -902,7 +901,7 @@
   "testimonials": {
     "hero": {
       "title": "Echte mensen. Echte resultaten.",
-      "subtitle": "Bij CrossFit Leiden trainen gewone mensen met volle agenda's. Geen fitness influencers, geen proteine-shakes op Instagram. Gewoon mensen die fitter, sterker en gezonder willen worden."
+      "subtitle": "Bij Gymbox Noordwijk trainen gewone mensen met volle agenda's. Geen fitness influencers, geen proteine-shakes op Instagram. Gewoon mensen die fitter, sterker en gezonder willen worden."
     },
     "videoStories": {
       "title": "Bekijk hun verhalen",
@@ -939,7 +938,7 @@
         "photo6": "Trainen bij ons is hard werken, maar vooral veel plezier. Coach Sem lacht vaker dan hij squat, en dat zegt genoeg.",
         "photo7": "In het GetShredded small group programma helpt coach Jeffrey je sterker te squatten dan je ooit dacht. Techniek eerst, gewicht komt daarna.",
         "photo8": "Een warm afscheid voor coach Wouter. Onze community viert niet alleen trainingen, maar vooral mensen.",
-        "photo9": "Coach Jari traint elke week met Brandweer Leiden Zuid zodat zij de stad veilig kunnen houden. Functioneel trainen in het echt.",
+        "photo9": "Coach Jari helpt mensen met pijn, beperkte mobiliteit of techniek. Functioneel trainen voor een beter lichaam.",
         "photo10": "Elke les minstens één high five. Vaak meer. Want samen sporten voelt beter dan alleen.",
         "photo11": "Tijdens de wallballs staat coach Jeffrey achter je. Voor techniek, voor tempo, maar vooral voor mentale steun.",
         "photo12": "Ons coachteam tijdens het jaarlijkse gala. Geen sportkleren, wel dezelfde gezelligheid.",
@@ -956,13 +955,13 @@
     },
     "cta": {
       "title": "Klaar voor jouw eigen verhaal?",
-      "button": "Plan een gratis intro"
+      "button": "Plan een gratis intake"
     }
   },
   "popups": {
     "whatsapp": {
       "close": "Sluit popup",
-      "title": "Chat met CrossFit Leiden",
+      "title": "Chat met Gymbox Noordwijk",
       "description": "Hoi! Leuk dat je contact wilt opnemen. Klik op de knop hieronder om een gesprek te starten via WhatsApp. We helpen je graag verder! 💪",
       "messageLabel": "Je bericht:",
       "openButton": "Open WhatsApp",
@@ -970,7 +969,7 @@
     },
     "cta": {
       "close": "Sluit popup",
-      "title": "Plan je gratis No Sweat Intro",
+      "title": "Plan je Gratis Intake",
       "subtitle": "Het is vrijblijvend, duurt 20 minuten en je hoeft niet te sporten.<br/>Na het invullen kun je direct zelf een tijd kiezen die jou past.<br/><strong>Gewoon kennismaken met een kop koffie.</strong>"
     }
   }

@@ -37,7 +37,6 @@ export default function Header() {
         { name: t('smallGroup'), href: `/${locale}/aanbod/small-group` },
         { name: t('personalTraining'), href: `/${locale}/aanbod/private-coaching` },
         { name: t('hyrox'), href: `/${locale}/aanbod/hyrox` },
-        { name: t('fysiofabriek'), href: `/${locale}/aanbod/fysiofabriek` },
         { name: t('sportPerformance'), href: `/${locale}/aanbod/sport-performance` },
         { name: t('nutrition'), href: `/${locale}/nutrition` },
         { name: t('teens'), href: `/${locale}/aanbod/teens` },
@@ -73,11 +72,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center">
-            <img
-              src="https://t18gxeooihdd4vax.public.blob.vercel-storage.com/images/cfl%20logo.png"
-              alt="CrossFit Leiden Logo"
-              className="w-12 h-12 rounded-full"
-            />
+            <span className="text-2xl font-bold tracking-tight text-black">GYMBOX</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -91,7 +86,7 @@ export default function Header() {
               >
                 {item.dropdown ? (
                   <>
-                    <button className="text-gray-700 hover:text-[#E4572E] transition-colors font-medium flex items-center gap-1">
+                    <button className="text-gray-700 hover:text-[#F5B800] transition-colors font-medium flex items-center gap-1">
                       {item.name}
                       <svg
                         className="w-4 h-4"
@@ -114,7 +109,7 @@ export default function Header() {
                           <Link
                             key={subItem.name}
                             href={subItem.href}
-                            className="block px-4 py-2 text-gray-700 hover:bg-[#E4572E]/5 hover:text-[#E4572E] transition-colors"
+                            className="block px-4 py-2 text-gray-700 hover:bg-[#F5B800]/5 hover:text-[#F5B800] transition-colors"
                           >
                             {subItem.name}
                           </Link>
@@ -126,7 +121,7 @@ export default function Header() {
                 ) : (
                   <Link
                     href={item.href}
-                    className="text-gray-700 hover:text-[#E4572E] transition-colors font-medium"
+                    className="text-gray-700 hover:text-[#F5B800] transition-colors font-medium"
                   >
                     {item.name}
                   </Link>
@@ -141,7 +136,7 @@ export default function Header() {
                 className={`font-medium transition-colors ${
                   locale === 'nl'
                     ? 'text-gray-700'
-                    : 'text-gray-400 hover:text-[#E4572E]'
+                    : 'text-gray-400 hover:text-[#F5B800]'
                 }`}
               >
                 NL
@@ -152,7 +147,7 @@ export default function Header() {
                 className={`transition-colors ${
                   locale === 'en'
                     ? 'text-gray-700 font-medium'
-                    : 'text-gray-400 hover:text-[#E4572E]'
+                    : 'text-gray-400 hover:text-[#F5B800]'
                 }`}
               >
                 EN
@@ -198,7 +193,7 @@ export default function Header() {
                     <>
                       <button
                         onClick={() => toggleDropdown(item.name)}
-                        className="w-full text-left px-4 py-2 text-gray-700 hover:text-[#E4572E] font-medium flex items-center justify-between"
+                        className="w-full text-left px-4 py-2 text-gray-700 hover:text-[#F5B800] font-medium flex items-center justify-between"
                       >
                         {item.name}
                         <svg
@@ -223,7 +218,7 @@ export default function Header() {
                             <Link
                               key={subItem.name}
                               href={subItem.href}
-                              className="block px-8 py-2 text-gray-600 hover:text-[#E4572E] text-sm"
+                              className="block px-8 py-2 text-gray-600 hover:text-[#F5B800] text-sm"
                               onClick={() => setMobileMenuOpen(false)}
                             >
                               {subItem.name}
@@ -235,7 +230,7 @@ export default function Header() {
                   ) : (
                     <Link
                       href={item.href}
-                      className="block px-4 py-2 text-gray-700 hover:text-[#E4572E] font-medium"
+                      className="block px-4 py-2 text-gray-700 hover:text-[#F5B800] font-medium"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.name}
@@ -256,7 +251,7 @@ export default function Header() {
                   className={`font-medium transition-colors ${
                     locale === 'nl'
                       ? 'text-gray-700'
-                      : 'text-gray-400 hover:text-[#E4572E]'
+                      : 'text-gray-400 hover:text-[#F5B800]'
                   }`}
                 >
                   NL
@@ -267,7 +262,7 @@ export default function Header() {
                   className={`transition-colors ${
                     locale === 'en'
                       ? 'text-gray-700 font-medium'
-                      : 'text-gray-400 hover:text-[#E4572E]'
+                      : 'text-gray-400 hover:text-[#F5B800]'
                   }`}
                 >
                   EN

@@ -9,11 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // CrossFit Leiden brand colors
-        'cinnabar': '#EF4C37',      // Primary - warm red/orange
-        'verdigris': '#0CBABA',     // Secondary - turquoise
-        'jonquil': '#F7CB15',       // Tertiary - yellow
-        'chinese-violet': '#7B6D8D', // Tertiary - purple
+        // Gymbox Noordwijk brand colors
+        'primary': '#F5B800',        // Primary - geel/goud (buttons, accenten)
+        'black': '#1A1A1A',          // Tekst, headings
+        'white': '#FFFFFF',          // Achtergronden
+        'gray-light': '#F5F5F5',     // Secundaire achtergronden
+        'gray': '#9CA3AF',           // Subtiele elementen, secundaire tekst
+        // Legacy color mappings for compatibility
+        'cinnabar': '#F5B800',       // Map to primary gold
+        'verdigris': '#1A1A1A',      // Map to black
+        'jonquil': '#F5B800',        // Map to primary gold
+        'chinese-violet': '#9CA3AF', // Map to gray
       },
       fontFamily: {
         'heading': ['var(--font-heading)', 'sans-serif'],

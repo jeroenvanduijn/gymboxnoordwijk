@@ -5,8 +5,8 @@ import WhatsAppPopup from "./WhatsAppPopup";
 
 export default function WhatsAppWidget() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
-  const phoneNumber = "3197010258140"; // WhatsApp format: country code + number
-  const message = "Hallo! Ik heb een vraag over CrossFit Leiden.";
+  const phoneNumber = "31600000000"; // TODO: Update with Gymbox Noordwijk WhatsApp number
+  const message = "Hallo! Ik heb een vraag over Gymbox Noordwijk.";
 
   return (
     <>

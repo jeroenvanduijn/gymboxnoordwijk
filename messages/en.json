@@ -10,7 +10,7 @@
   "header": {
     "home": "Home",
     "about": "About",
-    "aboutCFL": "About CrossFit Leiden",
+    "aboutCFL": "About Gymbox Noordwijk",
     "theTeam": "The Team",
     "ourLocation": "Our Location",
     "pricing": "Pricing",
@@ -20,7 +20,6 @@
     "smallGroup": "Small Group Training",
     "personalTraining": "Personal Training",
     "hyrox": "HYROX",
-    "fysiofabriek": "Fysiofabriek",
     "sportPerformance": "Sport & Performance",
     "nutrition": "Nutrition",
     "teens": "Teens",
@@ -34,7 +33,7 @@
     "planFreeIntro": "Schedule a Free Intro"
   },
   "footer": {
-    "tagline": "Everyday people, exceptionally strong",
+    "tagline": "Get fit, strong & healthy again",
     "navigation": "Navigation",
     "info": "Info",
     "dropIn": "Drop-in",
@@ -57,10 +56,10 @@
       "title": "More energy for your family and yourself",
       "subtitle": "For busy parents and professionals who want to get fit again, without judgment and with guidance at your level. No experience needed, we'll teach you everything step by step.",
       "cta": "Schedule a Free Intro",
-      "ctaNote": "👉 No workout, just a conversation. Discover if CrossFit Leiden is right for you."
+      "ctaNote": "👉 No workout, just a conversation. Discover if Gymbox Noordwijk is right for you."
     },
     "why": {
-      "title": "Why CrossFit Leiden?",
+      "title": "Why Gymbox Noordwijk?",
       "subtitle": "We understand you're busy and maybe haven't exercised in years. That's why we make it easy.",
       "usp1Title": "Personal Coaching",
       "usp1Text": "Our coaches know your name, watch your technique, and guide you step by step. You're never just a number.",
@@ -97,7 +96,7 @@
       "a2": "We recommend 2–3 times per week for good results. How often you can come depends on your membership: up to 6 times per week. Focus on quality and consistency, not extreme hours.",
       "q3": "Isn't CrossFit dangerous? I don't want injuries...",
       "a3p1": "Understandable concern! But precisely because of our coaching, CrossFit is much safer than working out alone. We teach you the right technique with light weights first. Only when your movement is good do we progress. Injury prevention is our priority.",
-      "a3p2": "We partner with Fysiofabriek, a professional physiotherapy practice with their own treatment room in our gym. This allows us to act quickly with aches, rehabilitation or advice.",
+      "a3p2": "Our coaches have years of experience and always pay attention to your technique and movement quality.",
       "q4": "Am I not too old to start?",
       "a4": "Not at all! Our members are between 20 and 65 years old, with most between 35-50. CrossFit is perfect for \"older\" beginners because we adjust everything to your body and goals. You're never too old to get stronger and healthier!",
       "q5": "I really don't have time, with work and kids...",
@@ -113,14 +112,14 @@
   },
   "dropIn": {
     "hero": {
-      "title": "Train with us at CrossFit Leiden",
+      "title": "Train with us at Gymbox Noordwijk",
       "subtitle": "In the area or want to try our box? Book a drop-in and join at your level. For experienced CrossFitters only.",
       "cta": "Book a Drop-in"
     },
     "howItWorks": {
       "title": "How does it work?",
       "step1Title": "Choose your class",
-      "step1Text": "First select the location <strong>CrossFit Leiden</strong> in SportBit. Then choose from two class options:",
+      "step1Text": "First select the location <strong>Gymbox Noordwijk</strong> in SportBit. Then choose from two class options:",
       "step1Option1": "<strong>\"Training\"</strong> (regular CrossFit WOD) – drop-in fee €30",
       "step1Option2": "<strong>\"HYROX Training\"</strong> – €30 for 60 minutes, €35 for 90 minutes",
       "step1Note": "Other classes are not available for drop-ins.",
@@ -154,7 +153,7 @@
     },
     "cta": {
       "title": "Ready to train with us?",
-      "subtitle": "Book your drop-in and experience the CrossFit Leiden atmosphere!",
+      "subtitle": "Book your drop-in and experience the Gymbox Noordwijk atmosphere!",
       "button": "Book a Drop-in"
     }
   },
@@ -166,12 +165,12 @@
     "visitUs": {
       "title": "Visit us",
       "address": "Address",
-      "addressLine1": "Marie Diebenplaats 108",
-      "addressLine2": "2324 NG Leiden",
+      "addressLine1": "Keyserswey 26A",
+      "addressLine2": "2201 CW Noordwijk",
       "addressNote": "(Easily accessible with ample parking)",
       "email": "Email",
       "phone": "Phone",
-      "phoneNumber": "071 - 234 0477",
+      "phoneNumber": "Contact us via email",
       "openingHours": "Opening Hours",
       "monFri": "Mon - Fri: 06:00 - 22:00",
       "sat": "Sat: 07:00 - 13:00",
@@ -180,9 +179,9 @@
     },
     "route": {
       "title": "Directions & Parking",
-      "byCar": "<strong>By car:</strong> Ample parking in front (including disabled parking spot). €0.20 per hour from 07:30 - 19:30 on Mon-Fri. Free parking the rest of the time.",
-      "byBike": "<strong>By bike:</strong> Leiden Central Station is 10 minutes cycling. Leiden Lammerschans Station is 3 minutes cycling.",
-      "byPublicTransport": "<strong>By public transport:</strong> Bus stop 800 meters away."
+      "byCar": "<strong>By car:</strong> Ample parking in front.",
+      "byBike": "<strong>By bike:</strong> Easily accessible from all of Noordwijk.",
+      "byPublicTransport": "<strong>By public transport:</strong> Bus stops nearby."
     },
     "form": {
       "title": "Send us a message"
@@ -192,7 +191,7 @@
     },
     "welcome": {
       "title": "Feel free to drop by!",
-      "text": "Feel free to drop by to get a feel for the atmosphere. You'll find us on the south side of the sports complex with our own entrance. Coffee is ready. ☕",
+      "text": "Feel free to drop by to get a feel for the atmosphere. Coffee is ready. ☕",
       "introQuestion": "Want to schedule a <strong>free intro</strong> right away?",
       "introLink": "Click here →"
     }
@@ -200,26 +199,26 @@
   "about": {
     "hero": {
       "title": "Everyday people, exceptional results",
-      "subtitle": "CrossFit Leiden is a place where busy parents, young professionals, students, expats, and people who haven't exercised in years get stronger together. No judgment, no pressure. Just training and growing together."
+      "subtitle": "Gymbox Noordwijk is a place where busy parents, young professionals, students, expats, and people who haven't exercised in years get stronger together. No judgment, no pressure. Just training and growing together."
     },
     "whyDifferent": {
-      "title": "Why CrossFit Leiden is different",
-      "p1": "We're not your typical gym. CrossFit Leiden was founded on a simple idea: <strong>everyone should feel welcome to exercise</strong>, regardless of age, fitness level, or experience.",
+      "title": "Why Gymbox Noordwijk is different",
+      "p1": "We're not your typical gym. Gymbox Noordwijk was founded on a simple idea: <strong>everyone should feel welcome to exercise</strong>, regardless of age, fitness level, or experience.",
       "p2": "No macho culture or intimidating atmosphere. Here you train alongside parents who come after putting the kids to bed, young professionals who come before work, students picking up a barbell for the first time, expats looking for a new community, and people who haven't exercised in 10 or 20 years. Members specifically training for Hyrox or seeking extra challenge also find their place here. <strong>Everyone starts somewhere</strong>, and we'll help you along the way.",
       "p3": "We understand how it feels to have doubts: \"Am I fit enough?\", \"Do I have time?\", \"Will I fit in?\" The answer is always: <strong>yes!</strong> Our community is built on support, not judgment. Here we know each other's names, celebrate each other's successes (big or small), and encourage each other.",
       "p4": "We don't just train in the gym. We also tackle challenges together outside the box: Hyrox events, runs, outdoor challenges, and trips. The gym is the means, but the goal is for you to stand stronger and more confident in your life."
     },
     "story": {
-      "title": "The story behind CrossFit Leiden",
-      "p1": "I'm Jeroen, founder of CrossFit Leiden.",
+      "title": "The story behind Gymbox Noordwijk",
+      "p1": "I'm Jeroen, founder of Gymbox Noordwijk.",
       "p2": "Before I started this gym, I worked in an office as a business controller at Samsung. I sat behind a desk all day, felt increasingly unfit, gained weight, and noticed my confidence slowly fading. I wasn't deeply unhappy, but I felt very clearly: this isn't for me.",
       "p3": "Around 2013, I saw a video online of someone doing CrossFit. Someone training with complete confidence. I felt immediately: that's what I'm missing. Shortly after, I started training, first at CrossFit Bink and later at Gymbox Noordwijk. Slowly everything changed. I got stronger, fitter, and especially much more confident in my body. That energy also spread to my girlfriend, now my wife.",
-      "p4": "At a certain point I knew: I don't just want to improve numbers in Excel, I want to help people feel better in their own bodies. In 2016, together with Kees Houwaart, owner of Gymbox Noordwijk, I started CrossFit Leiden.",
+      "p4": "At a certain point I knew: I don't just want to improve numbers in Excel, I want to help people feel better in their own bodies. In 2016, together with Kees Houwaart, owner of Gymbox Noordwijk, I started Gymbox Noordwijk.",
       "p5": "Since then, we've been able to help over 3,000 people. We've learned so much, heard so many stories, and built a community that I'm proud to walk into every day.",
-      "p6": "Now I'm a father of two children and I see even more clearly how important it is for people to stay strong and healthy. We live in a time when we need builders: people with energy, resilience, and joy in what they do. I want CrossFit Leiden to be a positive beacon in the city. A place where energy starts and spreads to families, businesses, and the streets of Leiden.",
-      "p7": "That's why our mission is very concrete: over the next ten years, we want to help about ten people start safely in Leiden every month. That's about 120 new members per year, and ultimately around 1,200 families and approximately 4,800 people we help to stand stronger, more positive, and more energetic in life.",
+      "p6": "Now I'm a father of two children and I see even more clearly how important it is for people to stay strong and healthy. We live in a time when we need builders: people with energy, resilience, and joy in what they do. I want Gymbox Noordwijk to be a positive beacon in the city. A place where energy starts and spreads to families, businesses, and the streets of Noordwijk.",
+      "p7": "That's why our mission is very concrete: over the next ten years, we want to help about ten people start safely in Noordwijk every month. That's about 120 new members per year, and ultimately around 1,200 families and approximately 4,800 people we help to stand stronger, more positive, and more energetic in life.",
       "p8": "We don't do this with quick tricks, but with good coaching, a strong community, and workouts you can sustain. In the gym we build strength and confidence, so you dare more outside: tackle new challenges, go on adventures, grow professionally, or simply run after your kids with joy again.",
-      "p9": "CrossFit Leiden is the means for that. A second living room where you feel seen, where you get to know each other, and where you walk out a little stronger every week than you walked in."
+      "p9": "Gymbox Noordwijk is the means for that. A second living room where you feel seen, where you get to know each other, and where you walk out a little stronger every week than you walked in."
     },
     "mission": {
       "title": "Our mission",
@@ -261,7 +260,7 @@
       "title": "Invest in your health for just €4.50 per day",
       "subtitle": "Personal coaching in small groups, a warm community and month-to-month memberships. No hidden costs.",
       "button": "Schedule Free Intro",
-      "imageAlt": "CrossFit Leiden gym"
+      "imageAlt": "Gymbox Noordwijk gym"
     },
     "comparison": {
       "title": "What do you spend on?",
@@ -285,7 +284,7 @@
       },
       "crossfit": {
         "emoji": "💪",
-        "title": "CrossFit Leiden",
+        "title": "Gymbox Noordwijk",
         "price": "€135",
         "period": "per month"
       },
@@ -455,27 +454,27 @@
       "a2": "Yes, just let us know and we'll arrange it.",
       "q3": "How does payment work?",
       "a3": "Automatic direct debit. No registration fees. No fine print.",
-      "q4": "What makes CrossFit Leiden different from a regular gym?",
+      "q4": "What makes Gymbox Noordwijk different from a regular gym?",
       "a4": "Small groups, personal coaching, warm community. With us, you don't have to do it alone."
     },
     "cta": {
       "title": "Ready to invest in yourself?",
-      "subtitle": "Schedule your free intro and come meet us. No commitments, just discover if CrossFit Leiden is right for you.",
+      "subtitle": "Schedule your free intro and come meet us. No commitments, just discover if Gymbox Noordwijk is right for you.",
       "button": "Schedule Free Intro"
     }
   },
   "location": {
     "hero": {
       "title": "Our Location",
-      "subtitle": "Easily accessible in Leiden, with ample parking right in front of the door.",
-      "imageAlt": "CrossFit Leiden facility"
+      "subtitle": "Easily accessible in Noordwijk, with ample parking right in front of the door.",
+      "imageAlt": "Gymbox Noordwijk facility"
     },
     "addressContact": {
       "title": "Address & Contact",
       "addressTitle": "Address",
-      "name": "CrossFit Leiden",
-      "street": "Marie Diebenplaats 108",
-      "city": "2324 NG Leiden",
+      "name": "Gymbox Noordwijk",
+      "street": "Keyserswey 26A",
+      "city": "2201 CW Noordwijk",
       "googleMaps": "View on Google Maps",
       "contactTitle": "Contact",
       "hoursTitle": "Class Hours",
@@ -492,16 +491,16 @@
       "parking": {
         "title": "Parking",
         "item1": "• Ample parking directly in front",
-        "item2": "• Monday to Friday from 07:30 to 19:30, park for the first two hours at €0.20 per hour",
-        "item3": "• After that, the normal municipal rate applies",
-        "item4": "• Parking is free on Saturday and Sunday",
-        "item5": "• There is a disabled parking spot directly in front"
+        "item2": "• Free parking",
+        "item3": "",
+        "item4": "",
+        "item5": ""
       },
       "fysiofabriek": {
-        "title": "Fysiofabriek in-house",
-        "text1": "We have a professional physiotherapy practice right in our gym. For aches, injuries or rehabilitation, you can get help quickly.",
-        "text2": "For members, there are free walk-in hours, so you can easily have someone check what's going on.",
-        "link": "More about Fysiofabriek"
+        "title": "",
+        "text1": "",
+        "text2": "",
+        "link": ""
       },
       "facilities": {
         "title": "Facilities",
@@ -512,23 +511,23 @@
         "item5": "• Water station to fill your bottle",
         "item6": "• Free coffee and tea in the lounge",
         "item7": "• Restrooms",
-        "item8": "• Wheelchair accessible entrance",
-        "item9": "• Outdoor area with rubber tiles",
-        "item10": "• Running opportunities outside"
+        "item8": "",
+        "item9": "",
+        "item10": ""
       }
     },
     "gallery": {
       "title": "A look inside our gym",
       "subtitle": "Get an impression of our gym, lounge and training area.",
       "clickToEnlarge": "Click on a photo for a larger view",
-      "imageAlt": "CrossFit Leiden facility",
+      "imageAlt": "Gymbox Noordwijk facility",
       "prevButton": "Previous photos",
       "nextButton": "Next photos",
       "closeButton": "Close"
     },
     "map": {
       "title": "Find us",
-      "address": "Marie Diebenplaats 108, 2324 NG Leiden"
+      "address": "Keyserswey 26A, 2201 CW Noordwijk"
     },
     "cta": {
       "title": "Come by for a free intro",
@@ -542,17 +541,17 @@
       "subtitle": "Get to know the coaches who guide you. Regular people with a passion for movement and community."
     },
     "owners": {
-      "intro": "CrossFit Leiden was founded by Kees and Jeroen, two friends who believe everyone should be welcome to exercise.",
+      "intro": "Gymbox Noordwijk was founded by Kees and Jeroen, two friends who believe everyone should be welcome to exercise.",
       "title": "The Founders",
       "kees": {
         "name": "Kees Houwaart",
-        "bio": "Kees grew up in a gym and discovered CrossFit in 2012. He started Gymbox Noordwijk in 2014. In 2015, he founded CrossFit Leiden together with Jeroen. Kees lives with his wife Nathalie and their two sons Neal and Jake in Katwijk aan Zee."
+        "bio": "Kees grew up in a gym and discovered CrossFit in 2012. He started Gymbox Noordwijk in 2014. In 2015, he founded Gymbox Noordwijk together with Jeroen. Kees lives with his wife Nathalie and their two sons Neal and Jake in Katwijk aan Zee."
       },
       "jeroen": {
         "name": "Jeroen van Duijn",
-        "bio": "Jeroen was always active, from soccer to surfing. In 2014, he chose the fitness world and trained people in Chile before returning to the Netherlands. Together with Kees, he built CrossFit Leiden into a place where everyone feels at home. Jeroen lives with his wife Amanda and daughter Zoe in Katwijk aan Zee."
+        "bio": "Jeroen was always active, from soccer to surfing. In 2014, he chose the fitness world and trained people in Chile before returning to the Netherlands. Together with Kees, he built Gymbox Noordwijk into a place where everyone feels at home. Jeroen lives with his wife Amanda and daughter Zoe in Katwijk aan Zee."
       },
-      "story": "In 2015, Kees and Jeroen started CrossFit Leiden with a simple idea: a place where everyone is welcome, regardless of level or experience. What started as one gym has grown into a network of fitness facilities where community comes first.",
+      "story": "In 2015, Kees and Jeroen started Gymbox Noordwijk with a simple idea: a place where everyone is welcome, regardless of level or experience. What started as one gym has grown into a network of fitness facilities where community comes first.",
       "meetCta": "Want to meet Kees, Jeroen and the team? Schedule a free intro and come have a cup of coffee."
     },
     "coaches": {
@@ -560,12 +559,12 @@
       "saskia": {
         "name": "Saskia",
         "role": "General Manager",
-        "story": "Saskia came to CrossFit Leiden a few years ago to get rid of her back pain, and it worked so well that she changed careers. She makes sure everything runs smoothly in the gym and that everyone feels welcome."
+        "story": "Saskia came to Gymbox Noordwijk a few years ago to get rid of her back pain, and it worked so well that she changed careers. She makes sure everything runs smoothly in the gym and that everyone feels welcome."
       },
       "rochelle": {
         "name": "Rochelle",
         "role": "Lead Coach",
-        "story": "Rochelle is a national-level gymnastics coach and brings that expertise to CrossFit Leiden. She's great with kids and adults alike, helping everyone learn movements safely. In addition to coaching with us, she trains her gymnastics team for world championships."
+        "story": "Rochelle is a national-level gymnastics coach and brings that expertise to Gymbox Noordwijk. She's great with kids and adults alike, helping everyone learn movements safely. In addition to coaching with us, she trains her gymnastics team for world championships."
       },
       "jeffrey": {
         "name": "Jeffrey Perez Stoof",
@@ -600,7 +599,7 @@
       "erin": {
         "name": "Erin",
         "role": "Coach",
-        "story": "Erin coached at CrossFit Leiden in 2019 and is now back. During the day, she works at Defense helping soldiers stay mentally strong. In her free time, she teaches salsa lessons. That combination of rhythm, focus, and resilience is reflected in her coaching."
+        "story": "Erin coached at Gymbox Noordwijk in 2019 and is now back. During the day, she works at Defense helping soldiers stay mentally strong. In her free time, she teaches salsa lessons. That combination of rhythm, focus, and resilience is reflected in her coaching."
       },
       "hoite": {
         "name": "Hoite",
@@ -612,7 +611,7 @@
       "title": "Why our coaches make the difference",
       "p1": "Our coaches aren't drill sergeants. They're regular people with busy lives, just like you. They understand what it feels like to doubt or be uncertain.",
       "p2": "Personal attention comes first. We know your name, remember your goals, and adapt every workout to your level. Whether you're holding a barbell for the first time or have been training for years, you get the guidance you need.",
-      "p3": "At CrossFit Leiden, you're not a number, but a person with your own story."
+      "p3": "At Gymbox Noordwijk, you're not a number, but a person with your own story."
     },
     "cta": {
       "title": "Ready to meet us?",
@@ -622,7 +621,7 @@
   },
   "kickstartBlock": {
     "title": "Start safe and strong with our Kickstart",
-    "imageAlt": "CrossFit Leiden Kickstart",
+    "imageAlt": "Gymbox Noordwijk Kickstart",
     "description": "Our 28-day beginner program for people without experience. Personal coaching, safe progression, at your own pace.",
     "important": "<strong>Important:</strong> You always start with a free intro. In that conversation, we check together if the Kickstart is the best start for you.",
     "forWho": {
@@ -723,8 +722,8 @@
         "description": "Preparation for Hyrox races. Combined conditioning and strength training for this popular event."
       },
       "fysiofabriek": {
-        "title": "Fysiofabriek",
-        "description": "Professional physiotherapy and rehabilitation. Specialized guidance for injuries and pain."
+        "title": "",
+        "description": ""
       },
       "nutrition": {
         "title": "Nutrition",
@@ -759,7 +758,7 @@
       "link": "View Full Schedule"
     },
     "whyUs": {
-      "title": "Why CrossFit Leiden?",
+      "title": "Why Gymbox Noordwijk?",
       "subtitle": "What makes our training different from a regular gym?",
       "feature1": "<strong>Small groups (max 14 people)</strong> – No massive gyms where you're on your own. Here you get personal attention.",
       "feature2": "<strong>Professional coaching</strong> – Every class is led by certified coaches who improve your technique and motivate you.",
@@ -780,7 +779,7 @@
     },
     "ourClasses": {
       "title": "Our Classes",
-      "subtitle": "At CrossFit Leiden we have a wide range of classes. From intense group classes to personal small group training – there's something for everyone."
+      "subtitle": "At Gymbox Noordwijk we have a wide range of classes. From intense group classes to personal small group training – there's something for everyone."
     },
     "groupClasses": {
       "title": "Group Classes",
@@ -902,7 +901,7 @@
   "testimonials": {
     "hero": {
       "title": "Real people. Real results.",
-      "subtitle": "At CrossFit Leiden, regular people with full schedules train. No fitness influencers, no protein shakes on Instagram. Just people who want to get fitter, stronger and healthier."
+      "subtitle": "At Gymbox Noordwijk, regular people with full schedules train. No fitness influencers, no protein shakes on Instagram. Just people who want to get fitter, stronger and healthier."
     },
     "videoStories": {
       "title": "Watch their stories",
@@ -939,7 +938,7 @@
         "photo6": "Training with us is hard work, but mainly lots of fun. Coach Sem laughs more than he squats, and that says enough.",
         "photo7": "In the GetShredded small group program, coach Jeffrey helps you squat stronger than you ever thought. Technique first, weight comes later.",
         "photo8": "A warm farewell for coach Wouter. Our community doesn't just celebrate workouts, but especially people.",
-        "photo9": "Coach Jari trains weekly with Leiden South Fire Department so they can keep the city safe. Functional training in real life.",
+        "photo9": "Coach Jari helps people with pain, limited mobility or technique. Functional training for a better body.",
         "photo10": "Every class at least one high five. Often more. Because training together feels better than alone.",
         "photo11": "During wall balls, coach Jeffrey stands behind you. For technique, for pace, but especially for mental support.",
         "photo12": "Our coaching team during the annual gala. No workout clothes, but the same fun atmosphere.",
@@ -962,7 +961,7 @@
   "popups": {
     "whatsapp": {
       "close": "Close popup",
-      "title": "Chat with CrossFit Leiden",
+      "title": "Chat with Gymbox Noordwijk",
       "description": "Hi! Great that you want to get in touch. Click the button below to start a conversation via WhatsApp. We're happy to help! 💪",
       "messageLabel": "Your message:",
       "openButton": "Open WhatsApp",

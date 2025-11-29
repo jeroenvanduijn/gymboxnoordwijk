@@ -15,12 +15,19 @@
 }
 
 @layer components {
+  /* Gymbox primary button style */
   .cta-button {
-    @apply bg-cinnabar text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-all duration-200 inline-block;
+    @apply bg-primary text-black px-8 py-3 rounded-full font-medium hover:bg-opacity-90 transition-all duration-200 inline-block uppercase tracking-wider;
   }
 
+  /* Gymbox secondary button style */
   .cta-button-secondary {
-    @apply bg-verdigris text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-all duration-200 inline-block;
+    @apply bg-black text-white px-8 py-3 rounded-full font-medium hover:bg-opacity-90 transition-all duration-200 inline-block uppercase tracking-wider;
+  }
+
+  /* Gymbox outline button style */
+  .cta-button-outline {
+    @apply border-2 border-primary text-black px-8 py-3 rounded-full font-medium hover:bg-primary hover:text-black transition-all duration-200 inline-block uppercase tracking-wider;
   }
 
   .section-padding {

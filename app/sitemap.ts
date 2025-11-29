@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.crossfitleiden.com';
+  const baseUrl = 'https://www.gymboxnoordwijk.nl';
   const locales = ['nl', 'en'];
 
   // Define all your pages here

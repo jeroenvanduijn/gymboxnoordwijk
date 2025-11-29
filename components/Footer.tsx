@@ -16,13 +16,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <img
-                src="https://t18gxeooihdd4vax.public.blob.vercel-storage.com/images/cfl%20logo.png"
-                alt="CrossFit Leiden Logo"
-                className="w-10 h-10 rounded-full"
-              />
               <h3 className="text-white text-xl font-heading font-bold">
-                CrossFit Leiden
+                GYMBOX
               </h3>
             </div>
             <p className="text-sm text-gray-400 italic">
@@ -35,22 +30,22 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">{t('navigation')}</h4>
             <ul className="space-y-2">
               <li>
-                <Link href={`/${locale}`} className="hover:text-cinnabar transition-colors">
+                <Link href={`/${locale}`} className="hover:text-primary transition-colors">
                   {tNav('home')}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/over-ons`} className="hover:text-cinnabar transition-colors">
+                <Link href={`/${locale}/over-ons`} className="hover:text-primary transition-colors">
                   {tNav('about')}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/aanbod`} className="hover:text-cinnabar transition-colors">
+                <Link href={`/${locale}/aanbod`} className="hover:text-primary transition-colors">
                   {tNav('programs')}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/rooster`} className="hover:text-cinnabar transition-colors">
+                <Link href={`/${locale}/rooster`} className="hover:text-primary transition-colors">
                   {tNav('schedule')}
                 </Link>
               </li>
@@ -62,37 +57,37 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">{t('info')}</h4>
             <ul className="space-y-2">
               <li>
-                <Link href={`/${locale}/info/drop-in`} className="hover:text-cinnabar transition-colors">
+                <Link href={`/${locale}/info/drop-in`} className="hover:text-primary transition-colors">
                   {t('dropIn')}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/ervaringen`} className="hover:text-cinnabar transition-colors">
+                <Link href={`/${locale}/ervaringen`} className="hover:text-primary transition-colors">
                   {tNav('testimonials')}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/tarieven`} className="hover:text-cinnabar transition-colors">
+                <Link href={`/${locale}/tarieven`} className="hover:text-primary transition-colors">
                   {tNav('pricing')}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/contact`} className="hover:text-cinnabar transition-colors">
+                <Link href={`/${locale}/contact`} className="hover:text-primary transition-colors">
                   {tNav('contact')}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/privacy`} className="hover:text-cinnabar transition-colors">
+                <Link href={`/${locale}/privacy`} className="hover:text-primary transition-colors">
                   {t('privacyPolicy')}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/terms`} className="hover:text-cinnabar transition-colors">
+                <Link href={`/${locale}/terms`} className="hover:text-primary transition-colors">
                   {t('termsConditions')}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/opzeggen`} className="hover:text-cinnabar transition-colors">
+                <Link href={`/${locale}/opzeggen`} className="hover:text-primary transition-colors">
                   {t('cancelMembership')}
                 </Link>
               </li>
@@ -103,16 +98,11 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">{tNav('contact')}</h4>
             <ul className="space-y-2 text-sm">
-              <li>Marie Diebenplaats 108</li>
-              <li>2324 NG Leiden</li>
+              <li>Keyserswey 26A</li>
+              <li>2201 CW Noordwijk</li>
               <li className="pt-2">
-                <a href="mailto:welcome@crossfitleiden.com" className="hover:text-cinnabar transition-colors">
-                  welcome@crossfitleiden.com
-                </a>
-              </li>
-              <li>
-                <a href="tel:0712340477" className="hover:text-cinnabar transition-colors">
-                  071 - 234 0477
+                <a href="mailto:welkom@gymboxnoordwijk.nl" className="hover:text-primary transition-colors">
+                  welkom@gymboxnoordwijk.nl
                 </a>
               </li>
             </ul>
@@ -120,10 +110,10 @@ export default function Footer() {
             {/* Social Media Icons */}
             <div className="flex space-x-4 mt-4">
               <a
-                href="https://instagram.com/crossfitleiden"
+                href="https://instagram.com/gymboxnoordwijk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-cinnabar transition-colors"
+                className="hover:text-primary transition-colors"
                 aria-label="Instagram"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -131,10 +121,10 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://facebook.com/crossfitleiden"
+                href="https://facebook.com/gymboxnoordwijk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-cinnabar transition-colors"
+                className="hover:text-primary transition-colors"
                 aria-label="Facebook"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -147,7 +137,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-sm text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} CrossFit Leiden. {tCommon('allRightsReserved')}.</p>
+          <p>&copy; {new Date().getFullYear()} Gymbox Noordwijk. {tCommon('allRightsReserved')}.</p>
         </div>
       </div>
     </footer>

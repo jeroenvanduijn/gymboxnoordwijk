@@ -11,9 +11,22 @@ import WhatsAppWidget from "@/components/WhatsAppWidget";
 import CookieConsent from "@/components/CookieConsent";
 
 export const metadata: Metadata = {
-  title: "CrossFit Leiden - Everyday people, exceptionally strong",
-  description: "CrossFit Leiden is meer dan een sportschool – het is een tweede thuis. Gewone mensen, buitengewoon sterk. Kom kennismaken!",
-  keywords: ["crossfit", "leiden", "fitness", "gym", "sport", "training", "community"],
+  title: "Gymbox Noordwijk - De beste sportschool van Noordwijk",
+  description: "Word weer fit, sterk & gezond bij Gymbox Noordwijk. CrossFit, coaching & community met 100% persoonlijke begeleiding. Plan je gratis intake!",
+  keywords: ["crossfit", "noordwijk", "fitness", "gym", "sport", "training", "community", "personal training"],
+  openGraph: {
+    title: "Gymbox Noordwijk - De beste sportschool van Noordwijk",
+    description: "Word weer fit, sterk & gezond bij Gymbox Noordwijk. CrossFit, coaching & community met 100% persoonlijke begeleiding.",
+    url: "https://gymboxnoordwijk.nl",
+    siteName: "Gymbox Noordwijk",
+    locale: "nl_NL",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gymbox Noordwijk - De beste sportschool van Noordwijk",
+    description: "Word weer fit, sterk & gezond bij Gymbox Noordwijk. CrossFit, coaching & community met 100% persoonlijke begeleiding.",
+  },
 };
 
 type Props = {
@@ -55,7 +68,8 @@ export default async function LocaleLayout({
           <WhatsAppWidget />
           <CookieConsent />
         </NextIntlClientProvider>
-        <GoogleAnalytics gaId="G-JPD4QBBYZ3" />
+        {/* TODO: Add Gymbox Noordwijk Google Analytics ID */}
+        {/* <GoogleAnalytics gaId="YOUR-GA-ID" /> */}
         <Analytics />
       </body>
     </html>
