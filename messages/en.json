@@ -1,0 +1,977 @@
+{
+  "common": {
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "contactUs": "Contact us",
+    "bookNow": "Book now",
+    "getStarted": "Get started",
+    "allRightsReserved": "All rights reserved"
+  },
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "aboutCFL": "About CrossFit Leiden",
+    "theTeam": "The Team",
+    "ourLocation": "Our Location",
+    "pricing": "Pricing",
+    "programs": "Programs",
+    "kickstart": "Kickstart Program",
+    "groupTraining": "Group Training",
+    "smallGroup": "Small Group Training",
+    "personalTraining": "Personal Training",
+    "hyrox": "HYROX",
+    "fysiofabriek": "Fysiofabriek",
+    "sportPerformance": "Sport & Performance",
+    "nutrition": "Nutrition",
+    "teens": "Teens",
+    "preTeens": "Pre Teens",
+    "schedule": "Schedule",
+    "blog": "Blog",
+    "events": "Events",
+    "hyroxSimulation": "HYROX Simulation",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "planFreeIntro": "Schedule a Free Intro"
+  },
+  "footer": {
+    "tagline": "Everyday people, exceptionally strong",
+    "navigation": "Navigation",
+    "info": "Info",
+    "dropIn": "Drop-in",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "cancelMembership": "Cancel Membership"
+  },
+  "navigation": {
+    "home": "Home",
+    "aboutUs": "About us",
+    "programs": "Programs",
+    "schedule": "Schedule",
+    "testimonials": "Testimonials",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "googleReviews": "265+ Google reviews with 5 stars",
+      "title": "More energy for your family and yourself",
+      "subtitle": "For busy parents and professionals who want to get fit again, without judgment and with guidance at your level. No experience needed, we'll teach you everything step by step.",
+      "cta": "Schedule a Free Intro",
+      "ctaNote": "👉 No workout, just a conversation. Discover if CrossFit Leiden is right for you."
+    },
+    "why": {
+      "title": "Why CrossFit Leiden?",
+      "subtitle": "We understand you're busy and maybe haven't exercised in years. That's why we make it easy.",
+      "usp1Title": "Personal Coaching",
+      "usp1Text": "Our coaches know your name, watch your technique, and guide you step by step. You're never just a number.",
+      "usp2Title": "Perfect for Beginners",
+      "usp2Text": "You don't need to be fit to start. We adjust everything to your level – whether you're 35 or 55.",
+      "usp3Title": "Warm, Tight-Knit Community",
+      "usp3Text": "Train with other parents and professionals. Here you support and encourage each other – no judgment, only support.",
+      "usp4Title": "Safe & Responsible",
+      "usp4Text": "Injury prevention comes first. We teach you the right technique so you get stronger safely, without risk.",
+      "usp5Title": "Fits Your Busy Schedule",
+      "usp5Text": "From early morning to late evening – there's always a class that fits. Classes last 1 hour, including warm-up."
+    },
+    "howItWorks": {
+      "title": "How does it work?",
+      "subtitle": "Three simple steps – no commitments, no pressure. Just getting to know each other.",
+      "step1Title": "Schedule a Free Intro",
+      "step1Text": "Click the button, choose a time that suits you and fill in your details. Takes 30 seconds.",
+      "step2Title": "Relaxed Conversation (No Workout!)",
+      "step2Text": "We get to know you, answer all your questions and show you our box. In this conversation we also explain the Kickstart program and see if it fits you. You don't have to work out – just coffee and a chat.",
+      "step2Note": "💡 We call this a \"No Sweat Intro\" – literally: no sweating!",
+      "step3Title": "Your Personal Plan",
+      "step3Text": "If it clicks, we create a plan together that fits your goals and schedule. Want to think about it? That's fine!",
+      "cta": "Schedule My Free Intro"
+    },
+    "socialProof": {
+      "title": "They went before you"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "We get these questions often. Do you recognize yourself?",
+      "q1": "Am I fit enough to start CrossFit?",
+      "a1": "Absolutely! You don't need to be fit to start. 80% of our members had no sports experience when they started. We adjust every exercise to your level – whether you haven't exercised in 20 years or are quite active.",
+      "q2": "How often should I come?",
+      "a2": "We recommend 2–3 times per week for good results. How often you can come depends on your membership: up to 6 times per week. Focus on quality and consistency, not extreme hours.",
+      "q3": "Isn't CrossFit dangerous? I don't want injuries...",
+      "a3p1": "Understandable concern! But precisely because of our coaching, CrossFit is much safer than working out alone. We teach you the right technique with light weights first. Only when your movement is good do we progress. Injury prevention is our priority.",
+      "a3p2": "We partner with Fysiofabriek, a professional physiotherapy practice with their own treatment room in our gym. This allows us to act quickly with aches, rehabilitation or advice.",
+      "q4": "Am I not too old to start?",
+      "a4": "Not at all! Our members are between 20 and 65 years old, with most between 35-50. CrossFit is perfect for \"older\" beginners because we adjust everything to your body and goals. You're never too old to get stronger and healthier!",
+      "q5": "I really don't have time, with work and kids...",
+      "a5": "We understand! That's why our classes last exactly 1 hour (including warm-up and cool-down). Our classes run from 06:00 to 22:00, so there's always a time that fits. Many members come before work, during lunch break or in the evening when the kids are in bed.",
+      "q6": "What happens during the Free Intro?",
+      "a6": "The intro lasts 20-30 minutes. We get to know you, talk about your goals and concerns, show you the box and answer all your questions. You do NOT have to work out during this intro – just getting to know each other. Afterwards we create a plan together if you want to continue. No commitments, no pressure!"
+    },
+    "footerCta": {
+      "title": "Can you see yourself training here?",
+      "subtitle": "Schedule your free intro – it's non-binding, takes 20 minutes and you don't have to work out. Just get to know each other and see if it clicks. We're looking forward to meeting you!",
+      "button": "Yes, I want to meet you!"
+    }
+  },
+  "dropIn": {
+    "hero": {
+      "title": "Train with us at CrossFit Leiden",
+      "subtitle": "In the area or want to try our box? Book a drop-in and join at your level. For experienced CrossFitters only.",
+      "cta": "Book a Drop-in"
+    },
+    "howItWorks": {
+      "title": "How does it work?",
+      "step1Title": "Choose your class",
+      "step1Text": "First select the location <strong>CrossFit Leiden</strong> in SportBit. Then choose from two class options:",
+      "step1Option1": "<strong>\"Training\"</strong> (regular CrossFit WOD) – drop-in fee €30",
+      "step1Option2": "<strong>\"HYROX Training\"</strong> – €30 for 60 minutes, €35 for 90 minutes",
+      "step1Note": "Other classes are not available for drop-ins.",
+      "step2Title": "Choose your time and book",
+      "step2Text": "Available times appear in the calendar. Fill in your details, accept the terms and pay directly when booking. No cash or card payment at the gym.",
+      "step3Title": "Arrive 10 minutes early",
+      "step3Text": "Check in with the coach. Tour depends on how busy the class is."
+    },
+    "practicalInfo": {
+      "title": "Practical Info",
+      "priceTitle": "💶 Price",
+      "price1": "<strong>Training (WOD)</strong> – €30",
+      "price2": "<strong>HYROX 60 minutes</strong> – €30",
+      "price3": "<strong>HYROX 90 minutes</strong> – €35",
+      "priceNote": "Payment is made directly when booking via SportBit. No cash or card.",
+      "whatToBringTitle": "🎒 What to bring?",
+      "bring1": "Workout clothes and shoes",
+      "bring2": "Water bottle",
+      "bring3": "Towel for showering (optional)"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "Can I do a drop-in as a beginner?",
+      "a1": "No. Drop-ins are only for people with CrossFit experience. Completely new? Schedule a free intro first.",
+      "q2": "What does a drop-in cost?",
+      "a2": "Depending on the class, 30 to 35 euros. Payment is made online during booking.",
+      "q3": "Which class should I choose?",
+      "a3": "HYROX Training is often more accessible due to less technical movements and more cardio. Training (WOD) varies per day. It can be strength, technique or cardio. Both options are suitable for experienced athletes.",
+      "q4": "Do I need to book in advance?",
+      "a4": "Yes. You must always book in advance via the drop-in calendar so we can guarantee a spot for you."
+    },
+    "cta": {
+      "title": "Ready to train with us?",
+      "subtitle": "Book your drop-in and experience the CrossFit Leiden atmosphere!",
+      "button": "Book a Drop-in"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact",
+      "subtitle": "Have questions or want to visit? We'd love to hear from you!"
+    },
+    "visitUs": {
+      "title": "Visit us",
+      "address": "Address",
+      "addressLine1": "Marie Diebenplaats 108",
+      "addressLine2": "2324 NG Leiden",
+      "addressNote": "(Easily accessible with ample parking)",
+      "email": "Email",
+      "phone": "Phone",
+      "phoneNumber": "071 - 234 0477",
+      "openingHours": "Opening Hours",
+      "monFri": "Mon - Fri: 06:00 - 22:00",
+      "sat": "Sat: 07:00 - 13:00",
+      "sun": "Sun: 08:00 - 13:00",
+      "followUs": "Follow us"
+    },
+    "route": {
+      "title": "Directions & Parking",
+      "byCar": "<strong>By car:</strong> Ample parking in front (including disabled parking spot). €0.20 per hour from 07:30 - 19:30 on Mon-Fri. Free parking the rest of the time.",
+      "byBike": "<strong>By bike:</strong> Leiden Central Station is 10 minutes cycling. Leiden Lammerschans Station is 3 minutes cycling.",
+      "byPublicTransport": "<strong>By public transport:</strong> Bus stop 800 meters away."
+    },
+    "form": {
+      "title": "Send us a message"
+    },
+    "map": {
+      "title": "Find us on the map"
+    },
+    "welcome": {
+      "title": "Feel free to drop by!",
+      "text": "Feel free to drop by to get a feel for the atmosphere. You'll find us on the south side of the sports complex with our own entrance. Coffee is ready. ☕",
+      "introQuestion": "Want to schedule a <strong>free intro</strong> right away?",
+      "introLink": "Click here →"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Everyday people, exceptional results",
+      "subtitle": "CrossFit Leiden is a place where busy parents, young professionals, students, expats, and people who haven't exercised in years get stronger together. No judgment, no pressure. Just training and growing together."
+    },
+    "whyDifferent": {
+      "title": "Why CrossFit Leiden is different",
+      "p1": "We're not your typical gym. CrossFit Leiden was founded on a simple idea: <strong>everyone should feel welcome to exercise</strong>, regardless of age, fitness level, or experience.",
+      "p2": "No macho culture or intimidating atmosphere. Here you train alongside parents who come after putting the kids to bed, young professionals who come before work, students picking up a barbell for the first time, expats looking for a new community, and people who haven't exercised in 10 or 20 years. Members specifically training for Hyrox or seeking extra challenge also find their place here. <strong>Everyone starts somewhere</strong>, and we'll help you along the way.",
+      "p3": "We understand how it feels to have doubts: \"Am I fit enough?\", \"Do I have time?\", \"Will I fit in?\" The answer is always: <strong>yes!</strong> Our community is built on support, not judgment. Here we know each other's names, celebrate each other's successes (big or small), and encourage each other.",
+      "p4": "We don't just train in the gym. We also tackle challenges together outside the box: Hyrox events, runs, outdoor challenges, and trips. The gym is the means, but the goal is for you to stand stronger and more confident in your life."
+    },
+    "story": {
+      "title": "The story behind CrossFit Leiden",
+      "p1": "I'm Jeroen, founder of CrossFit Leiden.",
+      "p2": "Before I started this gym, I worked in an office as a business controller at Samsung. I sat behind a desk all day, felt increasingly unfit, gained weight, and noticed my confidence slowly fading. I wasn't deeply unhappy, but I felt very clearly: this isn't for me.",
+      "p3": "Around 2013, I saw a video online of someone doing CrossFit. Someone training with complete confidence. I felt immediately: that's what I'm missing. Shortly after, I started training, first at CrossFit Bink and later at Gymbox Noordwijk. Slowly everything changed. I got stronger, fitter, and especially much more confident in my body. That energy also spread to my girlfriend, now my wife.",
+      "p4": "At a certain point I knew: I don't just want to improve numbers in Excel, I want to help people feel better in their own bodies. In 2016, together with Kees Houwaart, owner of Gymbox Noordwijk, I started CrossFit Leiden.",
+      "p5": "Since then, we've been able to help over 3,000 people. We've learned so much, heard so many stories, and built a community that I'm proud to walk into every day.",
+      "p6": "Now I'm a father of two children and I see even more clearly how important it is for people to stay strong and healthy. We live in a time when we need builders: people with energy, resilience, and joy in what they do. I want CrossFit Leiden to be a positive beacon in the city. A place where energy starts and spreads to families, businesses, and the streets of Leiden.",
+      "p7": "That's why our mission is very concrete: over the next ten years, we want to help about ten people start safely in Leiden every month. That's about 120 new members per year, and ultimately around 1,200 families and approximately 4,800 people we help to stand stronger, more positive, and more energetic in life.",
+      "p8": "We don't do this with quick tricks, but with good coaching, a strong community, and workouts you can sustain. In the gym we build strength and confidence, so you dare more outside: tackle new challenges, go on adventures, grow professionally, or simply run after your kids with joy again.",
+      "p9": "CrossFit Leiden is the means for that. A second living room where you feel seen, where you get to know each other, and where you walk out a little stronger every week than you walked in."
+    },
+    "mission": {
+      "title": "Our mission",
+      "statement": "Over the next 10 years, we want to help 4,800 people become stronger, more positive, and more energetic."
+    },
+    "values": {
+      "title": "What we stand for",
+      "community": {
+        "title": "Community > Competition",
+        "text": "We're not a competition gym. Here you train together, encourage each other, and celebrate each other's progress. Friendship comes first."
+      },
+      "everyone": {
+        "title": "Everyone Welcome",
+        "text": "Whether you're 25 or 55, fit or not, experienced or beginner – you're welcome here as you are. We adapt to you.",
+        "list1": "• Busy parents training between work and family",
+        "list2": "• Young professionals and students",
+        "list3": "• Expats looking for their community",
+        "list4": "• People who haven't exercised in 10-20 years",
+        "list5": "• Members wanting Hyrox or extra challenge"
+      },
+      "personal": {
+        "title": "Personal Attention",
+        "text": "You're not a number with us. Our coaches know your name, your goals, and your challenges. We guide you personally.",
+        "list1": "• Small group training for extra guidance",
+        "list2": "• Beginner programs to start safely",
+        "list3": "• Coaches who think along and adapt",
+        "list4": "• You never stand alone"
+      },
+      "teamLink": "Meet our team"
+    },
+    "cta": {
+      "title": "Want to get to know us?",
+      "subtitle": "Schedule a free intro and meet our team, see the box, and experience the atmosphere. No workout, just getting to know each other over coffee. We look forward to meeting you!",
+      "button": "Schedule a Free Intro"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "Invest in your health for just €4.50 per day",
+      "subtitle": "Personal coaching in small groups, a warm community and month-to-month memberships. No hidden costs.",
+      "button": "Schedule Free Intro",
+      "imageAlt": "CrossFit Leiden gym"
+    },
+    "comparison": {
+      "title": "What do you spend on?",
+      "coffee": {
+        "emoji": "☕",
+        "title": "Daily flat white",
+        "price": "€100",
+        "period": "per month"
+      },
+      "dining": {
+        "emoji": "🍽️",
+        "title": "Dining out once a week",
+        "price": "€320",
+        "period": "per month"
+      },
+      "streaming": {
+        "emoji": "📺",
+        "title": "Streaming",
+        "price": "€50",
+        "period": "per month"
+      },
+      "crossfit": {
+        "emoji": "💪",
+        "title": "CrossFit Leiden",
+        "price": "€135",
+        "period": "per month"
+      },
+      "message": "You either pay for your health now, or later for complaints, low energy and healthcare costs. With us, you build towards a fitter life safely and steadily."
+    },
+    "programs": {
+      "title": "Our Programs",
+      "subtitle": "Click on a program for more information and pricing",
+      "kickstart": {
+        "title": "28-Day Kickstart",
+        "subtitle": "Perfect for beginners",
+        "price": "€600",
+        "period": "one-time",
+        "description": "For beginners or people who want to build up safely. You train in small groups, learn the basics and get guidance from multiple coaches. We build up gradually so your confidence grows.",
+        "included": "Included:",
+        "item1": "2 small group sessions per week",
+        "item2": "1 group class per week",
+        "item4": "Personal coaching and nutrition goals",
+        "item5": "Group support"
+      },
+      "group": {
+        "title": "Group Coaching",
+        "subtitle": "max 14 people • coached every class",
+        "description": "With us, you never train alone. Our coaches know your name, help you move safely and ensure each class fits your level. The atmosphere is warm, personal and without egos. You build strength, energy and confidence step by step.",
+        "base": {
+          "title": "Base Membership",
+          "price": "€135",
+          "period": "per month",
+          "item1": "3 group classes per week",
+          "item2": "Goal Review every 90 days",
+          "item3": "Access to workshops & community events",
+          "item4": "Free 10-min physio check",
+          "item5": "Coffee, fruit & showers included"
+        },
+        "pro": {
+          "title": "Pro Membership",
+          "price": "€159",
+          "period": "per month",
+          "item1": "4 group classes per week",
+          "item2": "Includes everything from Base"
+        },
+        "elite": {
+          "title": "Elite Membership",
+          "price": "€169",
+          "period": "per month",
+          "item1": "6 group classes per week",
+          "item2": "Includes everything from Base"
+        },
+        "note": "New with us? During a free Intro we'll see which option suits you."
+      },
+      "small": {
+        "title": "GetShredded",
+        "subtitle": "Small Group / Semi-Private",
+        "description": "Small Group feels like personal training with the energy of a small group. You train at set times with a coach who knows exactly what you need. Perfect for those who want faster results and more personal guidance.",
+        "tier3": {
+          "title": "3x per week",
+          "price": "€450",
+          "period": "per month",
+          "period2": "or €400 (6 months)",
+          "item1": "3 semi-private sessions",
+          "item2": "Personal training plan",
+          "item3": "Fixed spot",
+          "item4": "Includes everything from Base"
+        },
+        "tier2": {
+          "title": "2x per week",
+          "price": "€400",
+          "period": "per month",
+          "item1": "2 semi-private sessions",
+          "item2": "Personal plan",
+          "item3": "Includes 2 group classes per week"
+        },
+        "note": "Our most results-oriented form of coaching."
+      },
+      "unlock": {
+        "title": "Unlock Motion",
+        "subtitle": "Small Group / Semi-Private (UnlockMotion)",
+        "price": "€1575",
+        "period": "12 weeks",
+        "description": "For people with recurring pain or physical limitations. You train for 12 weeks in a small group on mobility, strength and movement quality, with a plan completely tailored to your body."
+      },
+      "bodyApk": {
+        "title": "Body APK",
+        "subtitle": "intake for UnlockMotion — included with UnlockMotion",
+        "price": "€220",
+        "description": "A complete check of your posture, mobility and movements. You discover why you have (or get) complaints and receive a clear action plan."
+      },
+      "pt": {
+        "title": "Personal Training",
+        "subtitle": "Punchcards • 1-on-1 coaching",
+        "description": "For those who want to work 1-on-1 on technique, injury recovery or specific goals. Completely tailored to you, flexible to schedule and ideal for quick progress.",
+        "pt60": {
+          "title": "60 minute PT",
+          "tier1": "5 sessions",
+          "price1": "€450",
+          "tier2": "10 sessions",
+          "price2": "€800"
+        },
+        "pt30": {
+          "title": "30 minute PT",
+          "tier1": "5 sessions",
+          "price1": "€225",
+          "tier2": "10 sessions",
+          "price2": "€400"
+        }
+      },
+      "skill": {
+        "title": "Monthly Private Coaching",
+        "subtitle": "Skill development • monthly",
+        "description": "Each month a private coaching session where you work on technique, strength, mobility or recovery. Simple, clear and super effective for making targeted progress.",
+        "skill1": "Skill 1",
+        "price1": "€90 p/m",
+        "skill2": "Skill 2",
+        "price2": "€175 p/m",
+        "skill4": "Skill 4",
+        "price4": "€370 p/m"
+      },
+      "nutritionKickstart": {
+        "title": "Nutrition Kickstart",
+        "subtitle": "4-week program",
+        "price": "€200",
+        "period": "4 weeks",
+        "description": "Together with your coach, you work for four weeks on simple, achievable nutrition habits. No complicated rules, but clear guidance and daily contact.",
+        "included": "Included:",
+        "item1": "Personal targets",
+        "item2": "Daily accountability",
+        "item4": "Group support"
+      },
+      "nutrition": {
+        "title": "Nutrition Membership",
+        "subtitle": "Long-term guidance",
+        "price": "€350",
+        "period": "per month",
+        "description": "For those who want long-term structure on nutrition and lifestyle."
+      },
+      "teens": {
+        "title": "Teens Membership",
+        "subtitle": "For teenagers",
+        "description": "Safe and fun workouts that make teenagers stronger, fitter and more confident.",
+        "tier1": "1x per week",
+        "price1": "€42.50 p/m",
+        "tier2": "2x per week",
+        "price2": "€80 p/m"
+      },
+      "baseWeekend": {
+        "title": "Base Weekend",
+        "subtitle": "2-day training weekend",
+        "price": "€599",
+        "description": "A 2-day training weekend where you learn to move like our coaches train. Practical, educational and perfect for fitness enthusiasts who want to understand more deeply how the body works."
+      },
+      "flex": {
+        "title": "Flex Friday",
+        "subtitle": "Bring a friend",
+        "time": "Every Friday",
+        "schedule": "12:00 and 20:00",
+        "description": "Members may bring a friend during this class. Relaxed, social and the perfect way to introduce someone to CFL."
+      }
+    },
+    "reviews": {
+      "title": "What do our members say?"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "Do I need to be fit to start?",
+      "a1": "No, you start at your level. We guide you step by step.",
+      "q2": "Can I pause for vacation or busy times?",
+      "a2": "Yes, just let us know and we'll arrange it.",
+      "q3": "How does payment work?",
+      "a3": "Automatic direct debit. No registration fees. No fine print.",
+      "q4": "What makes CrossFit Leiden different from a regular gym?",
+      "a4": "Small groups, personal coaching, warm community. With us, you don't have to do it alone."
+    },
+    "cta": {
+      "title": "Ready to invest in yourself?",
+      "subtitle": "Schedule your free intro and come meet us. No commitments, just discover if CrossFit Leiden is right for you.",
+      "button": "Schedule Free Intro"
+    }
+  },
+  "location": {
+    "hero": {
+      "title": "Our Location",
+      "subtitle": "Easily accessible in Leiden, with ample parking right in front of the door.",
+      "imageAlt": "CrossFit Leiden facility"
+    },
+    "addressContact": {
+      "title": "Address & Contact",
+      "addressTitle": "Address",
+      "name": "CrossFit Leiden",
+      "street": "Marie Diebenplaats 108",
+      "city": "2324 NG Leiden",
+      "googleMaps": "View on Google Maps",
+      "contactTitle": "Contact",
+      "hoursTitle": "Class Hours",
+      "monFri": "Monday to Friday:",
+      "monFriHours": "06:00 - 22:00",
+      "sat": "Saturday:",
+      "satHours": "07:00 - 13:00",
+      "sun": "Sunday:",
+      "sunHours": "08:00 - 13:00",
+      "scheduleNote": "Always check the <a>schedule</a> for current class times."
+    },
+    "practicalInfo": {
+      "title": "Practical Info",
+      "parking": {
+        "title": "Parking",
+        "item1": "• Ample parking directly in front",
+        "item2": "• Monday to Friday from 07:30 to 19:30, park for the first two hours at €0.20 per hour",
+        "item3": "• After that, the normal municipal rate applies",
+        "item4": "• Parking is free on Saturday and Sunday",
+        "item5": "• There is a disabled parking spot directly in front"
+      },
+      "fysiofabriek": {
+        "title": "Fysiofabriek in-house",
+        "text1": "We have a professional physiotherapy practice right in our gym. For aches, injuries or rehabilitation, you can get help quickly.",
+        "text2": "For members, there are free walk-in hours, so you can easily have someone check what's going on.",
+        "link": "More about Fysiofabriek"
+      },
+      "facilities": {
+        "title": "Facilities",
+        "item1": "• Professional CrossFit equipment",
+        "item2": "• Spacious changing rooms and showers",
+        "item3": "• Climate control",
+        "item4": "• Free wifi for members",
+        "item5": "• Water station to fill your bottle",
+        "item6": "• Free coffee and tea in the lounge",
+        "item7": "• Restrooms",
+        "item8": "• Wheelchair accessible entrance",
+        "item9": "• Outdoor area with rubber tiles",
+        "item10": "• Running opportunities outside"
+      }
+    },
+    "gallery": {
+      "title": "A look inside our gym",
+      "subtitle": "Get an impression of our gym, lounge and training area.",
+      "clickToEnlarge": "Click on a photo for a larger view",
+      "imageAlt": "CrossFit Leiden facility",
+      "prevButton": "Previous photos",
+      "nextButton": "Next photos",
+      "closeButton": "Close"
+    },
+    "map": {
+      "title": "Find us",
+      "address": "Marie Diebenplaats 108, 2324 NG Leiden"
+    },
+    "cta": {
+      "title": "Come by for a free intro",
+      "subtitle": "Curious? Schedule your free intro and come discover the gym, team and atmosphere.",
+      "button": "Schedule a Free Intro"
+    }
+  },
+  "team": {
+    "hero": {
+      "title": "Meet the Team",
+      "subtitle": "Get to know the coaches who guide you. Regular people with a passion for movement and community."
+    },
+    "owners": {
+      "intro": "CrossFit Leiden was founded by Kees and Jeroen, two friends who believe everyone should be welcome to exercise.",
+      "title": "The Founders",
+      "kees": {
+        "name": "Kees Houwaart",
+        "bio": "Kees grew up in a gym and discovered CrossFit in 2012. He started Gymbox Noordwijk in 2014. In 2015, he founded CrossFit Leiden together with Jeroen. Kees lives with his wife Nathalie and their two sons Neal and Jake in Katwijk aan Zee."
+      },
+      "jeroen": {
+        "name": "Jeroen van Duijn",
+        "bio": "Jeroen was always active, from soccer to surfing. In 2014, he chose the fitness world and trained people in Chile before returning to the Netherlands. Together with Kees, he built CrossFit Leiden into a place where everyone feels at home. Jeroen lives with his wife Amanda and daughter Zoe in Katwijk aan Zee."
+      },
+      "story": "In 2015, Kees and Jeroen started CrossFit Leiden with a simple idea: a place where everyone is welcome, regardless of level or experience. What started as one gym has grown into a network of fitness facilities where community comes first.",
+      "meetCta": "Want to meet Kees, Jeroen and the team? Schedule a free intro and come have a cup of coffee."
+    },
+    "coaches": {
+      "title": "Our Coaching Team",
+      "saskia": {
+        "name": "Saskia",
+        "role": "General Manager",
+        "story": "Saskia came to CrossFit Leiden a few years ago to get rid of her back pain, and it worked so well that she changed careers. She makes sure everything runs smoothly in the gym and that everyone feels welcome."
+      },
+      "rochelle": {
+        "name": "Rochelle",
+        "role": "Lead Coach",
+        "story": "Rochelle is a national-level gymnastics coach and brings that expertise to CrossFit Leiden. She's great with kids and adults alike, helping everyone learn movements safely. In addition to coaching with us, she trains her gymnastics team for world championships."
+      },
+      "jeffrey": {
+        "name": "Jeffrey Perez Stoof",
+        "role": "GetShredded Lead Coach",
+        "story": "Jeffrey was a professional soccer player before becoming a CrossFit coach. He understands what it means to perform and to feel comfortable. Jeffrey adapts his coaching to what you need, whether you're seeking challenge or prefer to build up gradually."
+      },
+      "jari": {
+        "name": "Jari Jansen",
+        "role": "Movement Specialist",
+        "story": "Jari teaches small group classes, Unlock Motion sessions, and workshops. He helps members with pain, limited mobility, or technique. If you're dealing with something, chances are Jari can help you solve it."
+      },
+      "max": {
+        "name": "Max",
+        "role": "Kickstart Lead Coach",
+        "story": "Max has years of experience as a personal trainer and CrossFit coach. He loves hiking and camping with his family. As a coach, Max creates a fun and positive atmosphere where everyone feels welcome, regardless of level."
+      },
+      "natalia": {
+        "name": "Natália",
+        "role": "Coach",
+        "story": "Natália comes from Brazil and moved to the Netherlands in 2022. With a degree in exercise science and a passion for running, she brings creativity and positivity to every class. She coaches group classes and Teens sessions with lots of energy and patience."
+      },
+      "annie": {
+        "name": "Annie",
+        "role": "Nutrition Coach",
+        "story": "Annie helps members with practical nutrition advice that fits a busy life. No extreme diets, just simple steps that work."
+      },
+      "sem": {
+        "name": "Sem Li",
+        "role": "Coach",
+        "story": "Sem is always cheerful and loves connecting with everyone in his classes. He loves Olympic weightlifting and wakes up at 5 AM every morning to train before teaching the first class. That dedication and energy are reflected in his coaching."
+      },
+      "erin": {
+        "name": "Erin",
+        "role": "Coach",
+        "story": "Erin coached at CrossFit Leiden in 2019 and is now back. During the day, she works at Defense helping soldiers stay mentally strong. In her free time, she teaches salsa lessons. That combination of rhythm, focus, and resilience is reflected in her coaching."
+      },
+      "hoite": {
+        "name": "Hoite",
+        "role": "Coach",
+        "story": "Hoite is one of our dedicated coaches who loves working with beginners. He takes the time to explain movements properly and makes sure you feel comfortable during class."
+      }
+    },
+    "whyMatters": {
+      "title": "Why our coaches make the difference",
+      "p1": "Our coaches aren't drill sergeants. They're regular people with busy lives, just like you. They understand what it feels like to doubt or be uncertain.",
+      "p2": "Personal attention comes first. We know your name, remember your goals, and adapt every workout to your level. Whether you're holding a barbell for the first time or have been training for years, you get the guidance you need.",
+      "p3": "At CrossFit Leiden, you're not a number, but a person with your own story."
+    },
+    "cta": {
+      "title": "Ready to meet us?",
+      "subtitle": "Schedule your free intro and meet the team. No commitments, just a good conversation about your goals.",
+      "button": "Schedule a Free Intro"
+    }
+  },
+  "kickstartBlock": {
+    "title": "Start safe and strong with our Kickstart",
+    "imageAlt": "CrossFit Leiden Kickstart",
+    "description": "Our 28-day beginner program for people without experience. Personal coaching, safe progression, at your own pace.",
+    "important": "<strong>Important:</strong> You always start with a free intro. In that conversation, we check together if the Kickstart is the best start for you.",
+    "forWho": {
+      "title": "Who is the Kickstart for?",
+      "item1": "Beginners without experience",
+      "item2": "Busy parents seeking structure",
+      "item3": "People who haven't exercised in a while",
+      "item4": "People with concerns or minor aches"
+    },
+    "whatsIncluded": {
+      "title": "What's included in the Kickstart?",
+      "item1": "2–3 classes per week, at your level",
+      "item2": "Personal coaching & technique training",
+      "item3": "Nutrition & lifestyle basics",
+      "item4": "Check-ins & progress conversations"
+    },
+    "howToStart": {
+      "title": "How to get started?",
+      "step1Title": "Free Intro",
+      "step1Text": "20 min to meet. No workout, just a conversation.",
+      "step2Title": "Kickstart explanation",
+      "step2Text": "We explain the Kickstart and check together if it fits you.",
+      "step3Title": "Start Kickstart",
+      "step3Text": "Does it click? Then you start the Kickstart at your own time."
+    },
+    "testimonials": {
+      "title": "Starter experiences",
+      "matthew": {
+        "text": "Just completed the intake month – what a great experience. Max explained everything so clearly and kept it fun. If you're thinking about it, just book. The environment is incredibly welcoming.",
+        "name": "Matthew, 43",
+        "subtitle": "Father of 4 kids"
+      },
+      "liselotte": {
+        "text": "I'm so glad I started training here. After one month of small-group training and nutrition guidance, I already feel fitter and have more energy. The coaches are professional and relaxed.",
+        "name": "Liselotte, 42",
+        "subtitle": "Mother of a young child"
+      },
+      "julia": {
+        "text": "If you're hesitating: DO IT. I started the Kickstart at the end of October and it changed everything. After four weeks of coaching and community, I feel fitter, stronger and honestly happier.",
+        "name": "Julia, 44",
+        "subtitle": "Mom with low energy"
+      }
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "subtitle": "Schedule a free conversation. No obligations, just getting to know each other.",
+      "button": "Schedule a Free Intro"
+    }
+  },
+  "programs": {
+    "hero": {
+      "title": "Our Programs",
+      "subtitle": "From regular group classes to special programs – we have something for everyone. Every program is fully adaptable to your level, experience, and goals."
+    },
+    "intro": {
+      "title": "Where do you want to start?",
+      "subtitle": "New to training? No problem – our <strong>group classes</strong> are perfect to start. Already experienced or looking for something specific? Then our special programs might be for you!"
+    },
+    "kickstart": {
+      "badge": "START HERE",
+      "title": "Kickstart Program",
+      "description": "Perfect for beginners! 4-week intensive onboarding where you learn everything about CrossFit in small groups. After completion, you're ready for group classes.",
+      "feature1": "4 weeks of intensive coaching",
+      "feature2": "Max 5 people per group",
+      "feature3": "Includes nutrition advice",
+      "feature4": "No experience needed",
+      "link": "More about Kickstart"
+    },
+    "groupClasses": {
+      "badge": "MOST POPULAR",
+      "title": "CrossFit Group Classes",
+      "description": "The foundation and favorite of 90% of our members. Train together in a group where everyone encourages each other. Perfect for beginners and advanced!",
+      "feature1": "60 minutes per class, everything included",
+      "feature2": "Max 14 people - personal attention",
+      "feature3": "Fully adapted to your level",
+      "feature4": "Multiple times available every day",
+      "link": "More about Group Classes",
+      "ctaLink": "Or schedule a free intro right away →"
+    },
+    "personal": {
+      "title": "Personal Training",
+      "description": "1-on-1 guidance for specific goals, injuries, or if you want extra attention. Your coach, your training, your pace.",
+      "feature1": "Custom personal training plan",
+      "feature2": "Focus on your specific goals",
+      "feature3": "Perfect technique refinement",
+      "feature4": "Flexible scheduling",
+      "link": "More about Personal Training"
+    },
+    "special": {
+      "title": "Special Programs",
+      "subtitle": "Looking for something specific? These programs combine group classes with extra focus on specific goals.",
+      "smallGroup": {
+        "title": "Small Group Training",
+        "description": "Train with max 5 people and get a customized program. Includes GetShredded and Unlock Motion."
+      },
+      "hyrox": {
+        "title": "HYROX Training",
+        "description": "Preparation for Hyrox races. Combined conditioning and strength training for this popular event."
+      },
+      "fysiofabriek": {
+        "title": "Fysiofabriek",
+        "description": "Professional physiotherapy and rehabilitation. Specialized guidance for injuries and pain."
+      },
+      "nutrition": {
+        "title": "Nutrition",
+        "description": "80% of results come from nutrition. Learn to eat healthy without strict diets. For busy people!"
+      }
+    },
+    "youth": {
+      "title": "For Young Athletes",
+      "subtitle": "Because fit kids become fit adults. Our youth programs are specially designed for different age groups.",
+      "preTeens": {
+        "title": "Pre-teens (8-12 years)",
+        "description": "Learning to move in a fun, playful way. Basic techniques and group dynamics."
+      },
+      "teens": {
+        "title": "Teens (13-17 years)",
+        "description": "Building strength and conditioning in a safe environment. Focus on technique and healthy habits."
+      },
+      "sportPerformance": {
+        "title": "Sport & Performance",
+        "description": "For young athletes who want to improve in their sport. Functional conditioning."
+      }
+    },
+    "schedule": {
+      "title": "Flexible Schedule",
+      "subtitle": "We offer multiple class times daily, from early morning to late evening. There's always a time that fits you!",
+      "morning": "Morning",
+      "morningTime": "06:00 - 09:00",
+      "afternoon": "Afternoon",
+      "afternoonTime": "12:00 - 13:00",
+      "evening": "Evening",
+      "eveningTime": "17:00 - 21:00",
+      "link": "View Full Schedule"
+    },
+    "whyUs": {
+      "title": "Why CrossFit Leiden?",
+      "subtitle": "What makes our training different from a regular gym?",
+      "feature1": "<strong>Small groups (max 14 people)</strong> – No massive gyms where you're on your own. Here you get personal attention.",
+      "feature2": "<strong>Professional coaching</strong> – Every class is led by certified coaches who improve your technique and motivate you.",
+      "feature3": "<strong>Functional movements</strong> – We train movements that also help you in daily life (lifting, bending, carrying, running).",
+      "feature4": "<strong>Variety</strong> – Every day is different. You never get bored and your body stays challenged.",
+      "feature5": "<strong>Community</strong> – You don't train alone, but with a group that supports and motivates each other. That makes the difference!"
+    },
+    "cta": {
+      "title": "Still hesitating?",
+      "subtitle": "Schedule a free intro and experience yourself why so many people train here. No obligations, just getting to know each other and seeing if it's a fit!",
+      "button": "Schedule My Free Intro"
+    }
+  },
+  "schedule": {
+    "hero": {
+      "title": "Class Schedule",
+      "subtitle": "From early morning to late evening – there's always a time that fits. All classes are suitable for every level!"
+    },
+    "ourClasses": {
+      "title": "Our Classes",
+      "subtitle": "At CrossFit Leiden we have a wide range of classes. From intense group classes to personal small group training – there's something for everyone."
+    },
+    "groupClasses": {
+      "title": "Group Classes",
+      "training": {
+        "title": "Training",
+        "description": "General CrossFit-style training. Full body workout, suitable for all levels. The perfect mix of strength, conditioning and technique.",
+        "for": "For: Beginners and advanced, 18+"
+      },
+      "hyrox": {
+        "title": "Hyrox",
+        "description": "Inspired by HYROX races: lots of conditioning, sled pushes, lunges, ski, row and more. Train for your next race!",
+        "for": "For: Athletes who want to work on HYROX or improve their endurance"
+      },
+      "flexFriday": {
+        "title": "Flex Friday",
+        "description": "More playful Friday workout with focus on fun, teamwork and ending the work week. Less serious, more fun!",
+        "for": "For: All members who want to end the week socially and actively"
+      },
+      "running": {
+        "title": "Running",
+        "description": "Outdoor running training, focus on technique, pace and endurance. From beginner to marathon preparation.",
+        "for": "For: Members who want to improve their running, beginners welcome"
+      },
+      "olympicLifting": {
+        "title": "Olympic Lifting",
+        "description": "Focus on weightlifting: snatch, clean & jerk with lots of technique coaching. Get stronger and improve your technique.",
+        "for": "For: Members who want to get stronger and work on their technique"
+      },
+      "teens": {
+        "title": "Teens",
+        "description": "Safe and playful training for teenagers. Focus on movement, strength and confidence in a positive environment.",
+        "for": "For: Teenagers (13-17 years)"
+      },
+      "preTeens": {
+        "title": "Pre Teens",
+        "description": "Training for younger kids with lots of fun and basic movements. Learn to move, get strong and exercise together!",
+        "for": "For: Children (9-12 years)"
+      },
+      "urbanTraining": {
+        "title": "Urban Training",
+        "description": "Outdoor training in the city, using the environment and obstacles. Fresh air, new challenges!",
+        "for": "For: Members who want to train outside and enjoy variety"
+      },
+      "mobility": {
+        "title": "Mobility",
+        "description": "Calm class with focus on mobility, flexibility and better movement. Perfect for recovery and injury prevention.",
+        "for": "For: Everyone with stiff shoulders/hips who wants to recover better"
+      },
+      "gymnastics": {
+        "title": "Gymnastics",
+        "description": "Focus on bodyweight skills: pull-ups, handstands, dips and core. Get technically stronger in gymnastic movements.",
+        "for": "For: Members who want to get stronger and technically better at gymnastics"
+      }
+    },
+    "smallGroup": {
+      "title": "Small Group / Semi-Private",
+      "badge": "Small Group",
+      "getShredded": {
+        "title": "GetShredded",
+        "description": "Small group program with focus on weight loss, getting leaner and conditioning. Max 5 people, personal attention.",
+        "for": "For: Members who want to lose body fat and feel fitter"
+      },
+      "unlockMotion": {
+        "title": "Unlock Motion",
+        "description": "Small group program focused on better movement, pain-free training and mobility. Ideal for complaints or limitations.",
+        "for": "For: Members with aches, limitations or focus on technique and movement quality"
+      },
+      "kickstart": {
+        "title": "Kickstart",
+        "description": "Onboarding program for new members. Safe progression of movements, extra coaching and guidance in small group.",
+        "for": "For: Complete beginners and people who want to start safely and gradually"
+      }
+    },
+    "scheduleInfo": {
+      "intro": "Below you see our current schedule. Not a member yet? Start with a free intro!",
+      "link": "Schedule a free intro →"
+    },
+    "selector": {
+      "groupClasses": {
+        "title": "Group Classes",
+        "subtitle": "All levels • Max 14 people • 60 minutes",
+        "badge": "Active schedule ✓"
+      },
+      "smallGroup": {
+        "title": "Small Group",
+        "subtitle": "2-4 people • Personal attention • Customized",
+        "badge": "Active schedule ✓"
+      }
+    },
+    "tips": {
+      "title": "Good to know",
+      "tip1": {
+        "title": "🕐 When should I arrive?",
+        "text": "Come 5-10 minutes before class. That way you have time to change and start relaxed."
+      },
+      "tip2": {
+        "title": "📱 Do I need to sign up?",
+        "text": "Yes, via our app or website. This way we can ensure the group doesn't get too big (max 14 people)."
+      },
+      "tip3": {
+        "title": "❓ Which class is best for beginners?",
+        "text": "All classes are suitable! Coaches adjust exercises to your level. The Saturday morning class has extra focus on beginners."
+      },
+      "tip4": {
+        "title": "🔄 Can I cancel a class?",
+        "text": "Yes, up to 2 hours in advance via the app. No worries if something comes up – we understand!"
+      }
+    },
+    "cta": {
+      "title": "See a time that fits you?",
+      "subtitle": "Try it first with a free intro. We'll show you the box, answer all your questions and together we'll see which class times fit you best!",
+      "button": "Schedule My Free Intro"
+    },
+    "questions": {
+      "text": "No idea which time fits you or have questions about the schedule? <a>Send us a message</a> – we're happy to help!",
+      "link": "Send us a message"
+    }
+  },
+  "testimonials": {
+    "hero": {
+      "title": "Real people. Real results.",
+      "subtitle": "At CrossFit Leiden, regular people with full schedules train. No fitness influencers, no protein shakes on Instagram. Just people who want to get fitter, stronger and healthier."
+    },
+    "videoStories": {
+      "title": "Watch their stories",
+      "subtitle": "Regular people who chose themselves"
+    },
+    "wordCloud": {
+      "title": "What our members mention most in their reviews",
+      "subtitle": "Based on hundreds of 5-star reviews on Google",
+      "link": "Read all reviews on Google",
+      "words": {
+        "coaches": "coaches",
+        "community": "community",
+        "friendly": "friendly",
+        "personal": "personal",
+        "atmosphere": "atmosphere",
+        "welcome": "welcome",
+        "support": "support",
+        "technique": "technique",
+        "guidance": "guidance",
+        "energy": "energy",
+        "fun": "fun",
+        "results": "results",
+        "hyrox": "hyrox"
+      }
+    },
+    "gallery": {
+      "title": "Our community in pictures",
+      "photos": {
+        "photo1": "A moment of peace in the middle of adventure. Coach Sem paddles down the Lesse during our annual Ardennes weekend. Fresh air, laughter and trying something new together.",
+        "photo2": "Our community goes beyond the box. During this via ferrata weekend in Austria, member Richard took us into the mountains. Exciting, safe and especially beautiful.",
+        "photo3": "Camp Stoof. Almost 20 hours of pushing through together, laughing, cursing and growing. Jeffrey took ten CFLers on a mental and physical journey no one will ever forget.",
+        "photo4": "Coach Rochelle gives teenagers the confidence to move, learn and have fun. Still at our old location here, but the energy is always the same.",
+        "photo5": "Coach Sem shows that proper lifting doesn't have to be difficult. Step by step, safe and clear. This is how you build strength you'll use for the rest of your life.",
+        "photo6": "Training with us is hard work, but mainly lots of fun. Coach Sem laughs more than he squats, and that says enough.",
+        "photo7": "In the GetShredded small group program, coach Jeffrey helps you squat stronger than you ever thought. Technique first, weight comes later.",
+        "photo8": "A warm farewell for coach Wouter. Our community doesn't just celebrate workouts, but especially people.",
+        "photo9": "Coach Jari trains weekly with Leiden South Fire Department so they can keep the city safe. Functional training in real life.",
+        "photo10": "Every class at least one high five. Often more. Because training together feels better than alone.",
+        "photo11": "During wall balls, coach Jeffrey stands behind you. For technique, for pace, but especially for mental support.",
+        "photo12": "Our coaching team during the annual gala. No workout clothes, but the same fun atmosphere.",
+        "photo13": "Collecting high fives after every class. Simple ritual, big impact. You always go home with a smile.",
+        "photo14": "Hyrox simulations are most fun with a buddy. Sweating, laughing and exploring your limits.",
+        "photo15": "In 2025 we qualified for the National Dragon Boat Championship. A team that had never rowed before, but gave everything together.",
+        "photo16": "You never train alone. There's always someone next to you joining in, helping or laughing.",
+        "photo17": "Coach Max shows you the way. Clear explanation, calm energy and always attention for you.",
+        "photo18": "Mother and daughter doing a Hyrox simulation together. So beautiful to see what training together can do.",
+        "photo19": "The mother of our GM Saskia proves that joy in movement knows no age. Especially when there's a rower involved.",
+        "photo20": "Running with your daughter. Small moments, big memories. This is what we do it for.",
+        "photo21": "Huub shows how to age fit and cheerfully. Strong, down-to-earth and faithfully on the floor every week."
+      }
+    },
+    "cta": {
+      "title": "Ready for your own story?",
+      "button": "Schedule a free intro"
+    }
+  },
+  "popups": {
+    "whatsapp": {
+      "close": "Close popup",
+      "title": "Chat with CrossFit Leiden",
+      "description": "Hi! Great that you want to get in touch. Click the button below to start a conversation via WhatsApp. We're happy to help! 💪",
+      "messageLabel": "Your message:",
+      "openButton": "Open WhatsApp",
+      "cancelButton": "Cancel"
+    },
+    "cta": {
+      "close": "Close popup",
+      "title": "Schedule your free No Sweat Intro",
+      "subtitle": "It's non-binding, takes 20 minutes and you don't have to work out.<br/>After filling in, you can directly choose a time that suits you.<br/><strong>Just getting to know each other over coffee.</strong>"
+    }
+  }
+}

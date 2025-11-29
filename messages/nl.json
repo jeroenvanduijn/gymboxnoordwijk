@@ -1,0 +1,977 @@
+{
+  "common": {
+    "readMore": "Lees meer",
+    "learnMore": "Meer informatie",
+    "contactUs": "Neem contact op",
+    "bookNow": "Boek nu",
+    "getStarted": "Start nu",
+    "allRightsReserved": "Alle rechten voorbehouden"
+  },
+  "header": {
+    "home": "Home",
+    "about": "Over ons",
+    "aboutCFL": "Over CrossFit Leiden",
+    "theTeam": "Het Team",
+    "ourLocation": "Onze Locatie",
+    "pricing": "Tarieven",
+    "programs": "Aanbod",
+    "kickstart": "Kickstart Programma",
+    "groupTraining": "Groepstraining",
+    "smallGroup": "Small Group Training",
+    "personalTraining": "Personal Training",
+    "hyrox": "HYROX",
+    "fysiofabriek": "Fysiofabriek",
+    "sportPerformance": "Sport & Performance",
+    "nutrition": "Voeding",
+    "teens": "Teens",
+    "preTeens": "Pre Teens",
+    "schedule": "Rooster",
+    "blog": "Blog",
+    "events": "Events",
+    "hyroxSimulation": "HYROX Simulation",
+    "testimonials": "Ervaringen",
+    "contact": "Contact",
+    "planFreeIntro": "Plan een Gratis Intro"
+  },
+  "footer": {
+    "tagline": "Everyday people, exceptionally strong",
+    "navigation": "Navigatie",
+    "info": "Info",
+    "dropIn": "Drop-in",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "cancelMembership": "Abonnement opzeggen"
+  },
+  "navigation": {
+    "home": "Home",
+    "aboutUs": "Over ons",
+    "programs": "Aanbod",
+    "schedule": "Rooster",
+    "testimonials": "Ervaringen",
+    "pricing": "Tarieven",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "googleReviews": "265 plus Google reviews van 5 sterren",
+      "title": "Meer energie voor jouw gezin én jezelf",
+      "subtitle": "Voor drukke ouders en professionals die weer fit willen worden, zonder oordeel en met begeleiding op jouw niveau. Geen ervaring nodig, we leren je alles stap voor stap.",
+      "cta": "Plan een Gratis Intro",
+      "ctaNote": "👉 Geen workout, gewoon een gesprek. Ontdek of CrossFit Leiden bij je past."
+    },
+    "why": {
+      "title": "Waarom CrossFit Leiden?",
+      "subtitle": "We snappen dat je druk bent en misschien al jaren niet meer gesport hebt. Daarom maken we het je makkelijk.",
+      "usp1Title": "Persoonlijke Begeleiding",
+      "usp1Text": "Onze coaches kennen je naam, letten op je techniek en begeleiden je stap voor stap. Je bent nooit zomaar een nummer.",
+      "usp2Title": "Perfect voor Beginners",
+      "usp2Text": "Je hoeft niet fit te zijn om te starten. We passen alles aan op jouw niveau – of je nu 35 of 55 bent.",
+      "usp3Title": "Warme, Hechte Community",
+      "usp3Text": "Sport met andere ouders en professionals. Hier support en moedig je elkaar aan – geen oordeel, alleen support.",
+      "usp4Title": "Veilig & Verantwoord",
+      "usp4Text": "Blessurepreventie staat voorop. We leren je de juiste techniek zodat je veilig sterker wordt, zonder risico.",
+      "usp5Title": "Past in je Drukke Schema",
+      "usp5Text": "Van vroege ochtend tot late avond – er is altijd een les die past. Lessen duren 1 uur, inclusief warming-up."
+    },
+    "howItWorks": {
+      "title": "Hoe werkt het?",
+      "subtitle": "Drie simpele stappen – geen verplichtingen, geen druk. Gewoon kennismaken.",
+      "step1Title": "Plan een Gratis Intro",
+      "step1Text": "Klik op de knop, kies een moment dat jou past en vul je gegevens in. Het duurt 30 seconden.",
+      "step2Title": "Ontspannen Gesprek (Geen Training!)",
+      "step2Text": "We leren je kennen, beantwoorden al je vragen en laten je onze box zien. In dit gesprek leggen we ook het Kickstart-programma uit en kijken we of dat bij jou past. Je hoeft niet te sporten – gewoon een kop koffie en een praatje.",
+      "step2Note": "💡 Dit noemen we een \"No Sweat Intro\" – letterlijk: geen zweten!",
+      "step3Title": "Jouw Persoonlijke Plan",
+      "step3Text": "Als het klikt, maken we samen een plan dat past bij jouw doelen en schema. Wil je nog even nadenken? Prima!",
+      "cta": "Plan Mijn Gratis Intro"
+    },
+    "socialProof": {
+      "title": "Zij gingen je voor"
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "subtitle": "Deze vragen krijgen we vaak. Herken je jezelf?",
+      "q1": "Ben ik wel fit genoeg om te beginnen met CrossFit?",
+      "a1": "Absoluut! Je hoeft helemaal niet fit te zijn om te starten. 80% van onze leden had geen enkele sportervaring toen ze begonnen. We passen elke oefening aan op jouw niveau – of je nu 20 jaar niet hebt gesport of juist wel actief bent.",
+      "q2": "Hoe vaak moet ik komen?",
+      "a2": "We raden 2–3 keer per week aan voor goede resultaten. Hoe vaak je kunt komen hangt af van je lidmaatschap: tot 6 keer per week. Focus op kwaliteit en regelmaat, niet op extreme uren.",
+      "q3": "Is CrossFit niet gevaarlijk? Ik wil geen blessures...",
+      "a3p1": "Begrijpelijk dat je dat denkt! Maar juist door onze begeleiding is CrossFit véél veiliger dan alleen sporten. We leren je eerst de juiste techniek met lichte gewichten. Pas als je beweging goed zit, gaan we verder. Blessurepreventie staat bij ons voorop.",
+      "a3p2": "We samenwerken met Fysiofabriek, een professionele fysiopraktijk die een eigen behandelruimte in onze gym heeft. Hierdoor kunnen we snel schakelen bij pijntjes, revalidatie of advies.",
+      "q4": "Ben ik niet te oud om te beginnen?",
+      "a4": "Helemaal niet! Onze leden zijn tussen de 20 en 65 jaar, met de meesten tussen 35-50. CrossFit is juist perfect voor \"oudere\" beginners omdat we alles aanpassen aan jouw lichaam en doelen. Je bent nooit te oud om sterker en gezonder te worden!",
+      "q5": "Heb ik echt geen tijd, met werk en kinderen...",
+      "a5": "We snappen dat! Daarom duren onze lessen precies 1 uur (inclusief warming-up en cooling-down). Onze lessen lopen van 06:00 tot 22:00, dus er is altijd een moment dat past. Veel leden komen voor het werk, in de lunchpauze of 's avonds als de kids op bed liggen.",
+      "q6": "Wat gebeurt er tijdens de Gratis Intro?",
+      "a6": "De intro duurt 20-30 minuten. We leren je kennen, praten over je doelen en zorgen, laten je de box zien en beantwoorden al je vragen. Je hoeft NIET te sporten tijdens deze intro – gewoon kennismaken. Daarna maken we samen een plan als je door wilt. Geen verplichtingen, geen druk!"
+    },
+    "footerCta": {
+      "title": "Zie je jezelf hier al sporten?",
+      "subtitle": "Plan je gratis intro – het is vrijblijvend, duurt 20 minuten en je hoeft niet te sporten. Gewoon kennismaken en kijken of het klikt. We kijken ernaar uit!",
+      "button": "Ja, ik wil kennismaken!"
+    }
+  },
+  "dropIn": {
+    "hero": {
+      "title": "Train een keer mee bij CrossFit Leiden",
+      "subtitle": "In de buurt of wil je onze box proberen? Boek een drop-in en doe mee op jouw niveau. Alleen voor ervaren CrossFitters.",
+      "cta": "Boek een Drop-in"
+    },
+    "howItWorks": {
+      "title": "Hoe werkt het?",
+      "step1Title": "Kies je les",
+      "step1Text": "Selecteer eerst de vestiging <strong>CrossFit Leiden</strong> in SportBit. Vervolgens kies je uit twee lesopties:",
+      "step1Option1": "<strong>\"Training\"</strong> (reguliere CrossFit WOD) – drop-in fee €30",
+      "step1Option2": "<strong>\"HYROX Training\"</strong> – €30 voor 60 minuten, €35 voor 90 minuten",
+      "step1Note": "Andere lessen zijn niet beschikbaar voor drop-ins.",
+      "step2Title": "Kies je tijd en boek",
+      "step2Text": "De beschikbare tijden verschijnen in de kalender. Vul je gegevens in, accepteer de voorwaarden en betaal direct bij het boeken. Er is geen cash of PIN in de gym.",
+      "step3Title": "Kom 10 minuten eerder",
+      "step3Text": "Meld je bij de coach. Rondleiding is afhankelijk van hoe druk de les is."
+    },
+    "practicalInfo": {
+      "title": "Praktische Info",
+      "priceTitle": "💶 Prijs",
+      "price1": "<strong>Training (WOD)</strong> – €30",
+      "price2": "<strong>HYROX 60 minuten</strong> – €30",
+      "price3": "<strong>HYROX 90 minuten</strong> – €35",
+      "priceNote": "Betalen gebeurt direct bij de boeking via SportBit. Geen cash of PIN.",
+      "whatToBringTitle": "🎒 Wat neem je mee?",
+      "bring1": "Sportkleding en schoenen",
+      "bring2": "Waterfles",
+      "bring3": "Handdoek voor douchen (optioneel)"
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "q1": "Kan ik ook als beginner een drop-in doen?",
+      "a1": "Nee. Drop-ins zijn alleen voor mensen met CrossFit-ervaring. Ben je helemaal nieuw? Plan dan eerst een gratis intro.",
+      "q2": "Wat kost een drop-in?",
+      "a2": "Afhankelijk van de les 30 tot 35 euro. Betaling gebeurt online tijdens de boeking.",
+      "q3": "Welke les kan ik het beste kiezen?",
+      "a3": "HYROX Training is vaak iets toegankelijker door minder technische bewegingen en meer conditie. Training (WOD) varieert per dag. Het kan kracht zijn, techniek of conditie. Beide opties zijn geschikt voor ervaren sporters.",
+      "q4": "Moet ik van tevoren boeken?",
+      "a4": "Ja. Je moet altijd vooraf boeken via de drop-in kalender zodat we plek voor je kunnen garanderen."
+    },
+    "cta": {
+      "title": "Klaar om een keer mee te trainen?",
+      "subtitle": "Boek je drop-in en ervaar de CrossFit Leiden sfeer!",
+      "button": "Boek een Drop-in"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact",
+      "subtitle": "Heb je vragen of wil je langskomen? We horen graag van je!"
+    },
+    "visitUs": {
+      "title": "Bezoek ons",
+      "address": "Adres",
+      "addressLine1": "Marie Diebenplaats 108",
+      "addressLine2": "2324 NG Leiden",
+      "addressNote": "(Makkelijk bereikbaar met voldoende parkeerruimte)",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "phoneNumber": "071 - 234 0477",
+      "openingHours": "Openingstijden",
+      "monFri": "Ma - Vr: 06:00 - 22:00",
+      "sat": "Za: 07:00 - 13:00",
+      "sun": "Zo: 08:00 - 13:00",
+      "followUs": "Volg ons"
+    },
+    "route": {
+      "title": "Route & Parkeren",
+      "byCar": "<strong>Met de auto:</strong> Ruime parkeergelegenheid voor de deur (inclusief invalide parkeerplek). €0,20 per uur van 07:30 - 19:30 op ma-vr. Voor de rest gratis parkeren.",
+      "byBike": "<strong>Met de fiets:</strong> Station Leiden Centraal op 10 minuten fietsen. Station Leiden Lammerschans op 3 minuten fietsen.",
+      "byPublicTransport": "<strong>Met openbaar vervoer:</strong> Bushalte op 800 meter afstand."
+    },
+    "form": {
+      "title": "Stuur ons een bericht"
+    },
+    "map": {
+      "title": "Vind ons op de kaart"
+    },
+    "welcome": {
+      "title": "Loop gerust eens binnen!",
+      "text": "Loop gerust eens binnen om de sfeer te proeven. Je vindt ons aan de zuidkant van het sportcomplex met onze eigen ingang. De koffie staat klaar. ☕",
+      "introQuestion": "Wil je direct een <strong>gratis intro</strong> plannen?",
+      "introLink": "Klik hier →"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Gewone mensen, buitengewone resultaten",
+      "subtitle": "CrossFit Leiden is een plek waar drukke ouders, young professionals, studenten, expats en mensen die lang niet hebben gesport samen sterker worden. Geen oordeel, geen druk. Gewoon samen trainen en groeien."
+    },
+    "whyDifferent": {
+      "title": "Waarom CrossFit Leiden anders is",
+      "p1": "We zijn geen typische sportschool. CrossFit Leiden is opgericht vanuit een simpele gedachte: <strong>iedereen moet zich welkom voelen om te sporten</strong>, ongeacht je leeftijd, fitheid of ervaring.",
+      "p2": "Geen macho-cultuur of intimiderende sfeer. Hier train je naast ouders die na het kinderbedtijd nog komen, young professionals die voor hun werk komen, studenten die hun eerste barbell oppakken, expats die een nieuwe community zoeken, en mensen die 10 of 20 jaar niet hebben gesport. Ook leden die specifiek voor Hyrox trainen of extra uitdaging zoeken vinden hier hun plek. <strong>Iedereen begint ergens</strong>, en wij helpen je op weg.",
+      "p3": "We begrijpen hoe het voelt om te twijfelen: \"Ben ik wel fit genoeg?\", \"Heb ik wel tijd?\", \"Pas ik hier wel?\" Het antwoord is altijd: <strong>ja!</strong> Onze community is gebouwd op support, niet op oordeel. Hier kennen we elkaars naam, vieren we elkaars successen (groot of klein), en moedigen we elkaar aan.",
+      "p4": "We trainen niet alleen in de gym. We gaan ook samen uitdagingen aan buiten de box: Hyrox events, runs, outdoor challenges en trips. De gym is het middel, maar het doel is dat je sterker en zelfverzekerder in je leven staat."
+    },
+    "story": {
+      "title": "Het verhaal achter CrossFit Leiden",
+      "p1": "Ik ben Jeroen, oprichter van CrossFit Leiden.",
+      "p2": "Voordat ik deze gym startte, werkte ik op kantoor als business controller bij Samsung. Ik zat hele dagen achter een bureau, voelde me steeds minder fit, werd zwaarder en merkte dat mijn zelfvertrouwen langzaam wegzakte. Ik was niet diep ongelukkig, maar ik voelde heel duidelijk: dit is het niet voor mij.",
+      "p3": "Rond 2013 zag ik online een video van iemand die CrossFit deed. Iemand die vol zelfvertrouwen aan het sporten was. Ik voelde meteen: dat mis ik. Kort daarna ben ik begonnen met trainen, eerst bij CrossFit Bink en later bij Gymbox Noordwijk. Langzaam veranderde alles. Ik werd sterker, fitter en vooral veel zekerder in mijn lijf. Die energie sloeg ook over op mijn vriendin, nu mijn vrouw.",
+      "p4": "Op een gegeven moment wist ik: ik wil niet alleen cijfers in Excel beter maken, ik wil mensen beter laten voelen in hun eigen lichaam. In 2016 ben ik samen met Kees Houwaart, eigenaar van Gymbox Noordwijk, CrossFit Leiden gestart.",
+      "p5": "Sindsdien hebben we al meer dan 3.000 mensen mogen helpen. We hebben zo veel geleerd, zo veel verhalen gehoord en een community gebouwd waar ik zelf elke dag trots binnenstap.",
+      "p6": "Inmiddels ben ik vader van twee kinderen en zie ik nog duidelijker hoe belangrijk het is dat mensen sterk en gezond blijven. We leven in een tijd waarin we bouwers nodig hebben: mensen met energie, veerkracht en plezier in wat ze doen. Ik wil dat CrossFit Leiden een positieve vuurtoren is in de stad. Een plek waar energie begint en zich verspreidt naar gezinnen, bedrijven en de straten van Leiden.",
+      "p7": "Daarom is onze missie heel concreet: de komende tien jaar willen we in Leiden elke maand ongeveer tien mensen veilig laten starten. Dat zijn zo'n 120 nieuwe leden per jaar, en uiteindelijk rond de 1.200 gezinnen en ongeveer 4.800 mensen die we helpen om sterker, positiever en energieker in het leven te staan.",
+      "p8": "Dat doen we niet met snelle trucs, maar met goede coaching, een sterke community en trainingen die je volhoudt. In de gym bouwen we aan kracht en vertrouwen, zodat jij daarbuiten meer durft: nieuwe uitdagingen aangaan, avonturen beleven, zakelijk groeien of gewoon weer met plezier achter je kinderen aanrennen.",
+      "p9": "CrossFit Leiden is daarvoor het middel. Een tweede huiskamer waar je je gezien voelt, waar je elkaar leert kennen en waar je elke week een beetje sterker wegloopt dan je binnenkwam."
+    },
+    "mission": {
+      "title": "Onze missie",
+      "statement": "De komende 10 jaar willen we 4800 mensen helpen om sterker, positiever en energieker te worden."
+    },
+    "values": {
+      "title": "Waar we voor staan",
+      "community": {
+        "title": "Community > Competitie",
+        "text": "We zijn geen competitie-gym. Hier train je samen, moedig je elkaar aan en vier je elkaars vooruitgang. Vriendschap staat voorop."
+      },
+      "everyone": {
+        "title": "Iedereen Welkom",
+        "text": "Of je nu 25 of 55 bent, fit of niet, ervaren of beginner – je bent hier welkom zoals je bent. Wij passen ons aan jou aan.",
+        "list1": "• Drukke ouders die tussen werk en gezin trainen",
+        "list2": "• Young professionals en studenten",
+        "list3": "• Expats die hun community zoeken",
+        "list4": "• Mensen die 10-20 jaar niet hebben gesport",
+        "list5": "• Members die Hyrox of extra uitdaging willen"
+      },
+      "personal": {
+        "title": "Persoonlijke Aandacht",
+        "text": "Je bent geen nummer bij ons. Onze coaches kennen je naam, je doelen en je uitdagingen. We begeleiden je persoonlijk.",
+        "list1": "• Small group training voor extra begeleiding",
+        "list2": "• Beginnersprogramma's om veilig te starten",
+        "list3": "• Coaches die meedenken en aanpassen",
+        "list4": "• Je staat er nooit alleen voor"
+      },
+      "teamLink": "Ontmoet ons team"
+    },
+    "cta": {
+      "title": "Wil je ons leren kennen?",
+      "subtitle": "Plan een gratis intro en ontmoet ons team, zie de box en ervaar de sfeer. Geen sporten, gewoon kennismaken over een kop koffie. We kijken ernaar uit!",
+      "button": "Plan een Gratis Intro"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "Investeer in je gezondheid voor maar €4,50 per dag",
+      "subtitle": "Persoonlijke coaching in kleine groepen, een warme community en maandelijks opzegbare memberships. Geen verborgen kosten.",
+      "button": "Plan Gratis Intro",
+      "imageAlt": "CrossFit Leiden gym"
+    },
+    "comparison": {
+      "title": "Waar ga je het aan uit?",
+      "coffee": {
+        "emoji": "☕",
+        "title": "Dagelijkse flat white",
+        "price": "€100",
+        "period": "per maand"
+      },
+      "dining": {
+        "emoji": "🍽️",
+        "title": "1x per week uit eten",
+        "price": "€320",
+        "period": "per maand"
+      },
+      "streaming": {
+        "emoji": "📺",
+        "title": "Streaming",
+        "price": "€50",
+        "period": "per maand"
+      },
+      "crossfit": {
+        "emoji": "💪",
+        "title": "CrossFit Leiden",
+        "price": "€135",
+        "period": "per maand"
+      },
+      "message": "Je betaalt óf nu aan je gezondheid, óf later aan klachten, weinig energie en zorgkosten. Bij ons bouw je rustig en veilig aan een fitter leven."
+    },
+    "programs": {
+      "title": "Onze Programma's",
+      "subtitle": "Klik op een programma voor meer informatie en prijzen",
+      "kickstart": {
+        "title": "28-Day Kickstart",
+        "subtitle": "Perfect voor beginners",
+        "price": "€600",
+        "period": "eenmalig",
+        "description": "Voor beginners of mensen die veilig willen opbouwen. Je traint in kleine groepen, leert de basis en krijgt begeleiding van meerdere coaches. We bouwen rustig op zodat je vertrouwen groeit.",
+        "included": "Inclusief:",
+        "item1": "2 small group sessies per week",
+        "item2": "1 groepsles per week",
+        "item4": "Persoonlijke coaching en voedingsdoelen",
+        "item5": "Groepssupport"
+      },
+      "group": {
+        "title": "Group Coaching",
+        "subtitle": "max 14 personen • elke les gecoacht",
+        "description": "Bij ons train je nooit alleen. Onze coaches kennen je naam, helpen je veilig te bewegen en zorgen dat elke les past bij jouw niveau. De sfeer is warm, persoonlijk en zonder ego's. Je bouwt stap voor stap aan kracht, energie en vertrouwen.",
+        "base": {
+          "title": "Base Membership",
+          "price": "€135",
+          "period": "per maand",
+          "item1": "3 groepslessen per week",
+          "item2": "Elke 90 dagen Goal Review",
+          "item3": "Toegang tot workshops & community events",
+          "item4": "Gratis 10-min fysiocheck",
+          "item5": "Koffie, fruit & douches inbegrepen"
+        },
+        "pro": {
+          "title": "Pro Membership",
+          "price": "€159",
+          "period": "per maand",
+          "item1": "4 groepslessen per week",
+          "item2": "Inclusief alles uit Base"
+        },
+        "elite": {
+          "title": "Elite Membership",
+          "price": "€169",
+          "period": "per maand",
+          "item1": "6 groepslessen per week",
+          "item2": "Inclusief alles uit Base"
+        },
+        "note": "Nieuw bij ons? Tijdens een gratis Intro kijken we welke optie bij jou past."
+      },
+      "small": {
+        "title": "GetShredded",
+        "subtitle": "Small Group / Semi-Private",
+        "description": "Small Group voelt als personal training met de energie van een kleine groep. Je traint op vaste tijden met een coach die precies weet wat jij nodig hebt. Perfect voor wie sneller resultaat wil en meer persoonlijke begeleiding zoekt.",
+        "tier3": {
+          "title": "3x per week",
+          "price": "€450",
+          "period": "per maand",
+          "period2": "of €400 (6 maanden)",
+          "item1": "3 semi-private sessies",
+          "item2": "Persoonlijk trainingsplan",
+          "item3": "Vaste plek",
+          "item4": "Inclusief alles uit Base"
+        },
+        "tier2": {
+          "title": "2x per week",
+          "price": "€400",
+          "period": "per maand",
+          "item1": "2 semi-private sessies",
+          "item2": "Persoonlijk plan",
+          "item3": "Inclusief 2 groepslessen per week"
+        },
+        "note": "Onze meest resultaatgerichte vorm van coaching."
+      },
+      "unlock": {
+        "title": "Unlock Motion",
+        "subtitle": "Small Group / Semi-Private (UnlockMotion)",
+        "price": "€1575",
+        "period": "12 weken",
+        "description": "Voor mensen met terugkerende pijn of fysieke beperkingen. Je traint 12 weken in een kleine groep aan mobiliteit, kracht en bewegingskwaliteit, met een plan dat helemaal op jouw lichaam is afgestemd."
+      },
+      "bodyApk": {
+        "title": "Body APK",
+        "subtitle": "intake voor UnlockMotion — inbegrepen bij UnlockMotion",
+        "price": "€220",
+        "description": "Een volledige check van je houding, mobiliteit en bewegingen. Je ontdekt waarom je klachten hebt (of krijgt) en krijgt een duidelijk actieplan."
+      },
+      "pt": {
+        "title": "Personal Training",
+        "subtitle": "Punchcards • 1-op-1 coaching",
+        "description": "Voor wie 1-op-1 wil werken aan techniek, blessureherstel of specifieke doelen. Helemaal afgestemd op jou, flexibel in te plannen en ideaal voor snelle progressie.",
+        "pt60": {
+          "title": "60 minuten PT",
+          "tier1": "5 sessies",
+          "price1": "€450",
+          "tier2": "10 sessies",
+          "price2": "€800"
+        },
+        "pt30": {
+          "title": "30 minuten PT",
+          "tier1": "5 sessies",
+          "price1": "€225",
+          "tier2": "10 sessies",
+          "price2": "€400"
+        }
+      },
+      "skill": {
+        "title": "Monthly Private Coaching",
+        "subtitle": "Skill development • maandelijks",
+        "description": "Elke maand een privé coachmoment waarin je werkt aan techniek, kracht, mobiliteit of herstel. Simpel, duidelijk en super effectief om gericht stappen te zetten.",
+        "skill1": "Skill 1",
+        "price1": "€90 p/m",
+        "skill2": "Skill 2",
+        "price2": "€175 p/m",
+        "skill4": "Skill 4",
+        "price4": "€370 p/m"
+      },
+      "nutritionKickstart": {
+        "title": "Nutrition Kickstart",
+        "subtitle": "4 weken programma",
+        "price": "€200",
+        "period": "4 weken",
+        "description": "Samen met je coach werk je vier weken aan simpele, haalbare voedingsgewoontes. Geen ingewikkelde regels, maar duidelijke begeleiding en dagelijks contact.",
+        "included": "Inclusief:",
+        "item1": "Persoonlijke targets",
+        "item2": "Dagelijkse accountability",
+        "item4": "Groepssupport"
+      },
+      "nutrition": {
+        "title": "Nutrition Membership",
+        "subtitle": "Langdurige begeleiding",
+        "price": "€350",
+        "period": "per maand",
+        "description": "Voor wie langdurig structuur wil op voeding en leefstijl."
+      },
+      "teens": {
+        "title": "Teens Membership",
+        "subtitle": "Voor tieners",
+        "description": "Veilige en leuke trainingen die tieners sterker, fitter en zelfverzekerder laten worden.",
+        "tier1": "1x per week",
+        "price1": "€42,50 p/m",
+        "tier2": "2x per week",
+        "price2": "€80 p/m"
+      },
+      "baseWeekend": {
+        "title": "Base Weekend",
+        "subtitle": "2-daags trainingsweekend",
+        "price": "€599",
+        "description": "Een 2-daags trainingsweekend waarin je leert bewegen zoals onze coaches trainen. Praktisch, leerzaam en perfect voor sportliefhebbers die dieper willen begrijpen hoe het lichaam werkt."
+      },
+      "flex": {
+        "title": "Flex Friday",
+        "subtitle": "Vriend meenemen",
+        "time": "Elke vrijdag",
+        "schedule": "12:00 en 20:00",
+        "description": "Leden mogen tijdens deze les een vriend meenemen. Ontspannen, sociaal en de perfecte manier om iemand kennis te laten maken met CFL."
+      }
+    },
+    "reviews": {
+      "title": "Wat zeggen onze leden?"
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "q1": "Moet ik fit zijn om te starten?",
+      "a1": "Nee, je begint op jouw niveau. Wij begeleiden je stap voor stap.",
+      "q2": "Kan ik pauzeren bij vakantie of drukte?",
+      "a2": "Ja, gewoon even laten weten en we regelen het.",
+      "q3": "Hoe werkt betalen?",
+      "a3": "Automatische incasso. Geen inschrijfkosten. Geen kleine lettertjes.",
+      "q4": "Wat maakt CrossFit Leiden anders dan een normale sportschool?",
+      "a4": "Kleine groepen, persoonlijke coaching, warme community. Bij ons hoef je het niet alleen te doen."
+    },
+    "cta": {
+      "title": "Klaar om in jezelf te investeren?",
+      "subtitle": "Plan je gratis intro en kom kennismaken. Geen verplichtingen, gewoon ontdekken of CrossFit Leiden bij jou past.",
+      "button": "Plan Gratis Intro"
+    }
+  },
+  "location": {
+    "hero": {
+      "title": "Onze Locatie",
+      "subtitle": "Makkelijk bereikbaar in Leiden, met veel parkeerruimte direct voor de deur.",
+      "imageAlt": "CrossFit Leiden faciliteit"
+    },
+    "addressContact": {
+      "title": "Adres & Contact",
+      "addressTitle": "Adres",
+      "name": "CrossFit Leiden",
+      "street": "Marie Diebenplaats 108",
+      "city": "2324 NG Leiden",
+      "googleMaps": "Bekijk op Google Maps",
+      "contactTitle": "Contact",
+      "hoursTitle": "Openingstijden lessen",
+      "monFri": "Maandag t/m vrijdag:",
+      "monFriHours": "06:00 - 22:00",
+      "sat": "Zaterdag:",
+      "satHours": "07:00 - 13:00",
+      "sun": "Zondag:",
+      "sunHours": "08:00 - 13:00",
+      "scheduleNote": "Controleer altijd het <a>rooster</a> voor actuele lestijden."
+    },
+    "practicalInfo": {
+      "title": "Praktische Info",
+      "parking": {
+        "title": "Parkeren",
+        "item1": "• Ruime parkeergelegenheid direct voor de deur",
+        "item2": "• Maandag t/m vrijdag van 07:30 tot 19:30 parkeer je de eerste twee uur voor €0,20 per uur",
+        "item3": "• Daarna geldt het normale tarief van de gemeente",
+        "item4": "• Op zaterdag en zondag is parkeren gratis",
+        "item5": "• Er is een invalide parkeerplek direct voor de deur"
+      },
+      "fysiofabriek": {
+        "title": "Fysiofabriek in-house",
+        "text1": "We hebben een professionele fysiopraktijk direct in onze gym. Bij pijntjes, blessures of revalidatie kun je snel terecht.",
+        "text2": "Voor leden zijn er gratis inloopuren, zodat je laagdrempelig even kunt laten checken wat er aan de hand is.",
+        "link": "Meer over Fysiofabriek"
+      },
+      "facilities": {
+        "title": "Faciliteiten",
+        "item1": "• Professionele CrossFit apparatuur",
+        "item2": "• Ruime kleedkamers en douches",
+        "item3": "• Klimaatbeheersing",
+        "item4": "• Gratis wifi voor leden",
+        "item5": "• Waterstation om je bidon te vullen",
+        "item6": "• Gratis koffie en thee in de lounge",
+        "item7": "• Toiletten",
+        "item8": "• Rolstoeltoegankelijke entree",
+        "item9": "• Buitenruimte met rubberen tegels",
+        "item10": "• Hardloopmogelijkheden buiten"
+      }
+    },
+    "gallery": {
+      "title": "Een kijkje in onze gym",
+      "subtitle": "Krijg een indruk van onze gym, lounge en trainingsruimte.",
+      "clickToEnlarge": "Klik op een foto voor een grotere weergave",
+      "imageAlt": "CrossFit Leiden faciliteit",
+      "prevButton": "Vorige foto's",
+      "nextButton": "Volgende foto's",
+      "closeButton": "Sluit"
+    },
+    "map": {
+      "title": "Vind ons",
+      "address": "Marie Diebenplaats 108, 2324 NG Leiden"
+    },
+    "cta": {
+      "title": "Kom langs voor een gratis intro",
+      "subtitle": "Nieuwsgierig? Plan je gratis intro en kom de gym, het team en de sfeer ontdekken.",
+      "button": "Plan een Gratis Intro"
+    }
+  },
+  "team": {
+    "hero": {
+      "title": "Ontmoet het Team",
+      "subtitle": "Kennismaken met de coaches die je begeleiden. Gewoon mensen met een passie voor beweging en community."
+    },
+    "owners": {
+      "intro": "CrossFit Leiden is opgericht door Kees en Jeroen, twee vrienden die geloven dat iedereen welkom moet zijn om te sporten.",
+      "title": "De Oprichters",
+      "kees": {
+        "name": "Kees Houwaart",
+        "bio": "Kees groeide op in een sportschool en ontdekte CrossFit in 2012. Hij startte in 2014 Gymbox Noordwijk. In 2015 richtte hij samen met Jeroen CrossFit Leiden op. Kees woont met zijn vrouw Nathalie en hun twee zoons Neal en Jake in Katwijk aan Zee."
+      },
+      "jeroen": {
+        "name": "Jeroen van Duijn",
+        "bio": "Jeroen was altijd actief, van voetbal tot surfen. In 2014 koos hij voor de fitnesswereld en trainde mensen in Chili voordat hij terugkwam naar Nederland. Samen met Kees bouwde hij CrossFit Leiden tot een plek waar iedereen zich thuis voelt. Jeroen woont met zijn vrouw Amanda en dochter Zoe in Katwijk aan Zee."
+      },
+      "story": "In 2015 startten Kees en Jeroen CrossFit Leiden met een simpel idee: een plek waar iedereen welkom is, ongeacht je niveau of ervaring. Wat begon als één gym is uitgegroeid tot een netwerk van sportscholen waar community voorop staat.",
+      "meetCta": "Wil je kennismaken met Kees, Jeroen en het team? Plan een gratis intro en kom een kopje koffie drinken."
+    },
+    "coaches": {
+      "title": "Ons Coach Team",
+      "saskia": {
+        "name": "Saskia",
+        "role": "General Manager",
+        "story": "Saskia kwam een paar jaar geleden naar CrossFit Leiden om van haar rugpijn af te komen, en het werkte zo goed dat ze van baan veranderde. Ze zorgt ervoor dat alles in de gym soepel loopt en dat iedereen zich welkom voelt."
+      },
+      "rochelle": {
+        "name": "Rochelle",
+        "role": "Lead Coach",
+        "story": "Rochelle is turncoach op nationaal niveau en brengt die expertise naar CrossFit Leiden. Ze is geweldig met kinderen en volwassenen, en helpt iedereen om bewegingen veilig te leren. Naast coaching bij ons, traint ze haar turnploeg voor wereldkampioenschappen."
+      },
+      "jeffrey": {
+        "name": "Jeffrey Perez Stoof",
+        "role": "GetShredded Lead Coach",
+        "story": "Jeffrey was profvoetballer voordat hij CrossFit coach werd. Hij snapt wat het betekent om te presteren én om je op je gemak te voelen. Jeffrey past zijn coaching aan op wat jij nodig hebt, of je nu uitdaging zoekt of juist rustig wilt opbouwen."
+      },
+      "jari": {
+        "name": "Jari Jansen",
+        "role": "Movement Specialist",
+        "story": "Jari geeft small group lessen, de Unlock Motion lessen en workshops. Hij helpt leden met pijn, beperkte mobiliteit of techniek. Als jij ergens last van hebt, is de kans groot dat Jari je kan helpen dit op te lossen."
+      },
+      "max": {
+        "name": "Max",
+        "role": "Kickstart Lead Coach",
+        "story": "Max heeft jaren ervaring als personal trainer en CrossFit coach. Hij houdt van wandelen en kamperen met zijn familie. Als coach creëert Max een leuke en positieve sfeer waar iedereen zich welkom voelt, ongeacht niveau."
+      },
+      "natalia": {
+        "name": "Natália",
+        "role": "Coach",
+        "story": "Natália komt uit Brazilië en verhuisde in 2022 naar Nederland. Met een diploma in bewegingswetenschappen en een passie voor hardlopen brengt ze creativiteit en positiviteit naar elke les. Ze coacht groepslessen en de Teens sessies met veel energie en geduld."
+      },
+      "annie": {
+        "name": "Annie",
+        "role": "Voedingscoach",
+        "story": "Annie helpt leden met praktische voedingsadviezen die passen bij een druk leven. Geen extreme diëten, maar simpele stappen die werken."
+      },
+      "sem": {
+        "name": "Sem Li",
+        "role": "Coach",
+        "story": "Sem is altijd vrolijk en maakt graag contact met iedereen in zijn lessen. Hij houdt van Olympic weightlifting en staat elke ochtend om 5 uur op om te trainen voordat hij de eerste les geeft. Die toewijding en energie zie je terug in zijn coaching."
+      },
+      "erin": {
+        "name": "Erin",
+        "role": "Coach",
+        "story": "Erin coachte al in 2019 bij CrossFit Leiden en is nu terug. Overdag werkt ze bij Defensie waar ze militairen helpt mentaal sterk te blijven. In haar vrije tijd geeft ze salsalessen. Die combinatie van ritme, focus en veerkracht zie je terug in haar coaching."
+      },
+      "hoite": {
+        "name": "Hoite",
+        "role": "Coach",
+        "story": "Hoite is een van onze toegewijde coaches die graag met beginners werkt. Hij neemt de tijd om bewegingen goed uit te leggen en zorgt ervoor dat je je op je gemak voelt tijdens de les."
+      }
+    },
+    "whyMatters": {
+      "title": "Waarom onze coaches het verschil maken",
+      "p1": "Onze coaches zijn geen drill-sergeants. Het zijn gewone mensen met drukke levens, net als jij. Ze begrijpen hoe het voelt om te twijfelen of onzeker te zijn.",
+      "p2": "Persoonlijke aandacht staat voorop. We kennen je naam, onthouden je doelen en passen elke training aan op jouw niveau. Of je nu voor het eerst een barbell vasthoudt of al jaren traint, je krijgt de begeleiding die jij nodig hebt.",
+      "p3": "Bij CrossFit Leiden ben je geen nummer, maar een persoon met je eigen verhaal."
+    },
+    "cta": {
+      "title": "Klaar om kennis te maken?",
+      "subtitle": "Plan je gratis intro en ontmoet het team. Geen verplichtingen, gewoon een goed gesprek over jouw doelen.",
+      "button": "Plan een Gratis Intro"
+    }
+  },
+  "kickstartBlock": {
+    "title": "Start veilig en sterk met onze Kickstart",
+    "imageAlt": "CrossFit Leiden Kickstart",
+    "description": "Ons 28-dagen beginnersprogramma voor mensen zonder ervaring. Persoonlijke begeleiding, veilige opbouw, op jouw tempo.",
+    "important": "<strong>Belangrijk:</strong> Je begint altijd met een gratis intro. In dat gesprek kijken we samen of de Kickstart de beste start voor jou is.",
+    "forWho": {
+      "title": "Voor wie is de Kickstart?",
+      "item1": "Beginners zonder ervaring",
+      "item2": "Drukke ouders die structuur zoeken",
+      "item3": "Mensen die lang niet hebben gesport",
+      "item4": "Mensen met onzekerheid of pijntjes"
+    },
+    "whatsIncluded": {
+      "title": "Wat zit er in de Kickstart?",
+      "item1": "2–3 lessen per week, op jouw niveau",
+      "item2": "Persoonlijke coaching & techniektraining",
+      "item3": "Voeding & leefstijl basics",
+      "item4": "Check-ins & voortgangsgesprekken"
+    },
+    "howToStart": {
+      "title": "Hoe begin je?",
+      "step1Title": "Gratis Intro",
+      "step1Text": "20 min kennismaken. Geen workout, gewoon een gesprek.",
+      "step2Title": "Kickstart uitleg",
+      "step2Text": "We leggen de Kickstart uit en checken samen of het bij jou past.",
+      "step3Title": "Kickstart starten",
+      "step3Text": "Klikt het? Dan start je op jouw moment met de Kickstart."
+    },
+    "testimonials": {
+      "title": "Ervaringen van starters",
+      "matthew": {
+        "text": "Just completed the intake month – what a great experience. Max explained everything so clearly and kept it fun. If you're thinking about it, just book. The environment is incredibly welcoming.",
+        "name": "Matthew, 43",
+        "subtitle": "Father of 4 kids"
+      },
+      "liselotte": {
+        "text": "I'm so glad I started training here. After one month of small-group training and nutrition guidance, I already feel fitter and have more energy. The coaches are professional and relaxed.",
+        "name": "Liselotte, 42",
+        "subtitle": "Mother of a young child"
+      },
+      "julia": {
+        "text": "If you're hesitating: DO IT. I started the Kickstart at the end of October and it changed everything. After four weeks of coaching and community, I feel fitter, stronger and honestly happier.",
+        "name": "Julia, 44",
+        "subtitle": "Mom with low energy"
+      }
+    },
+    "cta": {
+      "title": "Klaar om te beginnen?",
+      "subtitle": "Plan een gratis gesprek. Geen verplichtingen, gewoon kennismaken.",
+      "button": "Plan een Gratis Intro"
+    }
+  },
+  "programs": {
+    "hero": {
+      "title": "Ons Aanbod",
+      "subtitle": "Van gewone groepslessen tot speciale programma's – we hebben voor iedereen iets. Elk programma is volledig aanpasbaar aan jouw niveau, ervaring en doelen."
+    },
+    "intro": {
+      "title": "Waar wil je mee beginnen?",
+      "subtitle": "Nieuw met sporten? Geen probleem – onze <strong>groepslessen</strong> zijn perfect om te starten. Al ervaren of op zoek naar iets specifieks? Dan zijn onze speciale programma's misschien wat voor jou!"
+    },
+    "kickstart": {
+      "badge": "START HIER",
+      "title": "Kickstart Programma",
+      "description": "Perfect voor beginners! 4 weken intensive onboarding waar je alles leert over CrossFit in kleine groepjes. Na afloop ben je klaar voor de groepslessen.",
+      "feature1": "4 weken intensive begeleiding",
+      "feature2": "Max 5 personen per groep",
+      "feature3": "Inclusief voedingsadvies",
+      "feature4": "Geen ervaring nodig",
+      "link": "Meer over Kickstart"
+    },
+    "groupClasses": {
+      "badge": "MEEST GEKOZEN",
+      "title": "CrossFit Groepslessen",
+      "description": "De basis en favoriet van 90% van onze leden. Train samen in een groep waar iedereen elkaar aanmoedigt. Perfect voor beginners én gevorderden!",
+      "feature1": "60 minuten per les, alles inbegrepen",
+      "feature2": "Max 14 personen - persoonlijke aandacht",
+      "feature3": "Volledig aangepast op jouw niveau",
+      "feature4": "Elke dag meerdere tijden beschikbaar",
+      "link": "Meer over Groepslessen",
+      "ctaLink": "Of plan meteen een gratis intro →"
+    },
+    "personal": {
+      "title": "Personal Training",
+      "description": "1-op-1 begeleiding voor specifieke doelen, blessures of als je extra aandacht wilt. Jouw coach, jouw training, jouw tempo.",
+      "feature1": "Persoonlijk trainingsplan op maat",
+      "feature2": "Focus op jouw specifieke doelen",
+      "feature3": "Perfecte techniek verfijning",
+      "feature4": "Flexibel in te plannen",
+      "link": "Meer over Personal Training"
+    },
+    "special": {
+      "title": "Speciale Programma's",
+      "subtitle": "Op zoek naar iets specifieks? Deze programma's combineren groepslessen met extra focus op bepaalde doelen.",
+      "smallGroup": {
+        "title": "Small Group Training",
+        "description": "Train met max 5 personen en krijg een programma op maat. Inclusief GetShredded en Unlock Motion."
+      },
+      "hyrox": {
+        "title": "HYROX Training",
+        "description": "Voorbereiding op Hyrox races. Gecombineerde conditie en kracht training voor dit populaire evenement."
+      },
+      "fysiofabriek": {
+        "title": "Fysiofabriek",
+        "description": "Professionele fysiotherapie en revalidatie. Specialistische begeleiding bij blessures en pijn."
+      },
+      "nutrition": {
+        "title": "Voeding",
+        "description": "80% van resultaat komt van voeding. Leer gezond eten zonder strenge diëten. Voor drukke mensen!"
+      }
+    },
+    "youth": {
+      "title": "Voor de Jongeren",
+      "subtitle": "Omdat fitte kinderen fitte volwassenen worden. Onze jeugdprogramma's zijn speciaal ontworpen voor verschillende leeftijden.",
+      "preTeens": {
+        "title": "Pre-teens (8-12 jaar)",
+        "description": "Leren bewegen op een leuke, speelse manier. Basis technieken en groepsdynamiek."
+      },
+      "teens": {
+        "title": "Teens (13-17 jaar)",
+        "description": "Kracht en conditie opbouwen in een veilige omgeving. Focus op techniek en gezonde gewoontes."
+      },
+      "sportPerformance": {
+        "title": "Sport & Performance",
+        "description": "Voor jonge atleten die beter willen worden in hun sport. Functionele conditioning."
+      }
+    },
+    "schedule": {
+      "title": "Flexibel Rooster",
+      "subtitle": "We bieden dagelijks meerdere lestijden, van vroege ochtend tot late avond. Er is altijd wel een moment dat bij jou past!",
+      "morning": "Ochtend",
+      "morningTime": "06:00 - 09:00",
+      "afternoon": "Middag",
+      "afternoonTime": "12:00 - 13:00",
+      "evening": "Avond",
+      "eveningTime": "17:00 - 21:00",
+      "link": "Bekijk het Volledige Rooster"
+    },
+    "whyUs": {
+      "title": "Waarom CrossFit Leiden?",
+      "subtitle": "Wat maakt onze trainingen anders dan een reguliere sportschool?",
+      "feature1": "<strong>Kleine groepen (max 14 personen)</strong> – Geen massale gyms waar je op jezelf bent. Hier krijg je persoonlijke aandacht.",
+      "feature2": "<strong>Professionele coaching</strong> – Elke les wordt begeleid door gecertificeerde coaches die je techniek verbeteren en motiveren.",
+      "feature3": "<strong>Functionele bewegingen</strong> – We trainen bewegingen die je ook in het dagelijks leven helpen (tillen, bukken, dragen, rennen).",
+      "feature4": "<strong>Variatie</strong> – Elke dag is anders. Je verveelt je nooit en je lichaam blijft verrast.",
+      "feature5": "<strong>Community</strong> – Je traint niet alleen, maar met een groep die elkaar steunt en motiveert. Dat maakt het verschil!"
+    },
+    "cta": {
+      "title": "Nog twijfelen?",
+      "subtitle": "Plan een gratis intro en ervaar zelf waarom zoveel mensen hier trainen. Geen verplichtingen, gewoon kennismaken en kijken of het bij je past!",
+      "button": "Plan Mijn Gratis Intro"
+    }
+  },
+  "schedule": {
+    "hero": {
+      "title": "Lessen Rooster",
+      "subtitle": "Van vroege ochtend tot late avond – er is altijd een moment dat bij jou past. Alle lessen zijn geschikt voor elk niveau!"
+    },
+    "ourClasses": {
+      "title": "Onze Lessen",
+      "subtitle": "Bij CrossFit Leiden hebben we een breed aanbod aan lessen. Van intense group classes tot persoonlijke small group training – er is voor ieder wat wils."
+    },
+    "groupClasses": {
+      "title": "Group Classes",
+      "training": {
+        "title": "Training",
+        "description": "Algemene CrossFit-style training. Full body workout, geschikt voor alle niveaus. De perfecte mix van kracht, conditie en techniek.",
+        "for": "Voor: Beginners en gevorderden, 18+"
+      },
+      "hyrox": {
+        "title": "Hyrox",
+        "description": "Geïnspireerd op HYROX races: veel conditie, sled pushes, lunges, ski, row en meer. Train voor je volgende race!",
+        "for": "Voor: Atleten die aan HYROX willen werken of hun uithoudingsvermogen willen verbeteren"
+      },
+      "flexFriday": {
+        "title": "Flex Friday",
+        "description": "Speelsere vrijdag-workout met focus op fun, teamwork en het afsluiten van de werkweek. Minder serieus, meer plezier!",
+        "for": "Voor: Alle leden die de week gezellig en actief willen afsluiten"
+      },
+      "running": {
+        "title": "Running",
+        "description": "Hardlooptraining buiten, focus op techniek, tempo en duurvermogen. Van beginner tot marathon voorbereiding.",
+        "for": "Voor: Leden die beter willen worden in hardlopen, ook beginners"
+      },
+      "olympicLifting": {
+        "title": "Olympic Lifting",
+        "description": "Focus op gewichtheffen: snatch, clean & jerk met veel techniekcoaching. Word sterker en verbeter je techniek.",
+        "for": "Voor: Leden die sterker willen worden en aan hun techniek willen werken"
+      },
+      "teens": {
+        "title": "Teens",
+        "description": "Veilige en speelse training voor tieners. Focus op bewegen, kracht en zelfvertrouwen in een positieve omgeving.",
+        "for": "Voor: Tieners (13-17 jaar)"
+      },
+      "preTeens": {
+        "title": "Pre Teens",
+        "description": "Training voor jongere kids met veel fun en basisbewegingen. Leren bewegen, sterk worden en samen sporten!",
+        "for": "Voor: Kinderen (9-12 jaar)"
+      },
+      "urbanTraining": {
+        "title": "Urban Training",
+        "description": "Training buiten in de stad, gebruikmakend van de omgeving en obstakels. Frisse lucht, nieuwe uitdagingen!",
+        "for": "Voor: Leden die buiten willen trainen en van variatie houden"
+      },
+      "mobility": {
+        "title": "Mobility",
+        "description": "Rustige les met focus op mobiliteit, flexibiliteit en beter bewegen. Perfect voor herstel en preventie van blessures.",
+        "for": "Voor: Iedereen die stijve schouders/heupen heeft en beter wil herstellen"
+      },
+      "gymnastics": {
+        "title": "Gymnastics",
+        "description": "Focus op bodyweight skills: pull-ups, handstand, dips en core. Technisch sterker worden in gymnastische bewegingen.",
+        "for": "Voor: Leden die sterker en technisch beter willen worden in gymnastiek"
+      }
+    },
+    "smallGroup": {
+      "title": "Small Group / Semi-Private",
+      "badge": "Small Group",
+      "getShredded": {
+        "title": "GetShredded",
+        "description": "Small group programma met focus op afvallen, strakker worden en conditie. Max 5 personen, persoonlijke aandacht.",
+        "for": "Voor: Leden die vetmassa willen verliezen en zich fitter willen voelen"
+      },
+      "unlockMotion": {
+        "title": "Unlock Motion",
+        "description": "Small group programma gericht op beter bewegen, pijnvrij trainen en mobiliteit. Ideaal bij klachten of beperkingen.",
+        "for": "Voor: Leden met pijntjes, beperkingen of focus op techniek en bewegingskwaliteit"
+      },
+      "kickstart": {
+        "title": "Kickstart",
+        "description": "Instapprogramma voor nieuwe leden. Veilige opbouw van bewegingen, extra coaching en begeleiding in kleine groep.",
+        "for": "Voor: Complete beginners en mensen die rustig en veilig willen starten"
+      }
+    },
+    "scheduleInfo": {
+      "intro": "Hieronder zie je ons actuele rooster. Nog geen lid? Begin met een gratis intro!",
+      "link": "Plan een gratis intro →"
+    },
+    "selector": {
+      "groupClasses": {
+        "title": "Groepslessen",
+        "subtitle": "Alle niveaus • Max 14 personen • 60 minuten",
+        "badge": "Actief rooster ✓"
+      },
+      "smallGroup": {
+        "title": "Small Group",
+        "subtitle": "Max 5 personen • Persoonlijke aandacht • Op maat",
+        "badge": "Actief rooster ✓"
+      }
+    },
+    "tips": {
+      "title": "Handig om te weten",
+      "tip1": {
+        "title": "🕐 Hoe laat moet ik er zijn?",
+        "text": "Kom 5-10 minuten voor de les. Zo heb je tijd om te verkleden en rustig te beginnen."
+      },
+      "tip2": {
+        "title": "📱 Moet ik me aanmelden?",
+        "text": "Ja, via onze app of website. Zo kunnen we zorgen dat de groep niet te groot wordt (max 14 personen)."
+      },
+      "tip3": {
+        "title": "❓ Welke les is het beste voor beginners?",
+        "text": "Alle lessen zijn geschikt! Coaches passen oefeningen aan op jouw niveau. De zaterdagochtend les heeft wel extra focus op beginners."
+      },
+      "tip4": {
+        "title": "🔄 Kan ik een les annuleren?",
+        "text": "Ja, tot 2 uur van tevoren via de app. Geen zorgen als iets tussenkomt – we snappen dat!"
+      }
+    },
+    "cta": {
+      "title": "Zie je een tijd die bij jou past?",
+      "subtitle": "Probeer het eerst vrijblijvend met een gratis intro. We laten je de box zien, beantwoorden al je vragen en kijken samen welke lestijden bij jou passen!",
+      "button": "Plan Mijn Gratis Intro"
+    },
+    "questions": {
+      "text": "Geen idee welke tijd bij jou past of heb je vragen over het rooster? <a>Stuur ons een berichtje</a> – we helpen je graag!",
+      "link": "Stuur ons een berichtje"
+    }
+  },
+  "testimonials": {
+    "hero": {
+      "title": "Echte mensen. Echte resultaten.",
+      "subtitle": "Bij CrossFit Leiden trainen gewone mensen met volle agenda's. Geen fitness influencers, geen proteine-shakes op Instagram. Gewoon mensen die fitter, sterker en gezonder willen worden."
+    },
+    "videoStories": {
+      "title": "Bekijk hun verhalen",
+      "subtitle": "Gewone mensen die kozen voor zichzelf"
+    },
+    "wordCloud": {
+      "title": "Wat onze leden het meest noemen in hun reviews",
+      "subtitle": "Gebaseerd op honderden 5-sterren reviews op Google",
+      "link": "Lees alle reviews op Google",
+      "words": {
+        "coaches": "coaches",
+        "community": "community",
+        "friendly": "vriendelijk",
+        "personal": "persoonlijk",
+        "atmosphere": "sfeer",
+        "welcome": "welkom",
+        "support": "support",
+        "technique": "techniek",
+        "guidance": "begeleiding",
+        "energy": "energie",
+        "fun": "gezellig",
+        "results": "resultaten",
+        "hyrox": "hyrox"
+      }
+    },
+    "gallery": {
+      "title": "Onze community in beeld",
+      "photos": {
+        "photo1": "Een moment van rust midden in het avontuur. Coach Sem peddelt over de Lesse tijdens ons jaarlijkse Ardennen-weekend. Buitenlucht, lachen en samen iets nieuws proberen.",
+        "photo2": "Onze community gaat verder dan de box. Tijdens dit klettersteigweekend in Oostenrijk nam lid Richard ons mee de bergen in. Spannend, veilig en vooral heel mooi.",
+        "photo3": "Kamp Stoof. Bijna 20 uur samen doorzetten, lachen, vloeken en groeien. Jeffrey nam tien CFL'ers mee op een mentale én fysieke reis die niemand ooit vergeet.",
+        "photo4": "Coach Rochelle geeft tieners het vertrouwen om te bewegen, te leren en plezier te hebben. Hier nog op onze oude locatie, maar de energie is altijd hetzelfde.",
+        "photo5": "Coach Sem laat zien dat goed tillen niet moeilijk hoeft te zijn. Stap voor stap, veilig en helder. Zo bouw je kracht waar je de rest van je leven iets aan hebt.",
+        "photo6": "Trainen bij ons is hard werken, maar vooral veel plezier. Coach Sem lacht vaker dan hij squat, en dat zegt genoeg.",
+        "photo7": "In het GetShredded small group programma helpt coach Jeffrey je sterker te squatten dan je ooit dacht. Techniek eerst, gewicht komt daarna.",
+        "photo8": "Een warm afscheid voor coach Wouter. Onze community viert niet alleen trainingen, maar vooral mensen.",
+        "photo9": "Coach Jari traint elke week met Brandweer Leiden Zuid zodat zij de stad veilig kunnen houden. Functioneel trainen in het echt.",
+        "photo10": "Elke les minstens één high five. Vaak meer. Want samen sporten voelt beter dan alleen.",
+        "photo11": "Tijdens de wallballs staat coach Jeffrey achter je. Voor techniek, voor tempo, maar vooral voor mentale steun.",
+        "photo12": "Ons coachteam tijdens het jaarlijkse gala. Geen sportkleren, wel dezelfde gezelligheid.",
+        "photo13": "High fives verzamelen na elke les. Simpel ritueel, groot effect. Je gaat altijd met een glimlach naar huis.",
+        "photo14": "Hyrox simulaties zijn het leukste met een buddy. Zweten, lachen en je grenzen verkennen.",
+        "photo15": "In 2025 kwalificeerden we ons voor het NK Drakenboot. Een team dat nog nooit gevaren had, maar wel samen alles gaf.",
+        "photo16": "Je traint nooit alleen. Er is altijd iemand naast je die meedoet, helpt of lacht.",
+        "photo17": "Coach Max wijst je de weg. Heldere uitleg, rustige energie en altijd aandacht voor jou.",
+        "photo18": "Moeder en dochter die samen een Hyrox simulatie doen. Zo mooi om te zien wat samen sporten kan doen.",
+        "photo19": "De moeder van onze GM Saskia bewijst dat plezier in bewegen geen leeftijd kent. Vooral als er een roeier bij is.",
+        "photo20": "Samen met je dochter rennen. Kleine momentjes, grote herinneringen. Dit is waar we het voor doen.",
+        "photo21": "Huub laat zien hoe je fit en vrolijk ouder wordt. Sterk, nuchter en elke week trouw op de vloer."
+      }
+    },
+    "cta": {
+      "title": "Klaar voor jouw eigen verhaal?",
+      "button": "Plan een gratis intro"
+    }
+  },
+  "popups": {
+    "whatsapp": {
+      "close": "Sluit popup",
+      "title": "Chat met CrossFit Leiden",
+      "description": "Hoi! Leuk dat je contact wilt opnemen. Klik op de knop hieronder om een gesprek te starten via WhatsApp. We helpen je graag verder! 💪",
+      "messageLabel": "Je bericht:",
+      "openButton": "Open WhatsApp",
+      "cancelButton": "Annuleren"
+    },
+    "cta": {
+      "close": "Sluit popup",
+      "title": "Plan je gratis No Sweat Intro",
+      "subtitle": "Het is vrijblijvend, duurt 20 minuten en je hoeft niet te sporten.<br/>Na het invullen kun je direct zelf een tijd kiezen die jou past.<br/><strong>Gewoon kennismaken met een kop koffie.</strong>"
+    }
+  }
+}
