@@ -9,6 +9,8 @@ import { useLanguage, useTranslations } from "@/context/LanguageContext";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [mobileExpandedIndex, setMobileExpandedIndex] = useState<number | null>(null);
   const { language, setLanguage } = useLanguage();
   const t = useTranslations();
 
@@ -30,7 +32,7 @@ export default function Header() {
             {siteConfig.branding.logo && !siteConfig.branding.logo.includes('placeholder') ? (
               <img src={siteConfig.branding.logo} alt={siteConfig.gym.name} className="h-10" />
             ) : (
-              <span className="text-2xl font-heading font-bold text-primary">
+              <span className="text-2xl font-headings font-bold text-primary">
                 {siteConfig.gym.name}
               </span>
             )}
@@ -38,14 +40,53 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-6">
-            {siteConfig.navigation.map((item) => (
-              <Link
+            {siteConfig.navigation.map((item, index) => (
+              <div
                 key={item.href}
-                href={item.href}
-                className="text-gray-700 hover:text-primary transition-colors font-medium"
+                className="relative group"
+                onMouseEnter={() => setHoveredIndex(index)}
+                onMouseLeave={() => setHoveredIndex(null)}
               >
-                {navLabels[item.href] || item.label}
-              </Link>
+                {item.items ? (
+                  <button className="flex items-center gap-1 text-gray-700 hover:text-primary transition-colors font-medium">
+                    {navLabels[item.href] || item.label}
+                    <svg
+                      className={`w-4 h-4 transition-transform duration-200 ${hoveredIndex === index ? "rotate-180" : ""}`}
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                ) : (
+                  <Link
+                    href={item.href}
+                    className="text-gray-700 hover:text-primary transition-colors font-medium"
+                  >
+                    {navLabels[item.href] || item.label}
+                  </Link>
+                )}
+
+                {/* Dropdown Menu */}
+                {item.items && (
+                  <div
+                    className={`absolute left-0 top-full pt-2 w-48 transition-all duration-200 transform origin-top-left ${hoveredIndex === index ? "opacity-100 scale-100 visible" : "opacity-0 scale-95 invisible"}`}
+                  >
+                    <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2 overflow-hidden">
+                      {item.items.map((subItem) => (
+                        <Link
+                          key={subItem.href}
+                          href={subItem.href}
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors"
+                        >
+                          {subItem.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
             ))}
 
             {/* Language Toggle */}
@@ -92,15 +133,49 @@ export default function Header() {
         {mobileMenuOpen && (
           <div className="lg:hidden pb-4 max-h-[80vh] overflow-y-auto animate-in slide-in-from-top-4 duration-200">
             <div className="flex flex-col space-y-2">
-              {siteConfig.navigation.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="block px-4 py-3 text-gray-700 hover:text-primary hover:bg-gray-50 font-medium rounded-lg"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {navLabels[item.href] || item.label}
-                </Link>
+              {siteConfig.navigation.map((item, index) => (
+                <div key={item.href}>
+                  {item.items ? (
+                    <>
+                      <button
+                        onClick={() => setMobileExpandedIndex(mobileExpandedIndex === index ? null : index)}
+                        className="w-full flex items-center justify-between px-4 py-3 text-gray-700 hover:text-primary hover:bg-gray-50 font-medium rounded-lg"
+                      >
+                        {navLabels[item.href] || item.label}
+                        <svg
+                          className={`w-4 h-4 transition-transform duration-200 ${mobileExpandedIndex === index ? "rotate-180" : ""}`}
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </button>
+                      {mobileExpandedIndex === index && (
+                        <div className="pl-4 space-y-1 bg-gray-50 rounded-b-lg mb-2">
+                          {item.items.map((subItem) => (
+                            <Link
+                              key={subItem.href}
+                              href={subItem.href}
+                              className="block px-4 py-2 text-sm text-gray-600 hover:text-primary"
+                              onClick={() => setMobileMenuOpen(false)}
+                            >
+                              {subItem.label}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </>
+                  ) : (
+                    <Link
+                      href={item.href}
+                      className="block px-4 py-3 text-gray-700 hover:text-primary hover:bg-gray-50 font-medium rounded-lg"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      {navLabels[item.href] || item.label}
+                    </Link>
+                  )}
+                </div>
               ))}
 
               {/* Language Toggle (Mobile) */}

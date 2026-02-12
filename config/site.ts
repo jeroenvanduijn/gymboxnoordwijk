@@ -42,9 +42,17 @@ export const siteConfig: SiteConfig = {
     { label: "Home", href: "/" },
     { label: "Aanbod", href: "/aanbod" },
     { label: "Rooster", href: "/rooster" },
-    { label: "Tarieven", href: "/tarieven" },
     { label: "Ervaringen", href: "/ervaringen" },
-    { label: "Over Ons", href: "/over-ons" },
+    {
+      label: "Over Ons",
+      href: "/over-ons",
+      items: [
+        { label: "Over Gymbox Noordwijk", href: "/over-ons" },
+        { label: "Het team", href: "/over-ons#team" },
+        { label: "Onze locatie", href: "/contact" },
+        { label: "Tarieven", href: "/tarieven" }
+      ]
+    },
     { label: "Contact", href: "/contact" }
   ],
   hero: {

@@ -5,21 +5,24 @@
 @layer base {
   :root {
     /* Gymbox Branding Colors - HSL values */
+    /* Gymbox Branding Colors - HSL values */
     --color-primary: 210 20% 25%;
-    /* Dark charcoal navy */
+    /* Dark charcoal navy - unchanged */
     --color-secondary: 158 50% 42%;
-    /* Teal green */
+    /* Teal green - unchanged */
     --color-accent: 35 92% 55%;
-    /* Warm amber */
+    /* Warm amber - unchanged */
 
-    --color-background: 0 0% 100%;
-    /* #FFFFFF */
+    --color-background: 0 0% 98%;
+    /* Slightly off-white for less harshness */
     --color-text: 215 19% 35%;
     /* #374151 */
 
     /* Fonts */
-    --font-heading: 'Inter', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --font-heading: var(--font-heading);
+    /* Use next/font variable */
+    --font-body: var(--font-body);
+    /* Use next/font variable */
   }
 
   body {
@@ -32,7 +35,7 @@
   h4,
   h5,
   h6 {
-    @apply font-heading font-bold text-gray-900;
+    @apply font-headings font-bold text-gray-900;
   }
 }
 

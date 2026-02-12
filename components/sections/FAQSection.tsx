@@ -11,7 +11,7 @@ export default function FAQSection() {
     return (
         <section className="section-padding bg-gray-50">
             <div className="container-custom max-w-4xl mx-auto">
-                <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center font-heading">{faq.title}</h2>
+                <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center font-headings">{faq.title}</h2>
 
                 <div className="space-y-4">
                     {faq.items.map((item, i) => (

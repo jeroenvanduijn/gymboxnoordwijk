@@ -38,6 +38,10 @@ export interface SiteConfig {
     navigation: {
         label: string;
         href: string;
+        items?: {
+            label: string;
+            href: string;
+        }[];
     }[];
     hero: {
         variant: 'community' | 'results' | 'busy';

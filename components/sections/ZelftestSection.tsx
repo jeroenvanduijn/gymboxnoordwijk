@@ -12,7 +12,7 @@ export default function ZelftestSection() {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     {/* Left: Content */}
                     <div>
-                        <h2 className="text-3xl md:text-5xl font-bold mb-4 font-heading">
+                        <h2 className="text-3xl md:text-5xl font-bold mb-4 font-headings">
                             {zelftest.title}
                         </h2>
                         <p className="text-xl font-semibold text-gray-800 mb-4">

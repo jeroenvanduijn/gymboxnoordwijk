@@ -24,7 +24,7 @@ export default function AanbodPage() {
       {/* Hero */}
       <section className="section-padding bg-gray-900 text-white">
         <div className="container-custom text-center max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 font-heading">{aanbod.pageTitle}</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 font-headings">{aanbod.pageTitle}</h1>
         </div>
       </section>
 
@@ -48,7 +48,7 @@ export default function AanbodPage() {
       {/* CTA */}
       <section className="section-padding bg-gray-50 text-center">
         <div className="container-custom max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold mb-6 font-heading">{t.cta.readyTitle}</h2>
+          <h2 className="text-3xl font-bold mb-6 font-headings">{t.cta.readyTitle}</h2>
           <p className="text-gray-600 text-lg mb-8">{t.cta.readyDescription}</p>
           <Link
             href={siteConfig.cta.primaryUrl}

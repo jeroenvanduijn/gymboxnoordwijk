@@ -12,7 +12,7 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="section-padding bg-gray-900 text-white">
         <div className="container-custom text-center max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 font-heading">{contact.title}</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 font-headings">{contact.title}</h1>
           <p className="text-gray-300 text-lg">{contact.subtitle}</p>
         </div>
       </section>

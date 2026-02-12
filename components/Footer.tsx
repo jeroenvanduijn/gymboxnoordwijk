@@ -23,7 +23,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1">
-            <h3 className="text-white text-xl font-heading font-bold mb-4">
+            <h3 className="text-white text-xl font-headings font-bold mb-4">
               {name}
             </h3>
             <p className="text-sm text-gray-400 italic">

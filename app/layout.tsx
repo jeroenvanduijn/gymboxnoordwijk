@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Oswald } from "next/font/google"; // Import Oswald
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -7,7 +7,8 @@ import SchemaOrg from "@/components/SchemaOrg";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { siteConfig } from "@/config/site";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-body" }); // Add variable
+const oswald = Oswald({ subsets: ["latin"], variable: "--font-heading" }); // Add variable
 
 export const metadata: Metadata = {
   title: {
@@ -27,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="nl">
-      <body className={inter.className}>
+      <body className={`${inter.variable} ${oswald.variable} font-sans antialiased`}>
         <LanguageProvider>
           <SchemaOrg />
           <Header />

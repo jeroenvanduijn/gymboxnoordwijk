@@ -12,7 +12,7 @@ export default function HoeWerktHetSection() {
         <section className="section-padding bg-white">
             <div className="container-custom">
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-4 font-heading">{hoeWerktHet.title}</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-4 font-headings">{hoeWerktHet.title}</h2>
                     <p className="text-gray-600 text-lg">{hoeWerktHet.subtitle}</p>
                 </div>
 

@@ -11,7 +11,7 @@ export default function KickstartSection() {
             <div className="container-custom">
                 {/* Header */}
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6 font-heading text-accent">{kickstart.title}</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6 font-headings text-accent">{kickstart.title}</h2>
                     <h3 className="text-2xl font-bold mb-4">{kickstart.subtitle}</h3>
                     <p className="text-gray-300 text-lg leading-relaxed">{kickstart.description}</p>
                 </div>

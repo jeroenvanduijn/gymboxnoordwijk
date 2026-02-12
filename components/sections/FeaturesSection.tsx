@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { useTranslations } from "@/context/LanguageContext";
+import ScrollReveal from "@/components/ui/ScrollReveal";
 
 const iconMap: Record<string, React.ReactNode> = {
     kickstart: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>,
@@ -23,36 +24,46 @@ export default function FeaturesSection() {
     const displayItems = aanbod.items.filter(item => item.key !== "kickstart").slice(0, 6);
 
     return (
-        <section className="section-padding bg-gray-50 bg-opacity-50">
+        <section className="section-padding bg-gray-50">
             <div className="container-custom">
                 {/* Section Header */}
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-4 font-heading">{t.programs.title}</h2>
-                    <p className="text-gray-600 text-lg">{t.programs.subtitle}</p>
+                    <ScrollReveal>
+                        <h2 className="text-3xl md:text-5xl font-bold mb-4 font-headings uppercase tracking-tight">{t.programs.title}</h2>
+                    </ScrollReveal>
+                    <ScrollReveal delay={0.1}>
+                        <p className="text-gray-600 text-lg">{t.programs.subtitle}</p>
+                    </ScrollReveal>
                 </div>
 
                 {/* Programs Grid */}
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {displayItems.map((item, i) => (
-                        <div key={i} className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-                            <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6">
-                                {iconMap[item.key] || iconMap.crossfit}
+                        <ScrollReveal key={i} delay={0.1 * i} className="h-full">
+                            <div className="group bg-white p-8 rounded-xl shadow-sm border border-gray-100 h-full transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:border-accent/30 relative overflow-hidden">
+                                <div className="absolute top-0 right-0 w-24 h-24 bg-accent/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-150 duration-500"></div>
+
+                                <div className="w-14 h-14 bg-primary/5 rounded-2xl flex items-center justify-center text-primary mb-6 group-hover:bg-accent group-hover:text-white transition-colors duration-300 relative z-10">
+                                    {iconMap[item.key] || iconMap.crossfit}
+                                </div>
+
+                                <h3 className="font-bold text-xl mb-3 font-headings uppercase group-hover:text-accent transition-colors">{item.title}</h3>
+                                <p className="text-gray-600 relative z-10">{item.description}</p>
                             </div>
-                            <h3 className="font-bold text-xl mb-3">{item.title}</h3>
-                            <p className="text-gray-600">{item.description}</p>
-                        </div>
+                        </ScrollReveal>
                     ))}
                 </div>
 
                 {/* Link to full aanbod */}
-                <div className="text-center mt-12">
+                <ScrollReveal delay={0.4} className="text-center mt-12">
                     <Link
                         href="/aanbod"
-                        className="text-primary font-bold hover:underline text-lg"
+                        className="text-primary font-bold hover:text-accent text-lg inline-flex items-center gap-2 transition-colors uppercase tracking-wide border-b-2 border-transparent hover:border-accent pb-1"
                     >
-                        {t.nav.programs} →
+                        {t.nav.programs}
+                        <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
                     </Link>
-                </div>
+                </ScrollReveal>
             </div>
         </section>
     );

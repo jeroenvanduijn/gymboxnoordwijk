@@ -17,8 +17,9 @@ const config: Config = {
         text: 'hsl(var(--color-text) / <alpha-value>)',
       },
       fontFamily: {
-        heading: ['var(--font-heading)', 'sans-serif'],
+        headings: ['var(--font-heading)', 'sans-serif'],
         body: ['var(--font-body)', 'sans-serif'],
+        sans: ['var(--font-body)', 'sans-serif'],
       },
     },
   },
