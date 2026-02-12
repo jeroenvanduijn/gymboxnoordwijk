@@ -3,12 +3,12 @@ import { SiteConfig } from "./types";
 export const siteConfig: SiteConfig = {
   gym: {
     name: "Gymbox",
-    tagline: "Sterker, fitter en meer energie, zonder gedoe",
+    tagline: "Smart training for real life",
     city: "Noordwijk",
-    address: "Keyserswey 26",
+    address: "Keyserswey 26a",
     postalCode: "2201 CW",
     email: "welkom@gymboxcrossfit.nl",
-    phone: "064 872 8580",
+    phone: "06 4872 8580",
     openingHours: [
       "Ma-Vr: 06:00 - 21:00",
       "Za: 08:00 - 13:00",
@@ -128,38 +128,25 @@ export const siteConfig: SiteConfig = {
     scarcityText: "",
     testimonials: [
       {
-        name: "Karlijn",
-        role: "Lid sinds 2023",
-        quote: "Gymbox heeft mijn leven veranderd. De coaches zijn betrokken en de sfeer is geweldig. Ik voel me fitter en energieker dan ooit!",
-        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150&h=150"
+        name: "Mike",
+        role: "Lid (37)",
+        quote: "Een hele gezellige box! Lang getwijfeld of crossfit iets voor mij was maar dit had ik jaren eerder moeten doen! Een leuke sfeer gemoedelijk sporten onder professioneel toezicht van motiverende trainers! Echt een aanrader!",
+        image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=150&h=150"
       },
       {
-        name: "Erik",
-        role: "Lid sinds 2022",
-        quote: "Het beste uurtje van mijn dag. Ik kom gestrest binnen en ga vol energie weer weg. De coaches letten echt op je techniek.",
-        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150&h=150"
-      },
-      {
-        name: "Anne",
-        role: "Lid sinds 2024",
-        quote: "Efficiënt, effectief en leuk. Het past perfect in mijn drukke schema. Absolute aanrader!",
+        name: "Marijke",
+        role: "Lid (49)",
+        quote: "Sinds 2 maanden train ik bij Gymbox Noordwijk. Met grote twijfels de stap genomen ivm een slechte rug. Nu 2 maanden verder en meer dan tevreden. Wordt goed begeleid door Jack en de andere trainers. De sfeer is heel goed en iedereen traint op zijn of haar niveau. Er wordt goed op je houding gelet en met mijn rug gaat het goed. Ben zeer tevreden en nog belangrijker...ik vind het echt leuk 👏🏼👊🏼.",
         image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150&h=150"
+      },
+      {
+        name: "Maartje",
+        role: "Lid (25)",
+        quote: "Lid sinds juni 2023. Mijn lifestyle is helemaal verandert sinds ik sport bij Gymbox. De trainingen zijn intensief en voor iedereen uitdagend. De coaches geven tips en tricks om doelen te stellen en ook te behalen.",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150&h=150"
       }
     ],
-    faqs: [
-      {
-        question: "Moet ik fit zijn om te beginnen?",
-        answer: "Absoluut niet! Onze programma's zijn ontworpen voor alle fitnessniveaus. We passen elke training aan op jouw huidige niveau."
-      },
-      {
-        question: "Hoe vaak moet ik trainen?",
-        answer: "Voor beginners raden we 2-3 keer per week aan. Dit geeft genoeg herstel terwijl je consistentie opbouwt."
-      },
-      {
-        question: "Wat moet ik meenemen?",
-        answer: "Alleen comfortabele sportkleding, een waterfles en een positieve instelling. Wij regelen de rest!"
-      }
-    ]
+    faqs: [] // FAQs are now pulled from translations.ts for multi-language support, this array is kept for type compatibility but not used directly
   },
   cta: {
     primaryText: "Plan een Gratis Intro",

@@ -78,46 +78,130 @@ export const translations = {
     },
     waarom: {
       title: "Waarom Gymbox?",
-      subtitle: "Stap binnen bij Gymbox en neem afscheid van:",
-      painPoints: [
-        "Jouw eindeloze to-do list waar fitness steeds ondersneeuwd",
-        "Niet weten wat je moet doen om je doelen te behalen",
-        "Stress en gespannen zijn zonder ventiel",
+      subtitle: "We snappen dat je agenda vol zit en dat 'weer beginnen met sporten' best een drempel kan zijn. Daarom maken we trainen bij Gymbox overzichtelijk, persoonlijk en haalbaar.",
+      painPoints: [], // Deprecated in new design
+      solutionTitle: "", // Deprecated
+      solutionDescription: "", // Deprecated
+      benefits: [
+        {
+          title: "Persoonlijke begeleiding",
+          description: "Onze coaches kennen je bij naam, letten op je techniek en begeleiden je stap voor stap. Je bent geen nummer en we zorgen dat het je leukste uurtje van je dag wordt."
+        },
+        {
+          title: "Perfect voor (her)starters",
+          description: "Je hoeft niet fit te zijn om te beginnen. Alles wordt aangepast aan jouw niveau, of je nu 30 of 55 bent."
+        },
+        {
+          title: "Motiverende community",
+          description: "Train met mensen met een vol leven. Geen competitie, geen oordeel. Wel support en plezier."
+        },
+        {
+          title: "Veilig & verantwoord",
+          description: "We bouwen rustig op, met focus op techniek en blessurepreventie. Sterker worden zonder risico."
+        },
+        {
+          title: "Past in je drukke leven",
+          description: "Lessen van 60 minuten, van vroeg tot laat. Altijd een moment dat past in jouw schema."
+        }
+      ]
+    },
+    hoeWerktHet: {
+      title: "Hoe werkt het?",
+      subtitle: "Drie simpele stappen. Geen verplichtingen. Geen druk.",
+      steps: [
+        {
+          title: "1. Plan een Gratis Intro",
+          description: "Klik op de knop, kies een moment en laat je gegevens achter. Klaar in 30 seconden.",
+          cta: "Plan mijn Gratis Intro"
+        },
+        {
+          title: "2. Ontspannen kennismaking (geen training)",
+          description: "We leren je kennen, beantwoorden je vragen en laten de gym zien. We bespreken je doelen en leggen uit hoe ons Kickstart programma werkt. Dit noemen we een 'No Sweat Intro' je hoeft niet te sporten."
+        },
+        {
+          title: "3. Start sterk met de Gymbox Kickstart",
+          description: "Na de intake en als je wilt starten, begin je met de Gymbox Kickstart."
+        }
       ],
-      solutionTitle: "Jij verdient het om gezond en gelukkig te zijn!",
-      solutionDescription:
-        "Bij Gymbox krijg je persoonlijke begeleiding in een warme community. Geen grote anonieme sportschool, maar een plek waar iedereen je naam kent.",
+      cta: "Is er een klik? Dan maken we samen een plan dat past bij jouw doelen en agenda. Wil je er nog even over nadenken? Helemaal prima."
+    },
+    kickstart: {
+      title: "Gymbox Kickstart",
+      subtitle: "Start sterk met de Gymbox Kickstart",
+      description: "2 Personal Training sessies (of meer, als jij dat prettig vindt) om veilig, zelfverzekerd en met een duidelijk plan te beginnen. Geen standaard traject. Geen vaste route. Wél persoonlijke aandacht en een vliegende, verantwoorde start.",
+      whenTitle: "Wanneer start je met de Kickstart?",
+      whenDescription: "De Kickstart komt ná de intake. Tijdens het gratis gesprek kijken we of Gymbox bij je past. Wil je starten? Dan gebruiken we de Kickstart als jouw persoonlijke instap.",
+      whoTitle: "Voor wie is de Kickstart?",
+      whoList: [
+        "Mensen die (weer) willen beginnen met trainen",
+        "Mensen met een vol leven die zekerheid en structuur zoeken",
+        "Mensen die lang niet of onregelmatig hebben gesport",
+        "Iedereen die techniek, vertrouwen en persoonlijke aandacht wil",
+        "Iedereen die niet bekend is met CrossFit trainingen"
+      ],
+      whatTitle: "Wat zit er in de Kickstart?",
+      whatList: [
+        "2 Personal Training sessies (uitbreidbaar indien gewenst)",
+        "Persoonlijke intake + nulmeting",
+        "Uitleg van oefeningen, technieken en trainingsstructuur",
+        "Afstemming op jouw doelen, lichaam en agenda"
+      ],
+      whyTitle: "Waarom eerst Personal Training?",
+      whySubtitle: "Met 1-op-1 coaching:",
+      whyList: [
+        "Leer je sneller en veiliger bewegen",
+        "Krijg je vertrouwen in wat je doet",
+        "Voorkom je overbelasting en blessures",
+        "Start je met een plan dat past bij jou"
+      ],
+      howToStartTitle: "Hoe begin je?",
+      howToStartSteps: [
+        "Gratis intake – 20 minuten kennismaken",
+        "Beslissen om te starten – geen verplichting",
+        "Kickstart met Personal Training – jouw tempo, jouw route"
+      ]
     },
     testimonials: {
-      title: "Ervaringen",
+      title: "Ervaringen van starters",
       ratingText: "uit {count} reviews",
     },
     faq: {
-      title: "Veelgestelde Vragen",
+      title: "Veelgestelde vragen",
+      subtitle: "Deze vragen horen we vaak:",
       items: [
         {
-          question: "Moet ik fit zijn om te beginnen?",
-          answer:
-            "Absoluut niet! Onze programma's zijn ontworpen voor alle fitnessniveaus. We passen elke training aan op jouw huidige niveau.",
+          question: "Moet ik al fit zijn om te starten?",
+          answer: "Nee, absoluut niet. Veel van onze leden zijn begonnen zonder enige sportachtergrond. Ons Kickstart programma is er juist voor gemaakt om je op jouw niveau te laten instromen."
         },
         {
-          question: "Hoe vaak moet ik trainen?",
-          answer:
-            "Voor beginners raden we 2-3 keer per week aan. Dit geeft genoeg herstel terwijl je consistentie opbouwt.",
+          question: "Hoe vaak train ik per week?",
+          answer: "Dat hangt van jou af, maar voor beginners raden we vaak 2 a 3 keer per week aan. Zo bouw je consistentie op zonder jezelf te overbelasten."
         },
         {
-          question: "Wat moet ik meenemen?",
-          answer:
-            "Alleen comfortabele sportkleding, een waterfles en een positieve instelling. Wij regelen de rest!",
+          question: "Is dit wel veilig voor mijn lichaam?",
+          answer: "Ja. Veiligheid is onze topprioriteit. Daarom start iedereen met een intake en Personal Training sessies (Kickstart) om de techniek goed aan te leren voordat je de groepslessen in gaat."
         },
+        {
+          question: "Ben ik niet te oud om te beginnen?",
+          answer: "Zeker niet. We hebben leden van alle leeftijden, van 20 tot 60+. De trainingen zijn aanpasbaar aan elk niveau en elke leeftijd."
+        },
+        {
+          question: "Hoe combineer ik dit met werk en gezin?",
+          answer: "Onze lessen duren 60 minuten en we hebben een ruim rooster, 's ochtends, 's avonds en in het weekend. Zo is er altijd een moment dat past."
+        },
+        {
+          question: "Wat gebeurt er tijdens de Gratis Intro?",
+          answer: "De Gratis Intro is een kennismaking van 20 minuten. We drinken een kop koffie, bespreken je doelen en laten je de gym zien. Geen training, geen zweet, geen verplichting."
+        }
       ],
     },
     cta: {
       primaryText: "Plan een Gratis Intro",
       secondaryText: "Bekijk Rooster",
-      readyTitle: "Klaar om te beginnen?",
+      readyTitle: "Zie je jezelf hier al trainen?",
       readyDescription:
-        "Wacht niet op 'ooit'. Sluit je vandaag aan bij Gymbox en begin aan de beste versie van jezelf.",
+        "Plan je gratis intro, vrijblijvend, 20 minuten, geen sportkleding nodig. We kijken ernaar uit je te ontmoeten.",
+      subText: "Ja, ik wil kennismaken!"
     },
     footer: {
       navigation: "Navigatie",
@@ -126,6 +210,8 @@ export const translations = {
       privacy: "Privacyverklaring",
       terms: "Algemene Voorwaarden",
       allRights: "Alle rechten voorbehouden.",
+      companyName: "Gymbox",
+      tagline: "Smart training for real life"
     },
     forms: {
       name: "Naam",
@@ -257,46 +343,130 @@ export const translations = {
     },
     waarom: {
       title: "Why Gymbox?",
-      subtitle: "Step into Gymbox and say goodbye to:",
-      painPoints: [
-        "Your endless to-do list where fitness keeps getting buried",
-        "Not knowing what to do to reach your goals",
-        "Stress and tension without an outlet",
+      subtitle: "We understand your agenda is full and 'starting sports again' can be a hurdle. That's why we make training at Gymbox clear, personal, and achievable.",
+      painPoints: [],
+      solutionTitle: "",
+      solutionDescription: "",
+      benefits: [
+        {
+          title: "Personal Guidance",
+          description: "Our coaches know you by name, watch your technique, and guide you step by step. You are not a number, and we make sure it's the best hour of your day."
+        },
+        {
+          title: "Perfect for (Re)starters",
+          description: "You don't need to be fit to start. Everything is adjusted to your level, whether you are 30 or 55."
+        },
+        {
+          title: "Motivating Community",
+          description: "Train with people who have a full life. No competition, no judgement. Just support and fun."
+        },
+        {
+          title: "Safe & Responsible",
+          description: "We build up slowly, focusing on technique and injury prevention. Getting stronger without risk."
+        },
+        {
+          title: "Fits Your Busy Life",
+          description: "60-minute classes, from early to late. Always a moment that fits your schedule."
+        }
+      ]
+    },
+    hoeWerktHet: {
+      title: "How does it work?",
+      subtitle: "Three simple steps. No obligations. No pressure.",
+      steps: [
+        {
+          title: "1. Schedule a Free Intro",
+          description: "Click the button, choose a time, and leave your details. Done in 30 seconds.",
+          cta: "Schedule my Free Intro"
+        },
+        {
+          title: "2. Relaxed Introduction (No Training)",
+          description: "We get to know you, answer your questions, and show you the gym. We discuss your goals and explain how our Kickstart program works. We call this a 'No Sweat Intro' - you don't need to work out."
+        },
+        {
+          title: "3. Start Strong with the Gymbox Kickstart",
+          description: "After the intake and if you want to start, you begin with the Gymbox Kickstart."
+        }
       ],
-      solutionTitle: "You deserve to be healthy and happy!",
-      solutionDescription:
-        "At Gymbox you get personal guidance in a warm community. Not a big anonymous gym, but a place where everyone knows your name.",
+      cta: "Is there a click? Then we make a plan together that fits your goals and agenda. Need to think about it? That's totally fine."
+    },
+    kickstart: {
+      title: "Gymbox Kickstart",
+      subtitle: "Start Strong with the Gymbox Kickstart",
+      description: "2 Personal Training sessions (or more, if you prefer) to start safely, confidently, and with a clear plan. No standard path. No fixed route. Just personal attention and a flying, responsible start.",
+      whenTitle: "When do you start with the Kickstart?",
+      whenDescription: "The Kickstart comes *after* the intake. During the free consultation, we see if Gymbox is right for you. Do you want to start? Then we use the Kickstart as your personal entry point.",
+      whoTitle: "Who is the Kickstart for?",
+      whoList: [
+        "People who want to start training (again)",
+        "People with a full life seeking certainty and structure",
+        "People who haven't exercised in a long time or irregularly",
+        "Anyone who wants technique, confidence, and personal attention",
+        "Anyone unfamiliar with CrossFit training"
+      ],
+      whatTitle: "What's in the Kickstart?",
+      whatList: [
+        "2 Personal Training sessions (expandable if desired)",
+        "Personal intake + baseline measurement",
+        "Explanation of exercises, techniques, and training structure",
+        "Alignment with your goals, body, and agenda"
+      ],
+      whyTitle: "Why Personal Training first?",
+      whySubtitle: "With 1-on-1 coaching:",
+      whyList: [
+        "Learn to move faster and safer",
+        "Gain confidence in what you do",
+        "Prevent overload and injuries",
+        "Start with a plan that fits you"
+      ],
+      howToStartTitle: "How to begin?",
+      howToStartSteps: [
+        "Free intake – 20 minutes introduction",
+        "Decide to start – no obligation",
+        "Kickstart with Personal Training – your pace, your route"
+      ]
     },
     testimonials: {
-      title: "Testimonials",
+      title: "Experiences from Starters",
       ratingText: "from {count} reviews",
     },
     faq: {
       title: "Frequently Asked Questions",
+      subtitle: "We hear these questions often:",
       items: [
         {
           question: "Do I need to be fit to start?",
-          answer:
-            "Absolutely not! Our programs are designed for all fitness levels. We scale every workout to your current ability.",
+          answer: "No, absolutely not. Many of our members started without any sports background. Our Kickstart program is designed to let you join at your own level."
         },
         {
-          question: "How often should I train?",
-          answer:
-            "For beginners, we recommend 2-3 times per week to allow for recovery while building consistency.",
+          question: "How often should I train per week?",
+          answer: "That depends on you, but for beginners, we often recommend 2 to 3 times per week. This builds consistency without overloading yourself."
         },
         {
-          question: "What should I bring?",
-          answer:
-            "Just comfortable workout clothes, a water bottle, and a positive attitude. We provide everything else!",
+          question: "Is this safe for my body?",
+          answer: "Yes. Safety is our top priority. That's why everyone starts with an intake and Personal Training sessions (Kickstart) to learn the technique properly before joining group classes."
         },
+        {
+          question: "Am I too old to start?",
+          answer: "Certainly not. We have members of all ages, from 20 to 60+. The workouts are adaptable to every level and age."
+        },
+        {
+          question: "How do I combine this with work and family?",
+          answer: "Our classes last 60 minutes and we have a wide schedule, morning, evening, and weekends. There is always a moment that fits."
+        },
+        {
+          question: "What happens during the Free Intro?",
+          answer: "The Free Intro is a 20-minute introduction. We drink a coffee, discuss your goals, and show you the gym. No training, no sweat, no obligation."
+        }
       ],
     },
     cta: {
       primaryText: "Book a Free Intro",
       secondaryText: "View Schedule",
-      readyTitle: "Ready to get started?",
+      readyTitle: "Do you see yourself training here?",
       readyDescription:
-        "Don't wait for 'someday'. Join Gymbox today and start building the best version of yourself.",
+        "Schedule your free intro, no obligation, 20 minutes, no sports gear needed. We look forward to meeting you.",
+      subText: "Yes, I want to meet!"
     },
     footer: {
       navigation: "Navigation",
@@ -305,6 +475,8 @@ export const translations = {
       privacy: "Privacy Policy",
       terms: "Terms & Conditions",
       allRights: "All rights reserved.",
+      companyName: "Gymbox",
+      tagline: "Smart training for real life"
     },
     forms: {
       name: "Name",
@@ -360,4 +532,3 @@ export const translations = {
 };
 
 export type Translations = (typeof translations)["nl"];
-
