@@ -26,9 +26,9 @@ export const siteConfig: SiteConfig = {
   },
   branding: {
     colors: {
-      primary: "hsl(210, 20%, 25%)",
+      primary: "hsl(225, 12%, 19%)", // Dark charcoal from live site
       secondary: "hsl(158, 64%, 42%)",
-      accent: "hsl(35, 92%, 55%)",
+      accent: "hsl(45, 100%, 53%)", // Yellow from live site
       background: "hsl(0, 0%, 100%)",
       text: "hsl(215, 19%, 35%)"
     },
@@ -36,7 +36,7 @@ export const siteConfig: SiteConfig = {
       heading: "Inter",
       body: "Inter"
     },
-    logo: "/images/logo-placeholder.svg"
+    logo: "https://8reapzspluqk4ou3.public.blob.vercel-storage.com/gymbox%20logo%20zwart.png"
   },
   navigation: [
     { label: "Home", href: "/" },

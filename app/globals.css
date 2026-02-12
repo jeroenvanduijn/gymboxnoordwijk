@@ -6,12 +6,12 @@
   :root {
     /* Gymbox Branding Colors - HSL values */
     /* Gymbox Branding Colors - HSL values */
-    --color-primary: 210 20% 25%;
-    /* Dark charcoal navy - unchanged */
+    --color-primary: 225 12% 19%;
+    /* Dark charcoal from live site */
     --color-secondary: 158 50% 42%;
     /* Teal green - unchanged */
-    --color-accent: 35 92% 55%;
-    /* Warm amber - unchanged */
+    --color-accent: 45 100% 53%;
+    /* Yellow from live site */
 
     --color-background: 0 0% 98%;
     /* Slightly off-white for less harshness */
