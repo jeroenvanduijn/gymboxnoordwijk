@@ -66,7 +66,7 @@ export const siteConfig: SiteConfig = {
     ],
     cta: "Plan een Gratis Intro",
     ctaUrl: "/starten",
-    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80"
+    image: "https://8reapzspluqk4ou3.public.blob.vercel-storage.com/hero-background-146.jpg"
   },
   programs: {
     title: "Ons Aanbod",
