@@ -39,10 +39,9 @@ export const siteConfig: SiteConfig = {
     logo: "https://8reapzspluqk4ou3.public.blob.vercel-storage.com/gymbox%20logo%20zwart.png"
   },
   navigation: [
-    { label: "Home", href: "/" },
     { label: "Aanbod", href: "/aanbod" },
-    { label: "Rooster", href: "/rooster" },
     { label: "Ervaringen", href: "/ervaringen" },
+    { label: "Rooster", href: "/rooster" },
     {
       label: "Over Ons",
       href: "/over-ons",
@@ -52,21 +51,55 @@ export const siteConfig: SiteConfig = {
         { label: "Onze locatie", href: "/contact" },
         { label: "Tarieven", href: "/tarieven" }
       ]
-    },
-    { label: "Contact", href: "/contact" }
+    }
   ],
   hero: {
     variant: "results",
-    headline: "Gymbox",
-    subheadline: "Voor drukke ouders en professionals die slim willen trainen met persoonlijke begeleiding.",
-    bullets: [
-      "Persoonlijke begeleiding",
-      "Geen ervaring nodig",
-      "Een plan dat werkt voor jouw leven"
-    ],
-    cta: "Plan een Gratis Intro",
+    headline: "Word sterker. Zonder dat je eerst fit hoeft te zijn.",
+    subheadline: "Persoonlijke begeleiding in kleine groepen. Voor drukke ouders en professionals die weer energie willen voelen. Geen ervaring nodig. Geen ego’s. Gewoon goed trainen.",
+    bullets: [], // Cleared as requested for cleaner look
+    cta: "Plan mijn Gratis Intro",
     ctaUrl: "/starten",
-    image: "https://8reapzspluqk4ou3.public.blob.vercel-storage.com/hero-background-146.jpg"
+    ctaSubtext: "Geen training. Gewoon kennismaken. 20 minuten.",
+    image: "https://8reapzspluqk4ou3.public.blob.vercel-storage.com/hero-background-146.jpg",
+    reviewBadge: "93+ 5-sterren Google reviews"
+  },
+  recognition: {
+    title: "Herken je dit?",
+    bullets: [
+      "Je wilt fitter worden, maar weet niet waar te beginnen",
+      "Je voelt je niet thuis in een gewone sportschool",
+      "Je hebt een druk werk- of gezinsleven",
+      "Je wilt begeleiding, geen rondje apparaten"
+    ],
+    closing: "Bij Gymbox trainen gewone mensen. Met een vol leven. Net als jij."
+  },
+  howItWorks: {
+    steps: [
+      {
+        title: "Plan een Gratis Intro",
+        description: "We maken kennis. Geen sportkleding nodig."
+      },
+      {
+        title: "Persoonlijk plan",
+        description: "We bespreken je doelen, je lichaam en je agenda."
+      },
+      {
+        title: "Start met de Kickstart",
+        description: "2 personal training sessies om veilig en zelfverzekerd te beginnen."
+      }
+    ]
+  },
+  kickstart: {
+    title: "De veilige start voor mensen die het spannend vinden",
+    subtitle: "90% van onze leden begon hier.",
+    bullets: [
+      "Leer de basis goed",
+      "Krijg vertrouwen",
+      "Voorkom blessures",
+      "Start met een plan dat bij je past"
+    ],
+    cta: "Plan mijn Gratis Intro"
   },
   programs: {
     title: "Ons Aanbod",
@@ -134,19 +167,19 @@ export const siteConfig: SiteConfig = {
     days: ["Ma", "Di", "Wo", "Do", "Vr", "Za", "Zo"]
   },
   proof: {
-    scarcityText: "",
+    scarcityText: "Meer dan 100 leden trainen hier met plezier.",
     testimonials: [
+      {
+        name: "Marijke",
+        role: "Lid (49)",
+        quote: "Ik twijfelde jaren. Dit had ik veel eerder moeten doen.",
+        image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150&h=150"
+      },
       {
         name: "Mike",
         role: "Lid (37)",
         quote: "Een hele gezellige box! Lang getwijfeld of crossfit iets voor mij was maar dit had ik jaren eerder moeten doen! Een leuke sfeer gemoedelijk sporten onder professioneel toezicht van motiverende trainers! Echt een aanrader!",
         image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=150&h=150"
-      },
-      {
-        name: "Marijke",
-        role: "Lid (49)",
-        quote: "Sinds 2 maanden train ik bij Gymbox Noordwijk. Met grote twijfels de stap genomen ivm een slechte rug. Nu 2 maanden verder en meer dan tevreden. Wordt goed begeleid door Jack en de andere trainers. De sfeer is heel goed en iedereen traint op zijn of haar niveau. Er wordt goed op je houding gelet en met mijn rug gaat het goed. Ben zeer tevreden en nog belangrijker...ik vind het echt leuk 👏🏼👊🏼.",
-        image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150&h=150"
       },
       {
         name: "Maartje",
