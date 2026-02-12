@@ -44,6 +44,7 @@ export const siteConfig: SiteConfig = {
     { label: "Rooster", href: "/rooster" },
     { label: "Tarieven", href: "/tarieven" },
     { label: "Ervaringen", href: "/ervaringen" },
+    { label: "Over Ons", href: "/over-ons" },
     { label: "Contact", href: "/contact" }
   ],
   hero: {
