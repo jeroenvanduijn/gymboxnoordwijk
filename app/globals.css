@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Gymbox Branding Colors - HSL values */
+    --color-primary: 210 20% 25%;
+    /* Dark charcoal navy */
+    --color-secondary: 158 50% 42%;
+    /* Teal green */
+    --color-accent: 35 92% 55%;
+    /* Warm amber */
+
+    --color-background: 0 0% 100%;
+    /* #FFFFFF */
+    --color-text: 215 19% 35%;
+    /* #374151 */
+
+    /* Fonts */
+    --font-heading: 'Inter', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+
+  body {
+    @apply text-text bg-background font-body;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading font-bold text-gray-900;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
