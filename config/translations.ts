@@ -246,14 +246,106 @@ export const translations = {
       },
     },
     contact: {
-      title: "Neem Contact Op",
+      title: "Bezoek ons",
       subtitle: "We horen graag van je. Neem contact op voor vragen of informatie.",
       getInTouch: "Bereik Ons",
       visitUs: "Bezoek Ons",
-      emailUs: "Mail Ons",
-      callUs: "Bel Ons",
+      emailUs: "E-mail",
+      callUs: "Telefoon",
       messageSent: "Bericht Verstuurd!",
       messageConfirm: "We nemen zo snel mogelijk contact met je op.",
+      openingHoursTitle: "Openingstijden",
+      openingHours: [
+        "Ma - Do: 06:00 - 21:00",
+        "Vr: 06:00 - 18:30",
+        "Za: 08:00 - 11:00",
+        "Zo: 08:00 - 12:00"
+      ],
+      followUs: "Volg ons",
+      routeTitle: "Route & Parkeren",
+      routeDescription: "Met de auto: Gratis parkeergelegenheid voor de deur (alleen op plekken waar een bord met Gymbox voor hangt). Of parkeren langs de doorgaande weg (Keyserswey), of bij het grotere parkeerterrein naast Brouwer Tours."
+    },
+    overOns: {
+      pageTitle: "Over ons",
+      pageSubtitle: "Gewone mensen. Slimme training. Sterke resultaten.",
+      intro: "Gymbox is er voor mensen met een vol leven: professionals, starters en iedereen die (weer) wil beginnen met trainen. Geen oordeel. Geen druk. Wel persoonlijke begeleiding, slimme training en zichtbare resultaten.",
+      storyTitle: "Hoe is Gymbox begonnen?",
+      storyParagraphs: [
+        "Kees Houwaart, geboren in '88. Nog net niet geboren in de sportschool, maar het scheelde weinig :)",
+        "Sportcentrum Olympia van mijn ouders was zo'n beetje mijn tweede huis. Ik groeide er op, werkte er en stond al vroeg met één been in de fitnesswereld.",
+        "In 2009 zette ik samen met mijn zus een volgende stap: Sport&Go. Wat begon als een ambitieus idee groeide uit tot een serieuze onderneming die we jarenlang samen hebben gerund. Ondernemen, coachen, bouwen aan een community  daar leerde ik enorm veel. In 2018 verkocht ik mijn deel van Sport&Go en Olympia, met een rugzak vol ervaring en een steeds duidelijker beeld van wat ik écht wilde neerzetten in training en coaching.",
+        "In al die jaren bleef één ding constant: krachttraining en fitness waren mijn basis. Totdat ik zo'n dertien jaar geleden iets deed wat alles veranderde.",
+        "Ik organiseerde een fietstocht naar de Alpe d'Huez voor leden van Olympia… en werd geacht zelf ook mee te fietsen. Helaas 😬\nDaar kwam ik er vrij snel achter dat alleen bicep curls doen je niet allround fit maken.",
+        "De tocht werd succesvol gefietst maar belangrijker nog: mijn kijk op trainen was voorgoed veranderd.",
+        "Niet veel later kwam CrossFit op mijn pad. Na jarenlang fitness was ik op zoek naar iets nieuws. Iets completers. Iets dat je écht fit maakt. Dagelijks wisselende trainingen, functioneel bewegen, uitdaging. Geen anonieme biggym vibe, maar een kleinere setting waarin je mensen echt leert kennen en beter kunt coachen.",
+        "Dat was het moment waarop alles samenkwam.",
+        "Met mijn ervaring uit de fitnesswereld besloot ik er volledig voor te gaan. Ik volgde alle CrossFit-opleidingen die ik maar kon vinden, leren, verdiepen, beter worden. Niet half, maar vol overtuiging.",
+        "In april 2014 opende Gymbox haar deuren.",
+        "Gymbox werd de plek waar alles samenkomt waar ik in geloof: persoonlijke coaching, resultaat, uitdaging en vooral saamhorigheid. Geen standaard rondjes langs apparaten, maar samen trainen. Samen groeien. Samen afzien én lachen.",
+        "Twee jaar later volgde de volgende stap. Samen met Jeroen van Duijn breidden we uit met CrossFit Leiden.",
+        "Wat begon als 'net niet geboren in de sportschool', groeide uit tot een plek waar mensen sterker worden  fysiek én mentaal. En eerlijk? Dat is nog steeds precies waar ik het elke dag voor doe."
+      ],
+      waaromAndersTitle: "Waarom Gymbox anders is",
+      waaromAndersParagraphs: [
+        "Gymbox is geen standaard sportschool. Gymbox is een plek waar je je welkom en op je gemak mag voelen, precies zoals je bent of je nu voor het eerst sport of al jaren bezig bent.",
+        "Geen harde sfeer, geen macho gedoe en geen gevoel dat je moet 'bijhouden'. Bij Gymbox trainen mensen van alle leeftijden en niveaus. Ouders die na de bedtijd van de kinderen komen sporten, mensen met een drukke baan, studenten, mensen die na lange tijd weer beginnen met bewegen, en leden die gewoon fitter willen worden in het dagelijks leven. Iedereen traint samen, op zijn of haar eigen niveau.",
+        "We snappen heel goed dat je kunt twijfelen:\n'Ben ik wel fit genoeg?'\n'Kan ik dit wel?'\n'Hoor ik hier wel thuis?'",
+        "Dat gevoel is normaal en je bent niet de enige. Bij Gymbox begeleiden we je stap voor stap. Je hoeft niets te kunnen of te bewijzen. Onze coaches helpen je met uitleg, aanpassingen en persoonlijke aandacht, zodat jij veilig en met vertrouwen kunt trainen.",
+        "De kracht van Gymbox zit in de community. We kennen elkaars naam, moedigen elkaar aan en vieren vooruitgang hoe klein die soms ook voelt. Hier train je niet naast elkaar, maar met elkaar."
+      ],
+      teamTitle: "Team",
+      teamMembers: ["Jack", "Lisanne", "Ronald", "Jan", "Claudine", "Rick", "Marielle", "Fenno", "Jari"],
+      coachesTitle: "Waarom onze coaches het verschil maken",
+      coachesParagraphs: [
+        "Onze coaches zijn betrokken, benaderbaar en begrijpen hoe spannend starten met sporten kan zijn.",
+        "Bij Gymbox krijg je persoonlijke aandacht. We kennen je naam, luisteren naar je doelen en passen elke training aan op jouw niveau of je nu net begint of al ervaring hebt.",
+        "Je hoeft niets te bewijzen. Je staat er niet alleen voor."
+      ]
+    },
+    aanbod: {
+      pageTitle: "Aanbod Gymbox",
+      items: [
+        {
+          key: "kickstart",
+          title: "Kickstart Programma",
+          description: "Dé start voor iedereen die veilig en met vertrouwen wil beginnen bij Gymbox."
+        },
+        {
+          key: "crossfit",
+          title: "Groepstraining (CrossFit)",
+          description: "Samen trainen in kleine groepen, altijd schaalbaar naar jouw niveau."
+        },
+        {
+          key: "build",
+          title: "Krachttraining (BUILD)",
+          description: "Gerichte krachttraining met focus op techniek, progressie en sterker worden."
+        },
+        {
+          key: "hyrox",
+          title: "HYROX Training",
+          description: "Voor wie houdt van conditie, uitdaging en doelgericht trainen richting events."
+        },
+        {
+          key: "personal",
+          title: "Personal Training",
+          description: "1-op-1 begeleiding met volledige aandacht voor jouw doelen en situatie."
+        },
+        {
+          key: "nutrition",
+          title: "Voedingsadvies",
+          description: "Praktisch en haalbaar voedingsadvies dat past bij jouw leven en training."
+        },
+        {
+          key: "rehab",
+          title: "Injury Assessment & Revalidatie",
+          description: "Samen met onze specialisten werken aan herstel, belastbaarheid en vertrouwen in bewegen."
+        },
+        {
+          key: "kids",
+          title: "Teens & Kids Training",
+          description: "Plezier, bewegen en zelfvertrouwen voor jongeren in een veilige setting."
+        }
+      ]
     },
     popup: {
       title: "Boek je Gratis Intro",
@@ -511,14 +603,106 @@ export const translations = {
       },
     },
     contact: {
-      title: "Contact Us",
+      title: "Visit Us",
       subtitle: "We'd love to hear from you. Get in touch with us for any questions or inquiries.",
       getInTouch: "Get in Touch",
       visitUs: "Visit Us",
-      emailUs: "Email Us",
-      callUs: "Call Us",
+      emailUs: "Email",
+      callUs: "Phone",
       messageSent: "Message Sent!",
       messageConfirm: "We'll get back to you as soon as possible.",
+      openingHoursTitle: "Opening Hours",
+      openingHours: [
+        "Mon - Thu: 06:00 - 21:00",
+        "Fri: 06:00 - 18:30",
+        "Sat: 08:00 - 11:00",
+        "Sun: 08:00 - 12:00"
+      ],
+      followUs: "Follow us",
+      routeTitle: "Route & Parking",
+      routeDescription: "By car: Free parking in front of the door (only in spots marked with a Gymbox sign). Or park along the main road (Keyserswey), or at the larger parking area next to Brouwer Tours."
+    },
+    overOns: {
+      pageTitle: "About Us",
+      pageSubtitle: "Real people. Smart training. Strong results.",
+      intro: "Gymbox is for people with a full life: professionals, beginners, and anyone who wants to start (again) with training. No judgement. No pressure. Just personal guidance, smart training, and visible results.",
+      storyTitle: "How did Gymbox begin?",
+      storyParagraphs: [
+        "Kees Houwaart, born in '88. Not quite born in a gym, but it was close :)",
+        "My parents' gym Sportcentrum Olympia was practically my second home. I grew up there, worked there, and had one foot in the fitness world from an early age.",
+        "In 2009, I took the next step with my sister: Sport&Go. What started as an ambitious idea grew into a serious business that we ran together for years. Entrepreneurship, coaching, building a community — I learned so much. In 2018, I sold my share of Sport&Go and Olympia, with a backpack full of experience and an ever-clearer picture of what I truly wanted to build in training and coaching.",
+        "Through all those years, one thing stayed constant: strength training and fitness were my foundation. Until about thirteen years ago, I did something that changed everything.",
+        "I organized a cycling trip to Alpe d'Huez for Olympia members... and was expected to ride along myself. Unfortunately 😬\nThat's when I quickly realized that only doing bicep curls doesn't make you all-round fit.",
+        "The trip was a success, but more importantly: my view on training changed forever.",
+        "Shortly after, CrossFit came into my life. After years of traditional fitness, I was looking for something new. Something more complete. Something that truly makes you fit. Daily varying workouts, functional movement, challenge. No anonymous big-gym vibe, but a smaller setting where you truly get to know people and can coach better.",
+        "That was the moment everything came together.",
+        "With my experience from the fitness world, I decided to go all in. I followed every CrossFit certification I could find — learn, deepen, improve. Not halfway, but with full conviction.",
+        "In April 2014, Gymbox opened its doors.",
+        "Gymbox became the place where everything I believe in comes together: personal coaching, results, challenge, and above all, togetherness. No standard rounds on machines, but training together. Growing together. Suffering and laughing together.",
+        "Two years later came the next step. Together with Jeroen van Duijn, we expanded with CrossFit Leiden.",
+        "What started as 'almost born in a gym' grew into a place where people become stronger — physically and mentally. And honestly? That's still exactly what I do it for every day."
+      ],
+      waaromAndersTitle: "Why Gymbox is Different",
+      waaromAndersParagraphs: [
+        "Gymbox is not a standard gym. Gymbox is a place where you can feel welcome and at ease, exactly as you are — whether you're exercising for the first time or have been at it for years.",
+        "No harsh atmosphere, no macho behavior, and no feeling that you need to 'keep up'. At Gymbox, people of all ages and levels train together. Parents who come to work out after the kids' bedtime, busy professionals, students, people who are starting to move again after a long time, and members who simply want to get fitter in daily life. Everyone trains together, at their own level.",
+        "We totally understand that you might doubt:\n'Am I fit enough?'\n'Can I do this?'\n'Do I belong here?'",
+        "That feeling is normal and you're not the only one. At Gymbox, we guide you step by step. You don't need to prove anything. Our coaches help you with explanations, modifications, and personal attention, so you can train safely and with confidence.",
+        "The strength of Gymbox is in the community. We know each other's names, encourage each other, and celebrate progress — no matter how small it may feel. Here you don't train next to each other, but with each other."
+      ],
+      teamTitle: "Team",
+      teamMembers: ["Jack", "Lisanne", "Ronald", "Jan", "Claudine", "Rick", "Marielle", "Fenno", "Jari"],
+      coachesTitle: "Why Our Coaches Make the Difference",
+      coachesParagraphs: [
+        "Our coaches are involved, approachable, and understand how exciting starting with sports can be.",
+        "At Gymbox, you get personal attention. We know your name, listen to your goals, and adapt every training to your level — whether you're just starting or already have experience.",
+        "You don't need to prove anything. You're not alone."
+      ]
+    },
+    aanbod: {
+      pageTitle: "Programs at Gymbox",
+      items: [
+        {
+          key: "kickstart",
+          title: "Kickstart Program",
+          description: "The start for anyone who wants to begin at Gymbox safely and with confidence."
+        },
+        {
+          key: "crossfit",
+          title: "Group Training (CrossFit)",
+          description: "Train together in small groups, always scalable to your level."
+        },
+        {
+          key: "build",
+          title: "Strength Training (BUILD)",
+          description: "Focused strength training with emphasis on technique, progression, and getting stronger."
+        },
+        {
+          key: "hyrox",
+          title: "HYROX Training",
+          description: "For those who love conditioning, challenge, and goal-oriented training towards events."
+        },
+        {
+          key: "personal",
+          title: "Personal Training",
+          description: "1-on-1 guidance with full attention to your goals and situation."
+        },
+        {
+          key: "nutrition",
+          title: "Nutrition Coaching",
+          description: "Practical and achievable nutrition advice that fits your life and training."
+        },
+        {
+          key: "rehab",
+          title: "Injury Assessment & Rehabilitation",
+          description: "Working with our specialists on recovery, load capacity, and confidence in movement."
+        },
+        {
+          key: "kids",
+          title: "Teens & Kids Training",
+          description: "Fun, movement, and confidence for young people in a safe setting."
+        }
+      ]
     },
     popup: {
       title: "Book Your Free Intro",
