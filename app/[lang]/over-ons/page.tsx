@@ -11,11 +11,11 @@ export default function OverOnsPage() {
   return (
     <main className="pt-24">
       {/* Hero */}
-      <section className="section-padding bg-gray-900 text-white">
+      <section className="bg-gradient-to-r from-accent to-accent/80 text-white section-padding">
         <div className="container-custom text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 font-headings">{overOns.pageTitle}</h1>
-          <p className="text-2xl md:text-3xl font-medium text-accent mb-6">{overOns.pageSubtitle}</p>
-          <p className="text-gray-300 text-lg leading-relaxed">{overOns.intro}</p>
+          <p className="text-2xl md:text-3xl font-medium text-white/90 mb-6">{overOns.pageSubtitle}</p>
+          <p className="text-white text-lg leading-relaxed">{overOns.intro}</p>
         </div>
       </section>
 

@@ -7,6 +7,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { siteConfig } from "@/config/site";
 import { Language } from "@/config/translations";
+import PageHistoryTracker from "@/components/PageHistoryTracker";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-body" });
 const oswald = Oswald({ subsets: ["latin"], variable: "--font-heading" });
@@ -36,11 +37,15 @@ export default async function RootLayout({
   const { lang } = await params;
   const validLang: Language = ["nl", "en"].includes(lang) ? (lang as Language) : "nl";
 
+  // ... existing code ...
+
   return (
     <html lang={validLang}>
       <body className={`${inter.variable} ${oswald.variable} font-sans antialiased`}>
         <LanguageProvider lang={validLang}>
+          <PageHistoryTracker />
           <SchemaOrg />
+
           <Header />
           <main className="min-h-screen">
             {children}

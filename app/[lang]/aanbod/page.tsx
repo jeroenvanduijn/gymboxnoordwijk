@@ -22,7 +22,7 @@ export default function AanbodPage() {
   return (
     <main className="pt-24">
       {/* Hero */}
-      <section className="section-padding bg-gray-900 text-white">
+      <section className="bg-gradient-to-r from-accent to-accent/80 text-white section-padding">
         <div className="container-custom text-center max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 font-headings">{aanbod.pageTitle}</h1>
         </div>

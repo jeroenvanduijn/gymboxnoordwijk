@@ -10,10 +10,10 @@ export default function ContactPage() {
   return (
     <main className="pt-24">
       {/* Hero */}
-      <section className="section-padding bg-gray-900 text-white">
+      <section className="bg-gradient-to-r from-accent to-accent/80 text-white section-padding">
         <div className="container-custom text-center max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 font-headings">{contact.title}</h1>
-          <p className="text-gray-300 text-lg">{contact.subtitle}</p>
+          <p className="text-white text-lg">{contact.subtitle}</p>
         </div>
       </section>
 

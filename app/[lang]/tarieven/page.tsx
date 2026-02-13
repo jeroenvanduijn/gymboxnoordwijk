@@ -12,7 +12,7 @@ export default function Tarieven() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-r from-primary to-primary/80 text-white section-padding">
+      <section className="bg-gradient-to-r from-accent to-accent/80 text-white section-padding">
         <div className="container-custom">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">{content.title}</h1>
           <p className="text-xl max-w-2xl mb-6">
