@@ -10,17 +10,23 @@ export const translations = {
     },
     hero: {
       tagline: "Sterker, fitter en meer energie, zonder gedoe",
-      headline: "Gymbox",
+      headline: "Word sterker. Zonder dat je eerst fit hoeft te zijn.",
+      subheadline: "Persoonlijke begeleiding in kleine groepen. Voor drukke ouders en professionals die weer energie willen voelen. Geen ervaring nodig. Geen ego’s. Gewoon goed trainen.",
+      bullets: [],
+      cta: "Plan mijn Gratis Intro",
+      ctaUrl: "/starten",
+      ctaSubtext: "Geen training. Gewoon kennismaken. 20 minuten.",
       reviewBadge: "93+ 5-sterren Google reviews",
-      subheadline:
-        "Voor drukke ouders en professionals die slim willen trainen met persoonlijke begeleiding. Geen ervaring nodig. Geen ego's. Wel een plan dat werkt voor jouw leven.",
+    },
+    recognition: {
+      title: "Herken je dit?",
       bullets: [
-        "Persoonlijke begeleiding",
-        "Geen ervaring nodig",
-        "Een plan dat werkt voor jouw leven",
+        "Je wilt fitter worden, maar weet niet waar te beginnen",
+        "Je voelt je niet thuis in een gewone sportschool",
+        "Je hebt een druk werk- of gezinsleven",
+        "Je wilt begeleiding, geen rondje apparaten"
       ],
-      cta: "Plan een Gratis Intro",
-      ctaSubtext: "Geen training, gewoon een gesprek. Ontdek of Gymbox bij je past.",
+      closing: "Bij Gymbox trainen gewone mensen. Met een vol leven. Net als jij."
     },
     zelftest: {
       title: "Gratis Zelftest",
@@ -105,61 +111,48 @@ export const translations = {
         }
       ]
     },
-    hoeWerktHet: {
-      title: "Hoe werkt het?",
-      subtitle: "Drie simpele stappen. Geen verplichtingen. Geen druk.",
+    howItWorks: {
+      title: "Zo werkt het",
+      subtitle: "", // Not used in new design
       steps: [
         {
-          title: "1. Plan een Gratis Intro",
-          description: "Klik op de knop, kies een moment en laat je gegevens achter. Klaar in 30 seconden.",
-          cta: "Plan mijn Gratis Intro"
+          title: "Plan een Gratis Intro",
+          description: "We maken kennis. Geen sportkleding nodig."
         },
         {
-          title: "2. Ontspannen kennismaking (geen training)",
-          description: "We leren je kennen, beantwoorden je vragen en laten de gym zien. We bespreken je doelen en leggen uit hoe ons Kickstart programma werkt. Dit noemen we een 'No Sweat Intro' je hoeft niet te sporten."
+          title: "Persoonlijk plan",
+          description: "We bespreken je doelen, je lichaam en je agenda."
         },
         {
-          title: "3. Start sterk met de Gymbox Kickstart",
-          description: "Na de intake en als je wilt starten, begin je met de Gymbox Kickstart."
+          title: "Start met de Kickstart",
+          description: "2 personal training sessies om veilig en zelfverzekerd te beginnen."
         }
       ],
-      cta: "Is er een klik? Dan maken we samen een plan dat past bij jouw doelen en agenda. Wil je er nog even over nadenken? Helemaal prima."
+      cta: "" // Not used
     },
     kickstart: {
-      title: "Gymbox Kickstart",
-      subtitle: "Start sterk met de Gymbox Kickstart",
-      description: "2 Personal Training sessies (of meer, als jij dat prettig vindt) om veilig, zelfverzekerd en met een duidelijk plan te beginnen. Geen standaard traject. Geen vaste route. Wél persoonlijke aandacht en een vliegende, verantwoorde start.",
+      title: "De veilige start voor mensen die het spannend vinden",
+      subtitle: "90% van onze leden begon hier.",
+      bullets: [
+        "Leer de basis goed",
+        "Krijg vertrouwen",
+        "Voorkom blessures",
+        "Start met een plan dat bij je past"
+      ],
+      cta: "Plan mijn Gratis Intro",
+      // Keep other fields if needed, but the new component mainly uses title, subtitle, bullets, cta
+      description: "2 Personal Training sessies (of meer, als jij dat prettig vindt) om veilig, zelfverzekerd en met een duidelijk plan te beginnen.",
       whenTitle: "Wanneer start je met de Kickstart?",
-      whenDescription: "De Kickstart komt ná de intake. Tijdens het gratis gesprek kijken we of Gymbox bij je past. Wil je starten? Dan gebruiken we de Kickstart als jouw persoonlijke instap.",
+      whenDescription: "De Kickstart komt ná de intake.",
       whoTitle: "Voor wie is de Kickstart?",
-      whoList: [
-        "Mensen die (weer) willen beginnen met trainen",
-        "Mensen met een vol leven die zekerheid en structuur zoeken",
-        "Mensen die lang niet of onregelmatig hebben gesport",
-        "Iedereen die techniek, vertrouwen en persoonlijke aandacht wil",
-        "Iedereen die niet bekend is met CrossFit trainingen"
-      ],
+      whoList: [],
       whatTitle: "Wat zit er in de Kickstart?",
-      whatList: [
-        "2 Personal Training sessies (uitbreidbaar indien gewenst)",
-        "Persoonlijke intake + nulmeting",
-        "Uitleg van oefeningen, technieken en trainingsstructuur",
-        "Afstemming op jouw doelen, lichaam en agenda"
-      ],
+      whatList: [],
       whyTitle: "Waarom eerst Personal Training?",
-      whySubtitle: "Met 1-op-1 coaching:",
-      whyList: [
-        "Leer je sneller en veiliger bewegen",
-        "Krijg je vertrouwen in wat je doet",
-        "Voorkom je overbelasting en blessures",
-        "Start je met een plan dat past bij jou"
-      ],
+      whySubtitle: "",
+      whyList: [],
       howToStartTitle: "Hoe begin je?",
-      howToStartSteps: [
-        "Gratis intake – 20 minuten kennismaken",
-        "Beslissen om te starten – geen verplichting",
-        "Kickstart met Personal Training – jouw tempo, jouw route"
-      ]
+      howToStartSteps: []
     },
     testimonials: {
       title: "Ervaringen van starters",
@@ -367,17 +360,23 @@ export const translations = {
     },
     hero: {
       tagline: "Stronger, fitter and more energy, without the hassle",
-      headline: "Gymbox",
-      reviewBadge: "93+ 5-star Google reviews",
-      subheadline:
-        "For busy parents and professionals who want to train smart with personal guidance. No experience needed. No egos. Just a plan that fits your life.",
-      bullets: [
-        "Personal guidance",
-        "No experience needed",
-        "A plan that fits your life",
-      ],
+      headline: "Get stronger. Without needing to be fit first.",
+      subheadline: "Personal guidance in small groups. For busy parents and professionals who want to feel energetic again. No experience needed. No egos. Just good training.",
+      bullets: [],
       cta: "Book a Free Intro",
-      ctaSubtext: "No training, just a conversation. Find out if Gymbox is right for you.",
+      ctaUrl: "/starten",
+      ctaSubtext: "No training. Just a chat. 20 minutes.",
+      reviewBadge: "93+ 5-star Google reviews",
+    },
+    recognition: {
+      title: "Do you recognize this?",
+      bullets: [
+        "You want to get fitter, but don't know where to start",
+        "You don't feel at home in a regular gym",
+        "You have a busy work or family life",
+        "You want guidance, not just machines"
+      ],
+      closing: "At Gymbox, standard people train. With a full life. Just like you."
     },
     zelftest: {
       title: "Free Self-Assessment",
@@ -462,61 +461,47 @@ export const translations = {
         }
       ]
     },
-    hoeWerktHet: {
-      title: "How does it work?",
-      subtitle: "Three simple steps. No obligations. No pressure.",
+    howItWorks: {
+      title: "How it works",
+      subtitle: "",
       steps: [
         {
-          title: "1. Schedule a Free Intro",
-          description: "Click the button, choose a time, and leave your details. Done in 30 seconds.",
-          cta: "Schedule my Free Intro"
+          title: "Schedule a Free Intro",
+          description: "We meet. No sports gear needed."
         },
         {
-          title: "2. Relaxed Introduction (No Training)",
-          description: "We get to know you, answer your questions, and show you the gym. We discuss your goals and explain how our Kickstart program works. We call this a 'No Sweat Intro' - you don't need to work out."
+          title: "Personal Plan",
+          description: "We discuss your goals, your body, and your schedule."
         },
         {
-          title: "3. Start Strong with the Gymbox Kickstart",
-          description: "After the intake and if you want to start, you begin with the Gymbox Kickstart."
+          title: "Start with the Kickstart",
+          description: "2 personal training sessions to start safely and confidently."
         }
       ],
-      cta: "Is there a click? Then we make a plan together that fits your goals and agenda. Need to think about it? That's totally fine."
+      cta: ""
     },
     kickstart: {
-      title: "Gymbox Kickstart",
-      subtitle: "Start Strong with the Gymbox Kickstart",
-      description: "2 Personal Training sessions (or more, if you prefer) to start safely, confidently, and with a clear plan. No standard path. No fixed route. Just personal attention and a flying, responsible start.",
-      whenTitle: "When do you start with the Kickstart?",
-      whenDescription: "The Kickstart comes *after* the intake. During the free consultation, we see if Gymbox is right for you. Do you want to start? Then we use the Kickstart as your personal entry point.",
-      whoTitle: "Who is the Kickstart for?",
-      whoList: [
-        "People who want to start training (again)",
-        "People with a full life seeking certainty and structure",
-        "People who haven't exercised in a long time or irregularly",
-        "Anyone who wants technique, confidence, and personal attention",
-        "Anyone unfamiliar with CrossFit training"
-      ],
-      whatTitle: "What's in the Kickstart?",
-      whatList: [
-        "2 Personal Training sessions (expandable if desired)",
-        "Personal intake + baseline measurement",
-        "Explanation of exercises, techniques, and training structure",
-        "Alignment with your goals, body, and agenda"
-      ],
-      whyTitle: "Why Personal Training first?",
-      whySubtitle: "With 1-on-1 coaching:",
-      whyList: [
-        "Learn to move faster and safer",
-        "Gain confidence in what you do",
-        "Prevent overload and injuries",
+      title: "The safe start for people who find it scary",
+      subtitle: "90% of our members started here.",
+      bullets: [
+        "Learn the basics well",
+        "Gain confidence",
+        "Prevent injuries",
         "Start with a plan that fits you"
       ],
+      cta: "Book a Free Intro",
+      description: "2 Personal Training sessions to start safely and confidently.",
+      whenTitle: "When do you start?",
+      whenDescription: "After the intake.",
+      whoTitle: "For whom?",
+      whoList: [],
+      whatTitle: "What's in it?",
+      whatList: [],
+      whyTitle: "Why PT first?",
+      whySubtitle: "",
+      whyList: [],
       howToStartTitle: "How to begin?",
-      howToStartSteps: [
-        "Free intake – 20 minutes introduction",
-        "Decide to start – no obligation",
-        "Kickstart with Personal Training – your pace, your route"
-      ]
+      howToStartSteps: []
     },
     testimonials: {
       title: "Experiences from Starters",
@@ -716,3 +701,5 @@ export const translations = {
 };
 
 export type Translations = (typeof translations)["nl"];
+export type Language = keyof typeof translations;
+

@@ -3,10 +3,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
-import { useTranslations } from "@/context/LanguageContext";
+import { Translations } from "@/config/translations";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 
-export default function HeroSection() {
+export default function HeroSection({ content }: { content: Translations['hero'] }) {
     return (
         <section className="relative min-h-[90vh] flex items-center py-20 bg-gray-900 text-white overflow-hidden">
             {/* Background Image with Overlay */}
@@ -35,14 +35,14 @@ export default function HeroSection() {
                                     </svg>
                                 ))}
                             </div>
-                            <span className="text-white font-medium text-base tracking-wide">{siteConfig.hero.reviewBadge}</span>
+                            <span className="text-white font-medium text-base tracking-wide">{content.reviewBadge}</span>
                         </div>
                     </ScrollReveal>
 
                     {/* Headline */}
                     <ScrollReveal delay={0.2} direction="left">
                         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 font-headings leading-[1.1] tracking-tight text-white">
-                            {siteConfig.hero.headline}
+                            {content.headline}
                         </h1>
                     </ScrollReveal>
 
@@ -50,7 +50,7 @@ export default function HeroSection() {
                     <ScrollReveal delay={0.3} direction="left">
                         <div className="mb-10 max-w-2xl">
                             <p className="text-xl md:text-2xl text-gray-100 leading-relaxed font-medium">
-                                {siteConfig.hero.subheadline}
+                                {content.subheadline}
                             </p>
                         </div>
                     </ScrollReveal>
@@ -59,14 +59,14 @@ export default function HeroSection() {
                     <ScrollReveal delay={0.4} direction="up">
                         <div className="flex flex-col items-start gap-4">
                             <Link
-                                href={siteConfig.hero.ctaUrl}
+                                href={content.ctaUrl || "/starten"}
                                 className="group relative bg-accent text-primary text-lg md:text-xl font-bold py-4 px-10 rounded-2xl transition-all hover:bg-white hover:text-accent shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                             >
-                                <span className="uppercase tracking-wide">{siteConfig.hero.cta}</span>
+                                <span className="uppercase tracking-wide">{content.cta}</span>
                             </Link>
-                            {siteConfig.hero.ctaSubtext && (
+                            {content.ctaSubtext && (
                                 <p className="text-sm md:text-base text-gray-200 flex items-center gap-2 font-medium opacity-90">
-                                    {siteConfig.hero.ctaSubtext}
+                                    {content.ctaSubtext}
                                 </p>
                             )}
                         </div>

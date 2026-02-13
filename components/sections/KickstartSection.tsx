@@ -1,10 +1,11 @@
 "use client";
 
 import { siteConfig } from "@/config/site";
+import { Translations } from "@/config/translations";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function KickstartSection() {
+export default function KickstartSection({ content }: { content: Translations['kickstart'] }) {
     return (
         <section className="section-padding bg-gray-50">
             <div className="container-custom">
@@ -12,14 +13,14 @@ export default function KickstartSection() {
                     <div className="grid md:grid-cols-2">
                         <div className="p-8 md:p-12 flex flex-col justify-center">
                             <h2 className="text-3xl md:text-4xl font-bold mb-4 font-headings text-gray-900">
-                                {siteConfig.kickstart.title}
+                                {content.title}
                             </h2>
                             <p className="text-lg text-primary font-medium mb-8">
-                                {siteConfig.kickstart.subtitle}
+                                {content.subtitle}
                             </p>
 
                             <ul className="space-y-4 mb-8">
-                                {siteConfig.kickstart.bullets.map((bullet, i) => (
+                                {content.bullets.map((bullet, i) => (
                                     <li key={i} className="flex items-center gap-3">
                                         <svg className="w-6 h-6 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -31,10 +32,10 @@ export default function KickstartSection() {
 
                             <div>
                                 <Link
-                                    href={siteConfig.hero.ctaUrl}
+                                    href="/starten" // Fixed to /starten as in siteConfig ctaUrl for Hero
                                     className="inline-block bg-accent text-primary font-bold py-3 px-8 rounded-xl hover:bg-opacity-90 transition-all shadow-md"
                                 >
-                                    {siteConfig.kickstart.cta}
+                                    {content.cta}
                                 </Link>
                             </div>
                         </div>

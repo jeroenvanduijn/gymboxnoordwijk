@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
-import { Inter, Oswald } from "next/font/google"; // Import Oswald
-import "./globals.css";
+import { Inter, Oswald } from "next/font/google";
+import "../globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SchemaOrg from "@/components/SchemaOrg";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { siteConfig } from "@/config/site";
+import { Language } from "@/config/translations";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-body" }); // Add variable
-const oswald = Oswald({ subsets: ["latin"], variable: "--font-heading" }); // Add variable
+const inter = Inter({ subsets: ["latin"], variable: "--font-body" });
+const oswald = Oswald({ subsets: ["latin"], variable: "--font-heading" });
 
 export const metadata: Metadata = {
   title: {
@@ -21,15 +22,24 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export async function generateStaticParams() {
+  return [{ lang: 'nl' }, { lang: 'en' }];
+}
+
+export default async function RootLayout({
   children,
-}: Readonly<{
+  params,
+}: {
   children: React.ReactNode;
-}>) {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
+  const validLang: Language = ["nl", "en"].includes(lang) ? (lang as Language) : "nl";
+
   return (
-    <html lang="nl">
+    <html lang={validLang}>
       <body className={`${inter.variable} ${oswald.variable} font-sans antialiased`}>
-        <LanguageProvider>
+        <LanguageProvider lang={validLang}>
           <SchemaOrg />
           <Header />
           <main className="min-h-screen">
