@@ -101,6 +101,17 @@ export interface MediaConfig {
     };
 }
 
+export interface CalendarConfig {
+    online: {
+        url: string;
+        id: string;
+    };
+    gym: {
+        url: string;
+        id: string;
+    };
+}
+
 export interface NavigationItem {
     label: string;
     href: string;
@@ -163,4 +174,5 @@ export interface SiteConfig {
     cta: CtaSection;
     content: ContentSection;
     media: MediaConfig;
+    calendar: CalendarConfig;
 }

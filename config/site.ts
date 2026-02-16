@@ -205,5 +205,15 @@ export const siteConfig: SiteConfig = {
       community: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&q=80",
       feature: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80"
     }
+  },
+  calendar: {
+    online: {
+      url: "https://links.gymops.nl/widget/booking/t8elIgaELFyNtGZ5tBdj",
+      id: "F2vr6FiRZ8EEcaCqyjPU_1771243018732"
+    },
+    gym: {
+      url: "https://links.gymops.nl/widget/booking/viZvu1nseVtAUQ3FzULQ",
+      id: "F2vr6FiRZ8EEcaCqyjPU_1771243052700"
+    }
   }
 };

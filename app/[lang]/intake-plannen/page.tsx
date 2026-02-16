@@ -2,26 +2,31 @@
 
 import { useTranslations } from "@/context/LanguageContext";
 import { useState, useEffect } from "react";
-import Script from "next/script";
+import { siteConfig } from "@/config/site";
 
 export default function IntakePlannenPage() {
     const t = useTranslations();
     const [activeTab, setActiveTab] = useState<'online' | 'gym'>('online');
 
     useEffect(() => {
-        // Force reload of scripts when tab changes to ensure iframes render
+        // Remove existing scripts to force reload
         const scripts = document.querySelectorAll('script[src="https://links.gymops.nl/js/form_embed.js"]');
         scripts.forEach(script => script.remove());
 
+        // Create and append new script
         const script = document.createElement("script");
         script.src = "https://links.gymops.nl/js/form_embed.js";
         script.type = "text/javascript";
+        script.async = true; // Ensure async loading
         document.body.appendChild(script);
 
         return () => {
-            document.body.removeChild(script);
+            // Optional: cleanup script on unmount
+            if (document.body.contains(script)) {
+                document.body.removeChild(script);
+            }
         };
-    }, [activeTab]);
+    }, [activeTab]); // Re-run when tab changes to resize new iframe
 
     return (
         <main className="pt-24 min-h-screen bg-gray-50">
@@ -54,29 +59,28 @@ export default function IntakePlannenPage() {
                 </div>
 
                 {/* Embeds */}
-                <div className="bg-white p-6 md:p-10 rounded-2xl shadow-xl border border-gray-100 min-h-[600px]">
+                <div className="bg-white p-6 md:p-10 rounded-2xl shadow-xl border border-gray-100 min-h-[800px]">
                     {activeTab === 'online' ? (
                         <div key="online" className="w-full">
                             <iframe
-                                src="https://links.gymops.nl/widget/booking/t8elIgaELFyNtGZ5tBdj"
-                                style={{ width: '100%', border: 'none', overflow: 'hidden', minHeight: '600px' }}
+                                src={siteConfig.calendar.online.url}
+                                style={{ width: '100%', border: 'none', overflow: 'hidden', minHeight: '800px' }}
                                 scrolling="no"
-                                id="F2vr6FiRZ8EEcaCqyjPU_1771243018732"
+                                id={siteConfig.calendar.online.id}
                             ></iframe>
                         </div>
                     ) : (
                         <div key="gym" className="w-full">
                             <iframe
-                                src="https://links.gymops.nl/widget/booking/viZvu1nseVtAUQ3FzULQ"
-                                style={{ width: '100%', border: 'none', overflow: 'hidden', minHeight: '600px' }}
+                                src={siteConfig.calendar.gym.url}
+                                style={{ width: '100%', border: 'none', overflow: 'hidden', minHeight: '800px' }}
                                 scrolling="no"
-                                id="F2vr6FiRZ8EEcaCqyjPU_1771243052700"
+                                id={siteConfig.calendar.gym.id}
                             ></iframe>
                         </div>
                     )}
                 </div>
             </div>
-            <Script src="https://links.gymops.nl/js/form_embed.js" strategy="lazyOnload" />
         </main>
     );
 }
