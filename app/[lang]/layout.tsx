@@ -8,6 +8,8 @@ import { LanguageProvider } from "@/context/LanguageContext";
 import { siteConfig } from "@/config/site";
 import { Language } from "@/config/translations";
 import PageHistoryTracker from "@/components/PageHistoryTracker";
+import { PopupProvider } from "@/context/PopupContext";
+import HighLevelPopup from "@/components/HighLevelPopup";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-body" });
 const oswald = Oswald({ subsets: ["latin"], variable: "--font-heading" });
@@ -43,14 +45,17 @@ export default async function RootLayout({
     <html lang={validLang}>
       <body className={`${inter.variable} ${oswald.variable} font-sans antialiased`}>
         <LanguageProvider lang={validLang}>
-          <PageHistoryTracker />
-          <SchemaOrg />
+          <PopupProvider>
+            <PageHistoryTracker />
+            <SchemaOrg />
 
-          <Header />
-          <main className="min-h-screen">
-            {children}
-          </main>
-          <Footer />
+            <Header />
+            <HighLevelPopup />
+            <main className="min-h-screen">
+              {children}
+            </main>
+            <Footer />
+          </PopupProvider>
         </LanguageProvider>
       </body>
     </html>

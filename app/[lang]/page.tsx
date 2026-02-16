@@ -3,6 +3,7 @@ import RecognitionSection from "@/components/sections/RecognitionSection";
 import FeaturesSection from "@/components/sections/FeaturesSection";
 import HoeWerktHetSection from "@/components/sections/HoeWerktHetSection";
 import KickstartSection from "@/components/sections/KickstartSection";
+import WaaromSection from "@/components/sections/WaaromSection";
 import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import FAQSection from "@/components/sections/FAQSection";
 import CTASection from "@/components/sections/CTASection";
@@ -19,6 +20,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <HeroSection content={dict.hero} />
       <RecognitionSection content={dict.recognition} />
       <KickstartSection content={dict.kickstart} />
+      <WaaromSection />
       <HoeWerktHetSection content={dict.howItWorks} />
       <TestimonialsSection />
       {/* Passing content to FeaturesSection (Programs) if needed, but keeping it simple for now as it might be complex refactor. 
