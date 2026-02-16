@@ -10,7 +10,7 @@ export default function CTASection() {
     return (
         <section className="py-20 bg-primary text-white text-center">
             <div className="container-custom">
-                <h2 className="text-3xl md:text-5xl font-bold mb-6 font-headings">
+                <h2 className="text-3xl md:text-5xl font-bold mb-6 font-headings text-white">
                     {t.cta.readyTitle}
                 </h2>
                 <p className="text-xl mb-10 max-w-2xl mx-auto text-white">
