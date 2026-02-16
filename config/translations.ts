@@ -131,26 +131,40 @@ export const translations = {
       cta: "" // Not used
     },
     kickstart: {
-      title: "De veilige start voor mensen die het spannend vinden",
-      subtitle: "90% van onze leden begon hier.",
+      title: "Gymbox Kickstart",
+      subtitle: "Na de intake en als je wilt starten, begin je met de Gymbox Kickstart.",
       bullets: [
-        "Leer de basis goed",
-        "Krijg vertrouwen",
-        "Voorkom blessures",
-        "Start met een plan dat bij je past"
+        "Veilige start",
+        "Persoonlijke aandacht",
+        "Duidelijk plan",
+        "Vertrouwen opbouwen"
       ],
       cta: "Plan mijn Gratis Intro",
-      // Keep other fields if needed, but the new component mainly uses title, subtitle, bullets, cta
-      description: "2 Personal Training sessies (of meer, als jij dat prettig vindt) om veilig, zelfverzekerd en met een duidelijk plan te beginnen.",
+      description: "2 Personal Training sessies (of meer, als jij dat prettig vindt) om veilig, zelfverzekerd en met een duidelijk plan te beginnen. Geen standaard traject. Geen vaste route. Wél persoonlijke aandacht en een vliegende, verantwoorde start.",
       whenTitle: "Wanneer start je met de Kickstart?",
-      whenDescription: "De Kickstart komt ná de intake.",
+      whenDescription: "De Kickstart komt ná de intake. Tijdens het gratis gesprek kijken we of Gymbox bij je past. Wil je starten? Dan gebruiken we de Kickstart als jouw persoonlijke instap.",
       whoTitle: "Voor wie is de Kickstart?",
-      whoList: [],
+      whoList: [
+        "Mensen die (weer) willen beginnen met trainen",
+        "Mensen met een vol leven die zekerheid en structuur zoeken",
+        "Mensen die lang niet of onregelmatig hebben gesport",
+        "Iedereen die techniek, vertrouwen en persoonlijke aandacht wil",
+        "Iedereen die niet bekend is met CrossFit trainingen"
+      ],
       whatTitle: "Wat zit er in de Kickstart?",
-      whatList: [],
+      whatList: [
+        "2 Personal Training sessies (uitbreidbaar indien gewenst)",
+        "Persoonlijke intake + nulmeting",
+        "Uitleg van oefeningen, technieken en trainingsstructuur",
+        "Afstemming op jouw doelen, lichaam en agenda",
+        "Advies over hoe je instroomt in de groepslessen (of combinatie PT + groep)"
+      ],
       whyTitle: "Waarom eerst Personal Training?",
-      whySubtitle: "",
-      whyList: [],
+      whySubtitle: "Met 1-op-1 coaching:",
+      whyList: [
+        "leer je sneller en veiliger bewegen",
+        "krijg je vertrouwen in wat je doet"
+      ],
       howToStartTitle: "Hoe begin je?",
       howToStartSteps: []
     },
@@ -287,7 +301,17 @@ export const translations = {
         "De kracht van Gymbox zit in de community. We kennen elkaars naam, moedigen elkaar aan en vieren vooruitgang hoe klein die soms ook voelt. Hier train je niet naast elkaar, maar met elkaar."
       ],
       teamTitle: "Team",
-      teamMembers: ["Jack", "Lisanne", "Ronald", "Jan", "Claudine", "Rick", "Marielle", "Fenno", "Jari"],
+      teamMembers: [
+        { name: "Jack", role: "Coach / Eigenaar", bio: "Mede-eigenaar en gepassioneerd coach...", image: "/images/team/jack.jpg" },
+        { name: "Lisanne", role: "Coach", bio: "Coacht met passie en oog voor detail...", image: "" },
+        { name: "Ronald", role: "Coach", bio: "Ervaren coach die je helpt je grenzen te verleggen...", image: "" },
+        { name: "Jan", role: "Coach", bio: "Focus op techniek en veilig bewegen...", image: "" },
+        { name: "Claudine", role: "Coach", bio: "Zorgt voor een warm welkom en goede sfeer...", image: "" },
+        { name: "Rick", role: "Coach", bio: "Motiveert je om het beste uit jezelf te halen...", image: "" },
+        { name: "Marielle", role: "Coach", bio: "Biedt persoonlijke aandacht en begeleiding...", image: "" },
+        { name: "Fenno", role: "Coach", bio: "Helpt je sterker te worden, fysiek en mentaal...", image: "" },
+        { name: "Jari", role: "Coach", bio: "Jong talent met veel kennis van zaken...", image: "" }
+      ],
       coachesTitle: "Waarom onze coaches het verschil maken",
       coachesParagraphs: [
         "Onze coaches zijn betrokken, benaderbaar en begrijpen hoe spannend starten met sporten kan zijn.",
@@ -636,7 +660,17 @@ export const translations = {
         "The strength of Gymbox is in the community. We know each other's names, encourage each other, and celebrate progress — no matter how small it may feel. Here you don't train next to each other, but with each other."
       ],
       teamTitle: "Team",
-      teamMembers: ["Jack", "Lisanne", "Ronald", "Jan", "Claudine", "Rick", "Marielle", "Fenno", "Jari"],
+      teamMembers: [
+        { name: "Jack", role: "Coach / Owner", bio: "Co-owner and passionate coach...", image: "/images/team/jack.jpg" },
+        { name: "Lisanne", role: "Coach", bio: "Coaches with passion and eye for detail...", image: "" },
+        { name: "Ronald", role: "Coach", bio: "Experienced coach helping you push limits...", image: "" },
+        { name: "Jan", role: "Coach", bio: "Focus on technique and safe movement...", image: "" },
+        { name: "Claudine", role: "Coach", bio: "Ensures a warm welcome and great atmosphere...", image: "" },
+        { name: "Rick", role: "Coach", bio: "Motivates you to get the best out of yourself...", image: "" },
+        { name: "Marielle", role: "Coach", bio: "Offers personal attention and guidance...", image: "" },
+        { name: "Fenno", role: "Coach", bio: "Helps you get stronger, physically and mentally...", image: "" },
+        { name: "Jari", role: "Coach", bio: "Young talent with lots of knowledge...", image: "" }
+      ],
       coachesTitle: "Why Our Coaches Make the Difference",
       coachesParagraphs: [
         "Our coaches are involved, approachable, and understand how exciting starting with sports can be.",

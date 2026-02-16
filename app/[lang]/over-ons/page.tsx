@@ -50,14 +50,6 @@ export default function OverOnsPage() {
       {/* Team */}
       <section className="section-padding bg-white">
         <div className="container-custom max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 font-headings">{overOns.teamTitle}</h2>
-          <div className="flex flex-wrap gap-4 mb-16">
-            {overOns.teamMembers.map((name, i) => (
-              <span key={i} className="bg-gray-100 text-gray-800 font-medium px-5 py-3 rounded-lg border border-gray-200 text-lg">
-                {name}
-              </span>
-            ))}
-          </div>
 
           <h3 className="text-2xl md:text-3xl font-bold mb-6 font-headings">{overOns.coachesTitle}</h3>
           <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
