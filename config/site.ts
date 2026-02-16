@@ -41,7 +41,6 @@ export const siteConfig: SiteConfig = {
   },
   navigation: [
     { label: "Aanbod", href: "/aanbod" },
-    { label: "Ervaringen", href: "/ervaringen" },
     { label: "Rooster", href: "/rooster" },
     {
       label: "Over Ons",

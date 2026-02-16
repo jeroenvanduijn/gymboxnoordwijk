@@ -13,7 +13,6 @@ export default function Footer() {
     "/aanbod": t.nav.programs,
     "/rooster": t.nav.schedule,
     "/tarieven": t.nav.pricing,
-    "/ervaringen": t.nav.testimonials,
     "/contact": t.nav.contact,
   };
 

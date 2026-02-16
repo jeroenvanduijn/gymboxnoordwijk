@@ -5,7 +5,6 @@ export const translations = {
       programs: "Aanbod",
       schedule: "Rooster",
       pricing: "Tarieven",
-      testimonials: "Ervaringen",
       contact: "Contact",
     },
     hero: {
@@ -505,25 +504,40 @@ export const translations = {
       cta: ""
     },
     kickstart: {
-      title: "The safe start for people who find it scary",
-      subtitle: "90% of our members started here.",
+      title: "Gymbox Kickstart",
+      subtitle: "After the intake, if you decide to join, you'll begin with the Gymbox Kickstart.",
       bullets: [
-        "Learn the basics well",
-        "Gain confidence",
-        "Prevent injuries",
-        "Start with a plan that fits you"
+        "Safe start",
+        "Personal attention",
+        "Clear plan",
+        "Build confidence"
       ],
       cta: "Book a Free Intro",
-      description: "2 Personal Training sessions to start safely and confidently.",
-      whenTitle: "When do you start?",
-      whenDescription: "After the intake.",
-      whoTitle: "For whom?",
-      whoList: [],
-      whatTitle: "What's in it?",
-      whatList: [],
-      whyTitle: "Why PT first?",
-      whySubtitle: "",
-      whyList: [],
+      description: "2 Personal Training sessions (or more, if you prefer) to start safely, confidently, and with a clear plan. No standard program. No fixed path. Just personal attention and a flying, responsible start.",
+      whenTitle: "When does the Kickstart begin?",
+      whenDescription: "The Kickstart comes *after* the intake. During the free intro, we see if Gymbox is right for you. Ready to start? Then we use the Kickstart as your personal onboarding.",
+      whoTitle: "Who is the Kickstart for?",
+      whoList: [
+        "People who want to start training (again)",
+        "People with busy lives looking for certainty and structure",
+        "People who haven't exercised in a long time",
+        "Anyone who wants technique, confidence, and personal attention",
+        "Anyone new to CrossFit training"
+      ],
+      whatTitle: "What's included in the Kickstart?",
+      whatList: [
+        "2 Personal Training sessions (expandable if desired)",
+        "Personal intake + baseline assessment",
+        "Explanation of exercises, techniques, and training structure",
+        "Tailored to your goals, body, and schedule",
+        "Advice on how to transition into group classes (or combine PT + group)"
+      ],
+      whyTitle: "Why Personal Training first?",
+      whySubtitle: "With 1-on-1 coaching:",
+      whyList: [
+        "you learn to move safer and faster",
+        "you gain confidence in what you're doing"
+      ],
       howToStartTitle: "How to begin?",
       howToStartSteps: []
     },

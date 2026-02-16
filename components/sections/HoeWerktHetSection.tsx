@@ -20,7 +20,7 @@ export default function HoeWerktHetSection({ content }: { content: Translations[
 
                     {content.steps.map((step, i) => (
                         <div key={i} className="flex flex-col items-center text-center">
-                            <div className="w-24 h-24 bg-primary text-white rounded-full flex items-center justify-center text-3xl font-bold mb-6 shadow-lg border-4 border-white">
+                            <div className="w-24 h-24 bg-accent text-primary rounded-full flex items-center justify-center text-3xl font-bold mb-6 shadow-lg border-4 border-white">
                                 {i + 1}
                             </div>
                             <h3 className="text-xl font-bold mb-4 h-auto">{step.title}</h3>

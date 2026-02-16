@@ -13,7 +13,7 @@ export default function CTASection() {
                 <h2 className="text-3xl md:text-5xl font-bold mb-6 font-headings">
                     {t.cta.readyTitle}
                 </h2>
-                <p className="text-xl opacity-90 mb-10 max-w-2xl mx-auto">
+                <p className="text-xl mb-10 max-w-2xl mx-auto text-white">
                     {t.cta.readyDescription}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
