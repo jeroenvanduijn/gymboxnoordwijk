@@ -94,7 +94,7 @@ export default function ContactPage() {
               {/* Google Maps embed */}
               <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-80">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2433.0!2d4.4392!3d52.2361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDE0JzEwLjAiTiA0wrAyNicyMS4wIkU!5e0!3m2!1snl!2snl!4v1"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1468!2d4.4334622!3d52.2162652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c09828819585%3A0xf33ed8ee8fe2e2af!2sGymbox%20Noordwijk!5e0!3m2!1snl!2snl!4v1"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

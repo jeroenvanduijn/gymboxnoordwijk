@@ -10,9 +10,10 @@ export const siteConfig: SiteConfig = {
     email: "welkom@gymboxcrossfit.nl",
     phone: "06 4872 8580",
     openingHours: [
-      "Ma-Vr: 06:00 - 21:00",
-      "Za: 08:00 - 13:00",
-      "Zo: 09:00 - 12:00"
+      "Ma - Do: 06:00 - 21:00",
+      "Vr: 06:00 - 18:30",
+      "Za: 08:00 - 11:00",
+      "Zo: 08:00 - 12:00"
     ],
     socials: {
       instagram: "https://instagram.com/gymboxnoordwijk",
