@@ -20,8 +20,8 @@ export default function FeaturesSection() {
     const t = useTranslations();
     const { aanbod } = t;
 
-    // Show first 6 programs on homepage (skip kickstart since it has its own section)
-    const displayItems = aanbod.items.filter(item => item.key !== "kickstart").slice(0, 6);
+    // Show first 6 programs on homepage
+    const displayItems = aanbod.items.slice(0, 6);
 
     return (
         <section className="section-padding bg-gray-50">

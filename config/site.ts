@@ -47,7 +47,7 @@ export const siteConfig: SiteConfig = {
       href: "/over-ons",
       items: [
         { label: "Over Gymbox Noordwijk", href: "/over-ons" },
-        { label: "Het team", href: "/over-ons#team" },
+        { label: "Het team", href: "/team" },
         { label: "Onze locatie", href: "/contact" },
         { label: "Tarieven", href: "/tarieven" }
       ]

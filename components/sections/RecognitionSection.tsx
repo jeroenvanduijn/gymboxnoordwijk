@@ -15,15 +15,17 @@ export default function RecognitionSection({ content }: { content: Translations[
                     </ScrollReveal>
 
                     <ScrollReveal delay={0.2}>
-                        <div className="grid gap-4 mb-10 text-left md:text-center">
-                            {content.bullets.map((bullet, index) => (
-                                <div key={index} className="flex items-center md:justify-center gap-3 text-lg md:text-xl text-gray-700">
-                                    <svg className="w-6 h-6 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                    </svg>
-                                    <span>{bullet}</span>
-                                </div>
-                            ))}
+                        <div className="inline-block text-left mb-10">
+                            <div className="grid gap-4">
+                                {content.bullets.map((bullet, index) => (
+                                    <div key={index} className="flex items-center gap-3 text-lg md:text-xl text-gray-700">
+                                        <svg className="w-6 h-6 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        <span>{bullet}</span>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
                     </ScrollReveal>
 

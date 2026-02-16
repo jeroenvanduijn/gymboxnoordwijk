@@ -2,10 +2,13 @@
 
 import { useEffect, useState } from "react";
 import { useTranslations } from "@/context/LanguageContext";
+import { usePopup } from "@/context/PopupContext";
+import { useRouter } from "next/navigation";
 
 export default function HighLevelPopup() {
-  const [isOpen, setIsOpen] = useState(false);
+  const { isPopupOpen, closePopup, openPopup } = usePopup();
   const t = useTranslations();
+  const router = useRouter();
 
   // Form State
   const [formData, setFormData] = useState({
@@ -18,19 +21,19 @@ export default function HighLevelPopup() {
 
   useEffect(() => {
     (window as any).openDemoPopup = () => {
-      setIsOpen(true);
+      openPopup();
       document.body.style.overflow = 'hidden';
       setSubmitStatus("idle");
     };
 
     (window as any).closeDemoPopup = () => {
-      setIsOpen(false);
+      closePopup();
       document.body.style.overflow = '';
     };
 
     const handleEscKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
-        setIsOpen(false);
+        closePopup();
         document.body.style.overflow = '';
       }
     };
@@ -42,7 +45,7 @@ export default function HighLevelPopup() {
       delete (window as any).openDemoPopup;
       delete (window as any).closeDemoPopup;
     };
-  }, []);
+  }, [openPopup, closePopup]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
@@ -60,7 +63,6 @@ export default function HighLevelPopup() {
       const pageHistory = historyString ? JSON.parse(historyString).join(" > ") : "";
 
       // Payload for GHL Webhook
-      // User needs to provide the Webhook URL
       const webhookUrl = process.env.NEXT_PUBLIC_GHL_WEBHOOK_URL || "";
 
       if (!webhookUrl) {
@@ -69,10 +71,11 @@ export default function HighLevelPopup() {
         await new Promise(resolve => setTimeout(resolve, 1000));
         setSubmitStatus("success");
         setTimeout(() => {
-          setIsOpen(false);
+          closePopup();
           document.body.style.overflow = '';
           setFormData({ name: "", email: "", phone: "" });
-        }, 2000);
+          router.push("/intake-plannen");
+        }, 1000);
         return;
       }
 
@@ -82,7 +85,7 @@ export default function HighLevelPopup() {
         body: JSON.stringify({
           ...formData,
           page_history: pageHistory,
-          form_source: "Website Popup",
+          form_source: `Website Popup (${window.location.pathname})`,
           url: window.location.href
         })
       });
@@ -90,11 +93,12 @@ export default function HighLevelPopup() {
       if (response.ok) {
         setSubmitStatus("success");
         setTimeout(() => {
-          setIsOpen(false);
+          closePopup();
           document.body.style.overflow = '';
           setFormData({ name: "", email: "", phone: "" });
           setSubmitStatus("idle");
-        }, 2000);
+          router.push("/intake-plannen");
+        }, 1000);
       } else {
         setSubmitStatus("error");
       }
@@ -107,14 +111,14 @@ export default function HighLevelPopup() {
     }
   };
 
-  if (!isOpen) return null;
+  if (!isPopupOpen) return null;
 
   return (
     <div
       className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200"
       onClick={(e) => {
         if (e.target === e.currentTarget) {
-          setIsOpen(false);
+          closePopup();
           document.body.style.overflow = '';
         }
       }}
@@ -128,7 +132,7 @@ export default function HighLevelPopup() {
             </div>
             <button
               onClick={() => {
-                setIsOpen(false);
+                closePopup();
                 document.body.style.overflow = '';
               }}
               className="text-gray-400 hover:text-gray-600 transition-colors"

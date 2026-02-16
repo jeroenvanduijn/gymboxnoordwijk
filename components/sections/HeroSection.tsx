@@ -5,8 +5,10 @@ import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { Translations } from "@/config/translations";
 import ScrollReveal from "@/components/ui/ScrollReveal";
+import { usePopup } from "@/context/PopupContext";
 
 export default function HeroSection({ content }: { content: Translations['hero'] }) {
+    const { openPopup } = usePopup();
     return (
         <section className="relative min-h-[90vh] flex items-center py-20 bg-gray-900 text-white overflow-hidden">
             {/* Background Image with Overlay */}
@@ -58,12 +60,12 @@ export default function HeroSection({ content }: { content: Translations['hero']
                     {/* CTA Section */}
                     <ScrollReveal delay={0.4} direction="up">
                         <div className="flex flex-col items-start gap-4">
-                            <Link
-                                href={content.ctaUrl || "/starten"}
+                            <button
+                                onClick={openPopup}
                                 className="group relative bg-accent text-primary text-lg md:text-xl font-bold py-4 px-10 rounded-2xl transition-all hover:bg-white hover:text-accent shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                             >
                                 <span className="uppercase tracking-wide">{content.cta}</span>
-                            </Link>
+                            </button>
                             {content.ctaSubtext && (
                                 <p className="text-sm md:text-base text-gray-200 flex items-center gap-2 font-medium opacity-90">
                                     {content.ctaSubtext}
