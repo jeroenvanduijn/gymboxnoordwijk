@@ -68,24 +68,26 @@ export default function OverOnsPage() {
 
       {/* Coaches */}
       <section className="section-padding bg-white">
-        <div className="container-custom max-w-3xl mx-auto">
-          <h3 className="text-2xl md:text-3xl font-bold mb-6 font-headings">{overOns.coachesTitle}</h3>
+        <div className="container-custom max-w-4xl mx-auto">
+          <h3 className="text-2xl md:text-3xl font-bold mb-8 font-headings">{overOns.coachesTitle}</h3>
 
-          {/* Coaches photo */}
-          <div className="mb-8 rounded-2xl overflow-hidden shadow-lg">
-            <Image
-              src="https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/hero-background-156.jpg"
-              alt="Gymbox coaches team"
-              width={800}
-              height={450}
-              className="object-cover w-full h-auto"
-            />
-          </div>
+          <div className="flex flex-col md:flex-row gap-8 items-start">
+            {/* Coaches photo */}
+            <div className="w-full md:w-2/5 flex-shrink-0 rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src="https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/hero-background-156.jpg"
+                alt="Gymbox coaches team"
+                width={500}
+                height={350}
+                className="object-cover w-full h-auto"
+              />
+            </div>
 
-          <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
-            {overOns.coachesParagraphs.map((p, i) => (
-              <p key={i} className={i === 2 ? "font-bold text-primary text-xl" : ""}>{p}</p>
-            ))}
+            <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
+              {overOns.coachesParagraphs.map((p, i) => (
+                <p key={i} className={i === 2 ? "font-bold text-primary text-xl" : ""}>{p}</p>
+              ))}
+            </div>
           </div>
         </div>
       </section>

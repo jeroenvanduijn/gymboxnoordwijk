@@ -262,10 +262,13 @@ export const translations = {
       messageConfirm: "We nemen zo snel mogelijk contact met je op.",
       openingHoursTitle: "Openingstijden",
       openingHours: [
-        "Ma - Do: 06:00 - 21:00",
-        "Vr: 06:00 - 18:30",
-        "Za: 08:00 - 11:00",
-        "Zo: 08:00 - 12:00"
+        "Ma: 06:30 - 21:30",
+        "Di: 06:30 - 21:30",
+        "Wo: 06:30 - 21:30",
+        "Do: 06:30 - 21:30",
+        "Vr: 06:30 - 20:30",
+        "Za: 08:00 - 14:00",
+        "Zo: 08:00 - 14:00"
       ],
       followUs: "Volg ons",
       routeTitle: "Route & Parkeren",
@@ -671,10 +674,13 @@ export const translations = {
       messageConfirm: "We'll get back to you as soon as possible.",
       openingHoursTitle: "Opening Hours",
       openingHours: [
-        "Mon - Thu: 06:00 - 21:00",
-        "Fri: 06:00 - 18:30",
-        "Sat: 08:00 - 11:00",
-        "Sun: 08:00 - 12:00"
+        "Mon: 06:30 - 21:30",
+        "Tue: 06:30 - 21:30",
+        "Wed: 06:30 - 21:30",
+        "Thu: 06:30 - 21:30",
+        "Fri: 06:30 - 20:30",
+        "Sat: 08:00 - 14:00",
+        "Sun: 08:00 - 14:00"
       ],
       followUs: "Follow us",
       routeTitle: "Route & Parking",

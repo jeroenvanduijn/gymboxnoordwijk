@@ -10,6 +10,7 @@ import { Language } from "@/config/translations";
 import PageHistoryTracker from "@/components/PageHistoryTracker";
 import { PopupProvider } from "@/context/PopupContext";
 import HighLevelPopup from "@/components/HighLevelPopup";
+import CookieConsent from "@/components/CookieConsent";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-body" });
 const oswald = Oswald({ subsets: ["latin"], variable: "--font-heading" });
@@ -55,6 +56,7 @@ export default async function RootLayout({
               {children}
             </main>
             <Footer />
+            <CookieConsent />
           </PopupProvider>
         </LanguageProvider>
       </body>
