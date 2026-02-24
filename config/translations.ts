@@ -277,19 +277,19 @@ export const translations = {
       intro: "Gymbox is er voor mensen met een vol leven: professionals, starters en iedereen die (weer) wil beginnen met trainen. Geen oordeel. Geen druk. Wel persoonlijke begeleiding, slimme training en zichtbare resultaten.",
       storyTitle: "Hoe is Gymbox begonnen?",
       storyParagraphs: [
-        "Kees Houwaart, geboren in '88. Nog net niet geboren in de sportschool, maar het scheelde weinig :)",
-        "Sportcentrum Olympia van mijn ouders was zo'n beetje mijn tweede huis. Ik groeide er op, werkte er en stond al vroeg met één been in de fitnesswereld.",
-        "In 2009 zette ik samen met mijn zus een volgende stap: Sport&Go. Wat begon als een ambitieus idee groeide uit tot een serieuze onderneming die we jarenlang samen hebben gerund. Ondernemen, coachen, bouwen aan een community  daar leerde ik enorm veel. In 2018 verkocht ik mijn deel van Sport&Go en Olympia, met een rugzak vol ervaring en een steeds duidelijker beeld van wat ik écht wilde neerzetten in training en coaching.",
-        "In al die jaren bleef één ding constant: krachttraining en fitness waren mijn basis. Totdat ik zo'n dertien jaar geleden iets deed wat alles veranderde.",
-        "Ik organiseerde een fietstocht naar de Alpe d'Huez voor leden van Olympia… en werd geacht zelf ook mee te fietsen. Helaas 😬\nDaar kwam ik er vrij snel achter dat alleen bicep curls doen je niet allround fit maken.",
-        "De tocht werd succesvol gefietst maar belangrijker nog: mijn kijk op trainen was voorgoed veranderd.",
-        "Niet veel later kwam CrossFit op mijn pad. Na jarenlang fitness was ik op zoek naar iets nieuws. Iets completers. Iets dat je écht fit maakt. Dagelijks wisselende trainingen, functioneel bewegen, uitdaging. Geen anonieme biggym vibe, maar een kleinere setting waarin je mensen echt leert kennen en beter kunt coachen.",
-        "Dat was het moment waarop alles samenkwam.",
-        "Met mijn ervaring uit de fitnesswereld besloot ik er volledig voor te gaan. Ik volgde alle CrossFit-opleidingen die ik maar kon vinden, leren, verdiepen, beter worden. Niet half, maar vol overtuiging.",
+        "Kees Houwaart, geboren in '88. Niet letterlijk in een sportschool geboren, maar het scheelde weinig :)",
+        "Sportcentrum Olympia van mijn ouders was mijn tweede thuis. Ik groeide er op, werkte er mee en had al vroeg één been in de fitnesswereld.",
+        "In 2009 zette ik samen met mijn zus de volgende stap: Sport&Go. Wat begon als een ambitieus plan groeide uit tot een serieuze onderneming die we jarenlang samen runden. Ondernemen, coachen, bouwen aan een community — ik leerde er enorm veel. In 2018 verkocht ik mijn aandeel in Sport&Go en Olympia. Met een rugzak vol ervaring en een steeds scherper beeld van wat ik écht wilde neerzetten.",
+        "Door al die jaren heen bleef één ding constant: krachttraining en fitness waren mijn basis. Tot ik zo'n dertien jaar geleden iets deed wat alles veranderde.",
+        "Ik organiseerde een fietstocht naar de Alpe d'Huez voor leden van Olympia… en moest zelf ook mee. Helaas 😬\nAl vrij snel kwam ik erachter dat alleen bicep curls je niet allround fit maken.",
+        "De tocht werd succesvol afgelegd, maar veel belangrijker: mijn kijk op trainen veranderde voorgoed.",
+        "Kort daarna ontdekte ik CrossFit. Na jaren traditionele fitness zocht ik iets nieuws. Iets completers. Iets dat je écht fit maakt. Dagelijks wisselende trainingen, functioneel bewegen, echte uitdaging — en geen anonieme biggym-sfeer, maar een kleinere setting waar je mensen leert kennen en beter kunt coachen.",
+        "Op dat moment viel alles op z'n plek.",
+        "Met mijn ervaring uit de fitnesswereld besloot ik er volledig voor te gaan. Ik volgde iedere CrossFit-opleiding die ik kon vinden. Leren, verdiepen, beter worden. Niet half — maar vol overtuiging.",
         "In april 2014 opende Gymbox haar deuren.",
-        "Gymbox werd de plek waar alles samenkomt waar ik in geloof: persoonlijke coaching, resultaat, uitdaging en vooral saamhorigheid. Geen standaard rondjes langs apparaten, maar samen trainen. Samen groeien. Samen afzien én lachen.",
-        "Twee jaar later volgde de volgende stap. Samen met Jeroen van Duijn breidden we uit met CrossFit Leiden.",
-        "Wat begon als 'net niet geboren in de sportschool', groeide uit tot een plek waar mensen sterker worden  fysiek én mentaal. En eerlijk? Dat is nog steeds precies waar ik het elke dag voor doe."
+        "Gymbox werd de plek waar alles samenkomt waar ik in geloof: persoonlijke coaching, resultaat, uitdaging en bovenal saamhorigheid. Geen rondjes langs apparaten, maar samen trainen. Samen groeien. Samen afzien én lachen.",
+        "Twee jaar later volgde de volgende stap: samen met Jeroen van Duijn breidden we uit met CrossFit Leiden.",
+        "Wat begon als 'bijna geboren in de sportschool' groeide uit tot een plek waar mensen sterker worden — fysiek én mentaal. En eerlijk? Dat is nog steeds precies waar ik het elke dag voor doe."
       ],
       waaromAndersTitle: "Waarom Gymbox anders is",
       waaromAndersParagraphs: [
@@ -301,13 +301,13 @@ export const translations = {
       ],
       teamTitle: "Team",
       teamMembers: [
-        { name: "Jack", role: "Coach / Eigenaar", bio: "Mede-eigenaar en gepassioneerd coach...", image: "/images/team/jack.jpg" },
+        { name: "Jack", role: "Coach", bio: "Gepassioneerd coach met jarenlange ervaring...", image: "https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/coaches/coach-Jack-van-Starkenburg.webp" },
         { name: "Lisanne", role: "Coach", bio: "Coacht met passie en oog voor detail...", image: "" },
-        { name: "Ronald", role: "Coach", bio: "Ervaren coach die je helpt je grenzen te verleggen...", image: "" },
+        { name: "Ronald", role: "Coach", bio: "Ervaren coach die je helpt je grenzen te verleggen...", image: "https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/coaches/coach-Ronald.webp" },
         { name: "Jan", role: "Coach", bio: "Focus op techniek en veilig bewegen...", image: "" },
         { name: "Claudine", role: "Coach", bio: "Zorgt voor een warm welkom en goede sfeer...", image: "" },
-        { name: "Rick", role: "Coach", bio: "Motiveert je om het beste uit jezelf te halen...", image: "" },
-        { name: "Marielle", role: "Coach", bio: "Biedt persoonlijke aandacht en begeleiding...", image: "" },
+        { name: "Rick", role: "Coach", bio: "Motiveert je om het beste uit jezelf te halen...", image: "https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/coaches/coach-Rick.webp" },
+        { name: "Marielle", role: "Coach", bio: "Biedt persoonlijke aandacht en begeleiding...", image: "https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/coaches/coach-Marielle-Geerlings.webp" },
         { name: "Fenno", role: "Coach", bio: "Helpt je sterker te worden, fysiek en mentaal...", image: "" },
         { name: "Jari", role: "Coach", bio: "Jong talent met veel kennis van zaken...", image: "" }
       ],
@@ -370,6 +370,41 @@ export const translations = {
     },
     pricing: {
       disclaimer: "* Alle prijzen zijn inclusief btw. Geen verborgen kosten. Maandelijks opzegbaar.",
+    },
+    dropIn: {
+      title: "Train een keer mee bij Gymbox",
+      subtitle: "In de buurt of wil je onze box proberen? Boek een drop-in en doe mee op jouw niveau. Alleen voor ervaren sporters.",
+      bookCta: "Boek een Drop-in",
+      newHereCta: "Nieuw hier? Plan een Gratis Intro",
+      howTitle: "Hoe werkt het?",
+      howSteps: [
+        { title: "Kies je les", description: "Selecteer vestiging Gymbox Noordwijk in SportBit. Kies uit: Gymbox Training, Gymbox Engine of Gymbox Build. Alle lessen duren 60 minuten en kosten \u20ac20." },
+        { title: "Kies je tijd en boek", description: "De beschikbare tijden verschijnen in de kalender. Vul je gegevens in, accepteer de voorwaarden en betaal direct bij het boeken." },
+        { title: "Kom 10 minuten eerder", description: "Meld je bij de coach. Je krijgt een korte rondleiding en uitleg over de training." }
+      ],
+      practicalTitle: "Praktische Info",
+      priceTitle: "Prijs",
+      priceItems: [
+        "Gymbox Training \u2013 \u20ac20 (60 min)",
+        "Gymbox Engine \u2013 \u20ac20 (60 min)",
+        "Gymbox Build \u2013 \u20ac20 (60 min)"
+      ],
+      paymentNote: "Betalen gebeurt direct bij de boeking via SportBit. Geen cash of PIN.",
+      bringTitle: "Wat neem je mee?",
+      bringItems: [
+        "Sportkleding en schoenen",
+        "Waterfles",
+        "Handdoek voor douchen (optioneel)"
+      ],
+      faqTitle: "Veelgestelde Vragen",
+      faqItems: [
+        { question: "Zijn drop-ins geschikt voor beginners?", answer: "Nee. Drop-ins zijn alleen voor mensen met sport-/CrossFit-ervaring. Ben je helemaal nieuw? Plan dan eerst een gratis intro." },
+        { question: "Hoeveel kost een drop-in?", answer: "\u20ac20 per les. Betaling gebeurt online tijdens de boeking." },
+        { question: "Wat is het verschil tussen de lessen?", answer: "Gymbox Training is een gevarieerde CrossFit-training (WOD). Gymbox Engine is gericht op conditie. Gymbox Build focust op kracht. Alle lessen zijn 60 minuten en geschikt voor ervaren sporters." },
+        { question: "Moet ik vooraf boeken?", answer: "Ja. Je moet altijd vooraf boeken via de drop-in kalender zodat we plek voor je kunnen garanderen." }
+      ],
+      ctaTitle: "Klaar om een keer mee te trainen?",
+      ctaDescription: "Boek je drop-in en ervaar de Gymbox sfeer!"
     },
   },
   en: {
@@ -652,17 +687,17 @@ export const translations = {
       storyTitle: "How did Gymbox begin?",
       storyParagraphs: [
         "Kees Houwaart, born in '88. Not quite born in a gym, but it was close :)",
-        "My parents' gym Sportcentrum Olympia was practically my second home. I grew up there, worked there, and had one foot in the fitness world from an early age.",
-        "In 2009, I took the next step with my sister: Sport&Go. What started as an ambitious idea grew into a serious business that we ran together for years. Entrepreneurship, coaching, building a community — I learned so much. In 2018, I sold my share of Sport&Go and Olympia, with a backpack full of experience and an ever-clearer picture of what I truly wanted to build in training and coaching.",
-        "Through all those years, one thing stayed constant: strength training and fitness were my foundation. Until about thirteen years ago, I did something that changed everything.",
-        "I organized a cycling trip to Alpe d'Huez for Olympia members... and was expected to ride along myself. Unfortunately 😬\nThat's when I quickly realized that only doing bicep curls doesn't make you all-round fit.",
-        "The trip was a success, but more importantly: my view on training changed forever.",
-        "Shortly after, CrossFit came into my life. After years of traditional fitness, I was looking for something new. Something more complete. Something that truly makes you fit. Daily varying workouts, functional movement, challenge. No anonymous big-gym vibe, but a smaller setting where you truly get to know people and can coach better.",
-        "That was the moment everything came together.",
-        "With my experience from the fitness world, I decided to go all in. I followed every CrossFit certification I could find — learn, deepen, improve. Not halfway, but with full conviction.",
+        "My parents' gym Sportcentrum Olympia was my second home. I grew up there, worked alongside them, and had one foot in the fitness world from an early age.",
+        "In 2009, I took the next step with my sister: Sport&Go. What started as an ambitious plan grew into a serious business we ran together for years. Entrepreneurship, coaching, building a community — I learned so much. In 2018, I sold my share of Sport&Go and Olympia, carrying a backpack full of experience and an ever-sharper vision of what I truly wanted to build.",
+        "Throughout all those years, one thing remained constant: strength training and fitness were my foundation. Until about thirteen years ago, when I did something that changed everything.",
+        "I organized a cycling trip to Alpe d'Huez for Olympia members… and had to ride along myself. Unfortunately 😬\nThat's when I quickly realized that only doing bicep curls doesn't make you all-round fit.",
+        "The trip was a success, but far more importantly: my view on training changed forever.",
+        "Shortly after, I discovered CrossFit. After years of traditional fitness, I was searching for something new. Something more complete. Something that truly makes you fit. Daily varying workouts, functional movement, real challenge — and no anonymous big-gym vibe, but a smaller setting where you get to know people and can coach them better.",
+        "That was the moment everything fell into place.",
+        "With my experience from the fitness world, I decided to go all in. I followed every CrossFit certification I could find. Learn, deepen, improve. Not halfway — but with full conviction.",
         "In April 2014, Gymbox opened its doors.",
         "Gymbox became the place where everything I believe in comes together: personal coaching, results, challenge, and above all, togetherness. No standard rounds on machines, but training together. Growing together. Suffering and laughing together.",
-        "Two years later came the next step. Together with Jeroen van Duijn, we expanded with CrossFit Leiden.",
+        "Two years later came the next step: together with Jeroen van Duijn, we expanded with CrossFit Leiden.",
         "What started as 'almost born in a gym' grew into a place where people become stronger — physically and mentally. And honestly? That's still exactly what I do it for every day."
       ],
       waaromAndersTitle: "Why Gymbox is Different",
@@ -675,13 +710,13 @@ export const translations = {
       ],
       teamTitle: "Team",
       teamMembers: [
-        { name: "Jack", role: "Coach / Owner", bio: "Co-owner and passionate coach...", image: "/images/team/jack.jpg" },
+        { name: "Jack", role: "Coach", bio: "Passionate coach with years of experience...", image: "https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/coaches/coach-Jack-van-Starkenburg.webp" },
         { name: "Lisanne", role: "Coach", bio: "Coaches with passion and eye for detail...", image: "" },
-        { name: "Ronald", role: "Coach", bio: "Experienced coach helping you push limits...", image: "" },
+        { name: "Ronald", role: "Coach", bio: "Experienced coach helping you push limits...", image: "https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/coaches/coach-Ronald.webp" },
         { name: "Jan", role: "Coach", bio: "Focus on technique and safe movement...", image: "" },
         { name: "Claudine", role: "Coach", bio: "Ensures a warm welcome and great atmosphere...", image: "" },
-        { name: "Rick", role: "Coach", bio: "Motivates you to get the best out of yourself...", image: "" },
-        { name: "Marielle", role: "Coach", bio: "Offers personal attention and guidance...", image: "" },
+        { name: "Rick", role: "Coach", bio: "Motivates you to get the best out of yourself...", image: "https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/coaches/coach-Rick.webp" },
+        { name: "Marielle", role: "Coach", bio: "Offers personal attention and guidance...", image: "https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/coaches/coach-Marielle-Geerlings.webp" },
         { name: "Fenno", role: "Coach", bio: "Helps you get stronger, physically and mentally...", image: "" },
         { name: "Jari", role: "Coach", bio: "Young talent with lots of knowledge...", image: "" }
       ],
@@ -744,6 +779,41 @@ export const translations = {
     },
     pricing: {
       disclaimer: "* All prices include tax. No hidden fees. Cancel anytime.",
+    },
+    dropIn: {
+      title: "Train with us at Gymbox",
+      subtitle: "In the area or want to try our box? Book a drop-in and join at your level. For experienced athletes only.",
+      bookCta: "Book a Drop-in",
+      newHereCta: "New here? Book a Free Intro",
+      howTitle: "How does it work?",
+      howSteps: [
+        { title: "Choose your class", description: "Select location Gymbox Noordwijk in SportBit. Choose from: Gymbox Training, Gymbox Engine or Gymbox Build. All classes are 60 minutes and cost \u20ac20." },
+        { title: "Pick your time and book", description: "Available times appear in the calendar. Fill in your details, accept the terms, and pay directly when booking." },
+        { title: "Arrive 10 minutes early", description: "Check in with the coach. You'll get a brief tour and explanation of the workout." }
+      ],
+      practicalTitle: "Practical Info",
+      priceTitle: "Price",
+      priceItems: [
+        "Gymbox Training \u2013 \u20ac20 (60 min)",
+        "Gymbox Engine \u2013 \u20ac20 (60 min)",
+        "Gymbox Build \u2013 \u20ac20 (60 min)"
+      ],
+      paymentNote: "Payment is made directly upon booking via SportBit. No cash or PIN.",
+      bringTitle: "What to bring?",
+      bringItems: [
+        "Sportswear and shoes",
+        "Water bottle",
+        "Towel for showering (optional)"
+      ],
+      faqTitle: "Frequently Asked Questions",
+      faqItems: [
+        { question: "Are drop-ins suitable for beginners?", answer: "No. Drop-ins are only for people with sports/CrossFit experience. Completely new? Schedule a free intro first." },
+        { question: "How much does a drop-in cost?", answer: "\u20ac20 per class. Payment is made online during booking." },
+        { question: "What's the difference between the classes?", answer: "Gymbox Training is a varied CrossFit workout (WOD). Gymbox Engine focuses on conditioning. Gymbox Build focuses on strength. All classes are 60 minutes and suitable for experienced athletes." },
+        { question: "Do I need to book in advance?", answer: "Yes. You must always book in advance via the drop-in calendar so we can guarantee a spot for you." }
+      ],
+      ctaTitle: "Ready to train with us?",
+      ctaDescription: "Book your drop-in and experience the Gymbox vibe!"
     },
   },
 };

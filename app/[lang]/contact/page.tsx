@@ -2,6 +2,7 @@
 
 import { useTranslations } from "@/context/LanguageContext";
 import { siteConfig } from "@/config/site";
+import Image from "next/image";
 
 export default function ContactPage() {
   const t = useTranslations();
@@ -14,6 +15,21 @@ export default function ContactPage() {
         <div className="container-custom text-center max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 font-headings">{contact.title}</h1>
           <p className="text-white text-lg">{contact.subtitle}</p>
+        </div>
+      </section>
+
+      {/* Location exterior photo */}
+      <section className="bg-white">
+        <div className="container-custom max-w-5xl mx-auto pt-12">
+          <div className="rounded-2xl overflow-hidden shadow-lg">
+            <Image
+              src="https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/hero-background-147.jpg"
+              alt="Gymbox Noordwijk - Buitenkant locatie"
+              width={1200}
+              height={500}
+              className="object-cover w-full h-64 md:h-80"
+            />
+          </div>
         </div>
       </section>
 
@@ -81,7 +97,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Right: Route & Parking + Map placeholder */}
+            {/* Right: Route & Parking + Map */}
             <div className="space-y-8">
               <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100">
                 <h3 className="text-xl font-bold mb-4 flex items-center gap-2">

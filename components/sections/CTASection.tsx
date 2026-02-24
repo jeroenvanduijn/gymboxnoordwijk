@@ -1,11 +1,11 @@
 "use client";
 
-import Link from "next/link";
-import { siteConfig } from "@/config/site";
 import { useTranslations } from "@/context/LanguageContext";
+import { usePopup } from "@/context/PopupContext";
 
 export default function CTASection() {
     const t = useTranslations();
+    const { openPopup } = usePopup();
 
     return (
         <section className="py-20 bg-primary text-white text-center">
@@ -17,18 +17,18 @@ export default function CTASection() {
                     {t.cta.readyDescription}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Link
-                        href={siteConfig.cta.primaryUrl}
+                    <button
+                        onClick={openPopup}
                         className="bg-white text-primary font-bold py-4 px-10 rounded-lg hover:bg-gray-100 transition-colors shadow-lg"
                     >
                         {t.cta.primaryText}
-                    </Link>
-                    <Link
-                        href={siteConfig.cta.secondaryUrl}
+                    </button>
+                    <button
+                        onClick={() => window.location.href = '/rooster'}
                         className="bg-transparent border-2 border-white text-white font-bold py-4 px-10 rounded-lg hover:bg-white/10 transition-colors"
                     >
                         {t.cta.secondaryText}
-                    </Link>
+                    </button>
                 </div>
             </div>
         </section>

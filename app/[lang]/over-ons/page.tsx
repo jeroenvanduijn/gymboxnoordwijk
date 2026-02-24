@@ -1,16 +1,16 @@
 "use client";
 
 import { useTranslations } from "@/context/LanguageContext";
-import Link from "next/link";
-import { siteConfig } from "@/config/site";
+import { usePopup } from "@/context/PopupContext";
+import Image from "next/image";
 
 export default function OverOnsPage() {
   const t = useTranslations();
+  const { openPopup } = usePopup();
   const { overOns } = t;
 
   return (
     <main className="pt-24">
-      {/* Hero */}
       {/* Hero - Title & Subtitle */}
       <section className="bg-accent py-16 md:py-24">
         <div className="container-custom text-center max-w-4xl mx-auto">
@@ -30,6 +30,18 @@ export default function OverOnsPage() {
       <section className="section-padding bg-white">
         <div className="container-custom max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-10 font-headings">{overOns.storyTitle}</h2>
+
+          {/* Kees photo */}
+          <div className="float-right ml-8 mb-6 w-48 md:w-64 rounded-2xl overflow-hidden shadow-lg">
+            <Image
+              src="https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/coaches/coach-Kees-Houwaart.webp"
+              alt="Kees Houwaart - Oprichter Gymbox"
+              width={256}
+              height={320}
+              className="object-cover w-full h-auto"
+            />
+          </div>
+
           <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
             {overOns.storyParagraphs.map((p, i) => (
               <p key={i} className={i === 9 ? "text-2xl font-bold text-primary" : ""} style={{ whiteSpace: "pre-line" }}>
@@ -54,11 +66,22 @@ export default function OverOnsPage() {
         </div>
       </section>
 
-      {/* Team */}
+      {/* Coaches */}
       <section className="section-padding bg-white">
         <div className="container-custom max-w-3xl mx-auto">
-
           <h3 className="text-2xl md:text-3xl font-bold mb-6 font-headings">{overOns.coachesTitle}</h3>
+
+          {/* Coaches photo */}
+          <div className="mb-8 rounded-2xl overflow-hidden shadow-lg">
+            <Image
+              src="https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/hero-background-156.jpg"
+              alt="Gymbox coaches team"
+              width={800}
+              height={450}
+              className="object-cover w-full h-auto"
+            />
+          </div>
+
           <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
             {overOns.coachesParagraphs.map((p, i) => (
               <p key={i} className={i === 2 ? "font-bold text-primary text-xl" : ""}>{p}</p>
@@ -70,14 +93,14 @@ export default function OverOnsPage() {
       {/* CTA */}
       <section className="section-padding bg-primary text-white text-center">
         <div className="container-custom max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold mb-6 font-headings">{t.cta.readyTitle}</h2>
+          <h2 className="text-3xl font-bold mb-6 font-headings text-white">{t.cta.readyTitle}</h2>
           <p className="text-lg mb-8 text-white/80">{t.cta.readyDescription}</p>
-          <Link
-            href={siteConfig.cta.primaryUrl}
+          <button
+            onClick={openPopup}
             className="bg-accent text-white font-bold py-4 px-8 rounded-lg hover:opacity-90 transition-all shadow-lg text-lg"
           >
             {t.cta.primaryText}
-          </Link>
+          </button>
         </div>
       </section>
     </main>

@@ -1,8 +1,8 @@
 "use client";
 
 import { useTranslations } from "@/context/LanguageContext";
-import Link from "next/link";
-import { siteConfig } from "@/config/site";
+import { usePopup } from "@/context/PopupContext";
+import Image from "next/image";
 
 const iconMap: Record<string, React.ReactNode> = {
   kickstart: <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>,
@@ -17,14 +17,23 @@ const iconMap: Record<string, React.ReactNode> = {
 
 export default function AanbodPage() {
   const t = useTranslations();
+  const { openPopup } = usePopup();
   const { aanbod } = t;
 
   return (
     <main className="pt-24">
-      {/* Hero */}
-      <section className="bg-gradient-to-r from-accent to-accent/80 text-white section-padding">
-        <div className="container-custom text-center max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 font-headings">{aanbod.pageTitle}</h1>
+      {/* Hero with background image */}
+      <section className="relative overflow-hidden text-white section-padding">
+        <Image
+          src="https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/hero-background-148.jpg"
+          alt="Gymbox training"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-accent/80"></div>
+        <div className="container-custom text-center max-w-3xl mx-auto relative z-10">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 font-headings text-white">{aanbod.pageTitle}</h1>
         </div>
       </section>
 
@@ -37,7 +46,7 @@ export default function AanbodPage() {
                 <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-6 ${i === 0 ? "bg-white/20 text-white" : "bg-primary/10 text-primary"}`}>
                   {iconMap[item.key] || iconMap.crossfit}
                 </div>
-                <h3 className={`text-xl font-bold mb-3 ${i === 0 ? "text-2xl" : ""}`}>{item.title}</h3>
+                <h3 className={`text-xl font-bold mb-3 ${i === 0 ? "text-2xl text-white" : ""}`}>{item.title}</h3>
                 <p className={`leading-relaxed ${i === 0 ? "text-white/80 text-lg" : "text-gray-600"}`}>{item.description}</p>
               </div>
             ))}
@@ -50,12 +59,12 @@ export default function AanbodPage() {
         <div className="container-custom max-w-2xl mx-auto">
           <h2 className="text-3xl font-bold mb-6 font-headings">{t.cta.readyTitle}</h2>
           <p className="text-gray-600 text-lg mb-8">{t.cta.readyDescription}</p>
-          <Link
-            href={siteConfig.cta.primaryUrl}
+          <button
+            onClick={openPopup}
             className="bg-primary text-white font-bold py-4 px-8 rounded-lg hover:opacity-90 transition-all shadow-lg text-lg"
           >
             {t.cta.primaryText}
-          </Link>
+          </button>
         </div>
       </section>
     </main>

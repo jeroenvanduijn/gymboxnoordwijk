@@ -49,6 +49,7 @@ export default function Footer() {
               ))}
               <li><Link href="/privacy" className="hover:text-primary transition-colors">{t.footer.privacy}</Link></li>
               <li><Link href="/terms" className="hover:text-primary transition-colors">{t.footer.terms}</Link></li>
+              <li><Link href="/drop-in" className="hover:text-primary transition-colors">Drop-in</Link></li>
             </ul>
           </div>
 

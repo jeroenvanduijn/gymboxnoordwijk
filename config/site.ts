@@ -49,7 +49,8 @@ export const siteConfig: SiteConfig = {
         { label: "Over Gymbox Noordwijk", href: "/over-ons" },
         { label: "Het team", href: "/team" },
         { label: "Onze locatie", href: "/contact" },
-        { label: "Tarieven", href: "/tarieven" }
+        { label: "Tarieven", href: "/tarieven" },
+        { label: "Drop-in", href: "/drop-in" }
       ]
     }
   ],
@@ -202,7 +203,7 @@ export const siteConfig: SiteConfig = {
   media: {
     placeholders: {
       hero: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80",
-      community: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&q=80",
+      community: "https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/hero-background-155.jpg",
       feature: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80"
     }
   },
