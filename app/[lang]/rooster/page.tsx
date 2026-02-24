@@ -1,12 +1,12 @@
 "use client";
 
 import CTA from "@/components/CTA";
-import { siteConfig } from "@/config/site";
+import { useTranslations } from "@/context/LanguageContext";
 import RoosterEmbed from "@/components/RoosterEmbed";
 import Image from "next/image";
 
 export default function Rooster() {
-  const content = siteConfig.schedule;
+  const t = useTranslations();
 
   return (
     <>
@@ -21,9 +21,9 @@ export default function Rooster() {
         />
         <div className="absolute inset-0 bg-accent/80"></div>
         <div className="container-custom relative z-10">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">{content.title}</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">{t.schedule.title}</h1>
           <p className="text-xl max-w-2xl text-white">
-            {content.subtitle}
+            {t.schedule.subtitle}
           </p>
         </div>
       </section>

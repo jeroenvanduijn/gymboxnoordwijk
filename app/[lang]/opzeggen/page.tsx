@@ -2,8 +2,12 @@
 
 import { useEffect } from "react";
 import { siteConfig } from "@/config/site";
+import { useTranslations } from "@/context/LanguageContext";
 
 export default function Opzeggen() {
+  const t = useTranslations();
+  const content = t.opzeggen;
+
   useEffect(() => {
     // Load GHL form embed script
     const script = document.createElement("script");
@@ -20,9 +24,9 @@ export default function Opzeggen() {
       {/* Hero */}
       <section className="bg-gradient-to-r from-accent to-accent/80 text-white section-padding">
         <div className="container-custom text-center max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 font-headings">Abonnement Opzeggen</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 font-headings">{content.heroTitle}</h1>
           <p className="text-lg text-white/90">
-            Jammer dat je gaat! We horen graag waarom je stopt, zodat we onze dienstverlening kunnen verbeteren.
+            {content.heroSubtitle}
           </p>
         </div>
       </section>
@@ -30,19 +34,19 @@ export default function Opzeggen() {
       {/* Important Info */}
       <section className="section-padding bg-white">
         <div className="container-custom max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6 font-headings">Belangrijke informatie</h2>
+          <h2 className="text-2xl font-bold mb-6 font-headings">{content.infoTitle}</h2>
           <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
             <p>
-              <strong>Opzegtermijn:</strong> We hanteren minimaal 1 kalendermaand opzegtermijn.
+              <strong>{content.noticePeriod.split(".")[0]}:</strong> {content.noticePeriod}
             </p>
             <p>
-              <strong>Voorbeeld:</strong> Wil je per 1 januari stoppen? Dan moet je voor 1 december opzeggen.
+              <strong>{content.noticeExample.split("?")[0]}?</strong> {content.noticeExample.split("?").slice(1).join("?").trim()}
             </p>
             <p>
-              Je blijft welkom tot het einde van de betaalde periode. Je hebt nog steeds toegang tot alle lessen.
+              {content.accessNote}
             </p>
             <p className="bg-accent/10 border-l-4 border-accent p-4 rounded-r-lg">
-              💡 <strong>Wil je liever even pauzeren?</strong> Neem dan contact met ons op – we denken graag met je mee!
+              💡 <strong>{content.pauseNote}</strong>
             </p>
           </div>
         </div>
@@ -51,7 +55,7 @@ export default function Opzeggen() {
       {/* Cancellation Form */}
       <section className="section-padding bg-gray-50">
         <div className="container-custom max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6 font-headings">Opzegformulier</h2>
+          <h2 className="text-2xl font-bold mb-6 font-headings">{content.formTitle}</h2>
           <div className="bg-white rounded-2xl shadow-lg p-2 md:p-4">
             <iframe
               src="https://links.gymops.nl/widget/form/augCoihjd4guzTFTcaoL"
@@ -73,7 +77,7 @@ export default function Opzeggen() {
           </div>
 
           <div className="mt-8 text-center text-gray-600">
-            <p className="mb-2">Of neem direct contact op:</p>
+            <p className="mb-2">{content.contactAlt}</p>
             <p>
               <a href={`mailto:${siteConfig.gym.email}`} className="text-primary hover:underline font-semibold">{siteConfig.gym.email}</a>
               {" · "}
@@ -83,18 +87,18 @@ export default function Opzeggen() {
         </div>
       </section>
 
-      {/* Twijfel section */}
+      {/* Doubt section */}
       <section className="section-padding bg-white">
         <div className="container-custom max-w-2xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4 font-headings">Twijfel je nog?</h2>
+          <h2 className="text-2xl font-bold mb-4 font-headings">{content.doubtTitle}</h2>
           <p className="text-gray-700 text-lg mb-6">
-            Heb je vragen of wil je praten over alternatieven? We denken graag mee over oplossingen.
+            {content.doubtText}
           </p>
           <a
             href="/contact"
             className="inline-block bg-primary text-white font-bold py-3 px-8 rounded-lg hover:opacity-90 transition-all"
           >
-            Neem Contact Op
+            {content.doubtCta}
           </a>
         </div>
       </section>

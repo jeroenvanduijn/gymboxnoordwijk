@@ -1,11 +1,15 @@
 "use client";
 
+import { useTranslations } from "@/context/LanguageContext";
+
 export default function Privacy() {
+  const t = useTranslations();
+
   return (
     <main className="pt-24">
       <section className="section-padding bg-white">
         <div className="container-custom max-w-4xl mx-auto prose prose-lg max-w-none text-gray-700">
-          <h1 className="text-3xl font-bold mb-8 font-headings">Privacy Policy</h1>
+          <h1 className="text-3xl font-bold mb-8 font-headings">{t.privacy.title}</h1>
 
           <p>
             Gymbox understands that your privacy is important to you. We are committed to protecting the privacy of your personally-identifiable information as you use this website. This Privacy Policy tells you how we protect and use information that we gather from you. By using this website, you consent to the terms described in the most recent version of this Privacy Policy. You should also read our Terms of Use to understand the general rules about your use of this website, and any additional terms that may apply when you access particular services or materials on certain areas of this website. &ldquo;We,&rdquo; &ldquo;our&rdquo; means Gymbox and its affiliates. &ldquo;You,&rdquo; &ldquo;your,&rdquo; &ldquo;visitor,&rdquo; or &ldquo;user&rdquo; means the individual accessing this site.

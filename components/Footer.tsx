@@ -50,7 +50,7 @@ export default function Footer() {
               <li><Link href="/privacy" className="hover:text-primary transition-colors">{t.footer.privacy}</Link></li>
               <li><Link href="/terms" className="hover:text-primary transition-colors">{t.footer.terms}</Link></li>
               <li><Link href="/drop-in" className="hover:text-primary transition-colors">Drop-in</Link></li>
-              <li><Link href="/opzeggen" className="hover:text-primary transition-colors">Abonnement opzeggen</Link></li>
+              <li><Link href="/opzeggen" className="hover:text-primary transition-colors">{t.nav.cancelMembership}</Link></li>
             </ul>
           </div>
 

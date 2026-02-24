@@ -16,7 +16,7 @@ export default function TeamPage() {
                         {overOns.teamTitle}
                     </h1>
                     <p className="text-xl text-gray-600">
-                        Ontmoet de mensen achter Gymbox.
+                        {t.teamSubtitle}
                     </p>
                 </div>
 

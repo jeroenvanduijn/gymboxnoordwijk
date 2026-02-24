@@ -6,7 +6,21 @@ export const translations = {
       schedule: "Rooster",
       pricing: "Tarieven",
       contact: "Contact",
+      about: "Over Ons",
+      cancelMembership: "Abonnement opzeggen",
     },
+    navDropdown: {
+      aboutGymbox: "Over Gymbox Noordwijk",
+      team: "Het team",
+      location: "Onze locatie",
+      pricing: "Tarieven",
+      dropIn: "Drop-in",
+    },
+    schedule: {
+      title: "Weekrooster",
+      subtitle: "Lessen de hele dag, elke dag. Vind een tijd die bij je past.",
+    },
+    teamSubtitle: "Ontmoet de mensen achter Gymbox.",
     hero: {
       tagline: "Sterker, fitter en meer energie, zonder gedoe",
       headline: "Word sterker. Zonder dat je eerst fit hoeft te zijn.",
@@ -374,6 +388,101 @@ export const translations = {
     pricing: {
       disclaimer: "* Alle prijzen zijn inclusief btw. Geen verborgen kosten. Maandelijks opzegbaar.",
     },
+    tarieven: {
+      heroTitle: "Tarieven",
+      heroSubtitle: "Geen verborgen kosten. Geen lange contracten. Alleen resultaat.",
+      comparisonTitle: "Waar geef je het aan uit?",
+      comparisonSubtitle: "Je geeft nu waarschijnlijk al meer uit aan dingen die je minder opleveren.",
+      comparisonItems: [
+        { label: "Koffie to-go", detail: "2x per dag", price: "€150/mnd" },
+        { label: "Streaming abonnementen", detail: "Netflix + Spotify + Disney+", price: "€35/mnd" },
+        { label: "Ongebruikt sportschoolabonnement", detail: "basic fitness", price: "€30/mnd" },
+        { label: "Gymbox Group Coaching", detail: "max 12 personen • elke les gecoacht", price: "vanaf €105/mnd", highlight: true }
+      ],
+      programsTitle: "Onze programma's",
+      programs: [
+        {
+          name: "Gymbox Kickstart",
+          subtitle: "De perfecte start voor iedereen",
+          details: [{ label: "2x Personal Training", price: "€160" }],
+          description: "Ons kickstart programma helpt je op weg met 2 persoonlijke trainingssessies. Je coach leert je de basisbewegingen, bespreekt je doelen en maakt een plan dat bij jou past."
+        },
+        {
+          name: "Group Coaching",
+          subtitle: "max 12 personen • elke les gecoacht",
+          details: [
+            { label: "Basic – 9 credits/maand", price: "€105/mnd" },
+            { label: "Limited – 13 credits/maand", price: "€125/mnd" },
+            { label: "Max – 26 credits/maand", price: "€145/mnd" }
+          ],
+          description: "Train in kleine groepen onder begeleiding van een ervaren coach. Elke les wordt aangepast aan jouw niveau. Kies het pakket dat bij jouw trainingsfrequentie past."
+        },
+        {
+          name: "Personal Training",
+          subtitle: "1-op-1 coaching",
+          details: [
+            { label: "Losse sessie", price: "€75" },
+            { label: "5-sessie pakket", price: "€350" },
+            { label: "10-sessie pakket", price: "€650" }
+          ],
+          description: "Volledige aandacht voor jouw doelen, tempo en lichaam. Ideaal als aanvulling op groepslessen of als zelfstandig traject."
+        },
+        {
+          name: "Teens Membership",
+          subtitle: "13–17 jaar",
+          details: [{ label: "Maandelijks", price: "€85/mnd" }],
+          description: "Speciaal voor tieners. Train onder begeleiding in een veilige en motiverende omgeving. Focus op plezier, bewegen en zelfvertrouwen."
+        },
+        {
+          name: "Kids Membership",
+          subtitle: "6–12 jaar",
+          details: [{ label: "Maandelijks", price: "€55/mnd" }],
+          description: "Bewegen, spelen en sterker worden. Onze kids classes zorgen voor een actieve basis in een leuke groep."
+        },
+        {
+          name: "Flex Friday",
+          subtitle: "Open Gym op vrijdag",
+          details: [{ label: "Vrijdag 17:00–20:30", price: "Gratis voor leden" }],
+          description: "Elke vrijdag open gym voor alle leden. Werk aan je eigen doelen, volg je eigen programma of train met een buddy."
+        }
+      ],
+      faqTitle: "Veelgestelde vragen over tarieven",
+      faqItems: [
+        { question: "Zijn er inschrijfkosten?", answer: "Nee. Geen inschrijfkosten, geen verborgen kosten." },
+        { question: "Kan ik maandelijks opzeggen?", answer: "Ja, al onze abonnementen zijn maandelijks opzegbaar met 1 kalendermaand opzegtermijn." },
+        { question: "Wat is het verschil tussen Basic, Limited en Max?", answer: "Het verschil zit in het aantal credits (lessen) per maand. Basic = 9, Limited = 13, Max = 26. Kies wat bij jouw trainingsfrequentie past." },
+        { question: "Kan ik eerst proberen?", answer: "Ja! Plan een gratis en vrijblijvende intro om kennis te maken." }
+      ],
+      ctaTitle: "Klaar om te starten?",
+      ctaDescription: "Plan een gratis intro en ontdek welk programma bij je past.",
+      ctaButton: "Plan een Gratis Intro"
+    },
+    opzeggen: {
+      heroTitle: "Abonnement Opzeggen",
+      heroSubtitle: "Jammer dat je gaat! We horen graag waarom je stopt, zodat we onze dienstverlening kunnen verbeteren.",
+      infoTitle: "Belangrijke informatie",
+      noticePeriod: "We hanteren minimaal 1 kalendermaand opzegtermijn.",
+      noticeExample: "Wil je per 1 januari stoppen? Dan moet je voor 1 december opzeggen.",
+      accessNote: "Je blijft welkom tot het einde van de betaalde periode. Je hebt nog steeds toegang tot alle lessen.",
+      pauseNote: "Wil je liever even pauzeren? Neem dan contact met ons op – we denken graag met je mee!",
+      formTitle: "Opzegformulier",
+      contactAlt: "Of neem direct contact op:",
+      doubtTitle: "Twijfel je nog?",
+      doubtText: "Heb je vragen of wil je praten over alternatieven? We denken graag mee over oplossingen.",
+      doubtCta: "Neem Contact Op"
+    },
+    privacy: {
+      title: "Privacybeleid",
+    },
+    terms: {
+      pageTitle: "Algemene Voorwaarden",
+      placeholderText: "Dit is een tijdelijke pagina voor de Algemene Voorwaarden van",
+      acceptance: "Acceptatie van Voorwaarden",
+      acceptanceText: "Door het gebruik van deze website, accepteert u deze voorwaarden.",
+      membership: "Lidmaatschap",
+      membershipText: "Alle lidmaatschappen zijn onder voorbehoud van goedkeuring door het management. behoudt zich het recht voor om service te weigeren.",
+      lastUpdated: "Laatste update:"
+    },
     dropIn: {
       title: "Train een keer mee bij Gymbox",
       subtitle: "In de buurt of wil je onze box proberen? Boek een drop-in en doe mee op jouw niveau. Alleen voor ervaren sporters.",
@@ -418,7 +527,21 @@ export const translations = {
       pricing: "Pricing",
       testimonials: "Testimonials",
       contact: "Contact",
+      about: "About Us",
+      cancelMembership: "Cancel Membership",
     },
+    navDropdown: {
+      aboutGymbox: "About Gymbox Noordwijk",
+      team: "The Team",
+      location: "Our Location",
+      pricing: "Pricing",
+      dropIn: "Drop-in",
+    },
+    schedule: {
+      title: "Weekly Schedule",
+      subtitle: "Classes throughout the day, every day. Find a time that suits you.",
+    },
+    teamSubtitle: "Meet the people behind Gymbox.",
     hero: {
       tagline: "Stronger, fitter and more energy, without the hassle",
       headline: "Get stronger. Without needing to be fit first.",
@@ -785,6 +908,101 @@ export const translations = {
     },
     pricing: {
       disclaimer: "* All prices include tax. No hidden fees. Cancel anytime.",
+    },
+    tarieven: {
+      heroTitle: "Pricing",
+      heroSubtitle: "No hidden fees. No long contracts. Just results.",
+      comparisonTitle: "What are you spending it on?",
+      comparisonSubtitle: "You're probably already spending more on things that give you less.",
+      comparisonItems: [
+        { label: "Coffee to-go", detail: "2x per day", price: "€150/mo" },
+        { label: "Streaming subscriptions", detail: "Netflix + Spotify + Disney+", price: "€35/mo" },
+        { label: "Unused gym membership", detail: "basic fitness", price: "€30/mo" },
+        { label: "Gymbox Group Coaching", detail: "max 12 people • every class coached", price: "from €105/mo", highlight: true }
+      ],
+      programsTitle: "Our Programs",
+      programs: [
+        {
+          name: "Gymbox Kickstart",
+          subtitle: "The perfect start for everyone",
+          details: [{ label: "2x Personal Training", price: "€160" }],
+          description: "Our kickstart program helps you get started with 2 personal training sessions. Your coach teaches you the basic movements, discusses your goals, and creates a plan that fits you."
+        },
+        {
+          name: "Group Coaching",
+          subtitle: "max 12 people • every class coached",
+          details: [
+            { label: "Basic – 9 credits/month", price: "€105/mo" },
+            { label: "Limited – 13 credits/month", price: "€125/mo" },
+            { label: "Max – 26 credits/month", price: "€145/mo" }
+          ],
+          description: "Train in small groups under the guidance of an experienced coach. Every class is adapted to your level. Choose the package that fits your training frequency."
+        },
+        {
+          name: "Personal Training",
+          subtitle: "1-on-1 coaching",
+          details: [
+            { label: "Single session", price: "€75" },
+            { label: "5-session package", price: "€350" },
+            { label: "10-session package", price: "€650" }
+          ],
+          description: "Full attention to your goals, pace, and body. Ideal as a supplement to group classes or as a standalone program."
+        },
+        {
+          name: "Teens Membership",
+          subtitle: "13–17 years",
+          details: [{ label: "Monthly", price: "€85/mo" }],
+          description: "Specially for teenagers. Train under supervision in a safe and motivating environment. Focus on fun, movement, and confidence."
+        },
+        {
+          name: "Kids Membership",
+          subtitle: "6–12 years",
+          details: [{ label: "Monthly", price: "€55/mo" }],
+          description: "Move, play, and get stronger. Our kids classes provide an active foundation in a fun group."
+        },
+        {
+          name: "Flex Friday",
+          subtitle: "Open Gym on Friday",
+          details: [{ label: "Friday 17:00–20:30", price: "Free for members" }],
+          description: "Every Friday open gym for all members. Work on your own goals, follow your own program, or train with a buddy."
+        }
+      ],
+      faqTitle: "Frequently asked questions about pricing",
+      faqItems: [
+        { question: "Are there registration fees?", answer: "No. No registration fees, no hidden costs." },
+        { question: "Can I cancel monthly?", answer: "Yes, all our subscriptions can be cancelled monthly with 1 calendar month notice." },
+        { question: "What's the difference between Basic, Limited, and Max?", answer: "The difference is in the number of credits (classes) per month. Basic = 9, Limited = 13, Max = 26. Choose what fits your training frequency." },
+        { question: "Can I try first?", answer: "Yes! Schedule a free, no-obligation intro to get to know us." }
+      ],
+      ctaTitle: "Ready to get started?",
+      ctaDescription: "Schedule a free intro and discover which program suits you.",
+      ctaButton: "Book a Free Intro"
+    },
+    opzeggen: {
+      heroTitle: "Cancel Membership",
+      heroSubtitle: "Sorry to see you go! We'd love to hear why you're leaving so we can improve our services.",
+      infoTitle: "Important Information",
+      noticePeriod: "We require a minimum of 1 calendar month notice period.",
+      noticeExample: "Want to stop by January 1st? Then you need to cancel before December 1st.",
+      accessNote: "You remain welcome until the end of the paid period. You still have access to all classes.",
+      pauseNote: "Would you rather pause? Get in touch with us – we're happy to help!",
+      formTitle: "Cancellation Form",
+      contactAlt: "Or contact us directly:",
+      doubtTitle: "Having second thoughts?",
+      doubtText: "Have questions or want to discuss alternatives? We're happy to help find solutions.",
+      doubtCta: "Contact Us"
+    },
+    privacy: {
+      title: "Privacy Policy",
+    },
+    terms: {
+      pageTitle: "Terms & Conditions",
+      placeholderText: "This is a generic terms and conditions placeholder for",
+      acceptance: "Acceptance of Terms",
+      acceptanceText: "By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement.",
+      membership: "Membership",
+      membershipText: "All memberships are subject to approval by management. reserves the right to refuse service to anyone for any reason at any time.",
+      lastUpdated: "Last Updated:"
     },
     dropIn: {
       title: "Train with us at Gymbox",

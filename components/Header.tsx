@@ -44,6 +44,15 @@ export default function Header() {
     "/rooster": t.nav.schedule,
     "/tarieven": t.nav.pricing,
     "/contact": t.nav.contact,
+    "/over-ons": t.nav.about,
+  };
+
+  const dropdownLabels: Record<string, string> = {
+    "/over-ons": t.navDropdown.aboutGymbox,
+    "/team": t.navDropdown.team,
+    "/contact": t.navDropdown.location,
+    "/tarieven": t.navDropdown.pricing,
+    "/drop-in": t.navDropdown.dropIn,
   };
 
   return (
@@ -103,7 +112,7 @@ export default function Header() {
                           href={getLocalizedHref(subItem.href)}
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors"
                         >
-                          {subItem.label}
+                          {dropdownLabels[subItem.href] || subItem.label}
                         </Link>
                       ))}
                     </div>
@@ -183,7 +192,7 @@ export default function Header() {
                               className="block px-4 py-2 text-sm text-gray-600 hover:text-primary"
                               onClick={() => setMobileMenuOpen(false)}
                             >
-                              {subItem.label}
+                              {dropdownLabels[subItem.href] || subItem.label}
                             </Link>
                           ))}
                         </div>
