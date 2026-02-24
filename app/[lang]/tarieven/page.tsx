@@ -4,6 +4,7 @@ import { useState } from "react";
 import { usePopup } from "@/context/PopupContext";
 import { useTranslations } from "@/context/LanguageContext";
 import CTA from "@/components/CTA";
+import { Coffee, MonitorPlay, Dumbbell, Flame } from "lucide-react";
 
 export default function Tarieven() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -31,19 +32,27 @@ export default function Tarieven() {
             {content.comparisonSubtitle}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {content.comparisonItems.map((item: { label: string; detail: string; price: string; highlight?: boolean }, i: number) => (
-              <div
-                key={i}
-                className={`rounded-xl p-6 text-center transition-all ${item.highlight
+            {content.comparisonItems.map((item: { label: string; detail: string; price: string; highlight?: boolean }, i: number) => {
+              const ComparisonIcon = i === 0 ? Coffee : i === 1 ? MonitorPlay : i === 2 ? Dumbbell : Flame;
+              return (
+                <div
+                  key={i}
+                  className={`rounded-2xl p-6 sm:p-8 text-center transition-all duration-300 flex flex-col items-center justify-center relative ${item.highlight
                     ? "bg-accent text-white shadow-xl ring-2 ring-accent scale-105"
-                    : "bg-gray-50 text-gray-700 border border-gray-200"
-                  }`}
-              >
-                <p className={`text-sm mb-1 ${item.highlight ? "text-white/80" : "text-gray-500"}`}>{item.detail}</p>
-                <p className="font-bold text-lg mb-2">{item.label}</p>
-                <p className={`text-2xl font-bold ${item.highlight ? "text-white" : "text-primary"}`}>{item.price}</p>
-              </div>
-            ))}
+                    : "bg-gray-50 text-gray-800 border border-gray-200 hover:shadow-md hover:-translate-y-1"
+                    }`}
+                >
+                  <div className={`mb-5 flex items-center justify-center w-14 h-14 rounded-full ${item.highlight ? "bg-white/20 text-white" : "bg-white text-primary shadow-sm"}`}>
+                    <ComparisonIcon size={28} strokeWidth={item.highlight ? 2.5 : 2} />
+                  </div>
+                  <p className={`text-sm mb-2 font-medium ${item.highlight ? "text-white/90" : "text-gray-500"}`}>{item.detail}</p>
+                  <h3 className="font-bold text-xl mb-3 leading-tight">{item.label}</h3>
+                  <div className="mt-auto pt-2">
+                    <p className={`text-3xl font-black tracking-tight ${item.highlight ? "text-white" : "text-primary"}`}>{item.price}</p>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
