@@ -43,7 +43,7 @@ export default function FeaturesSection() {
                             <div className="group bg-white p-8 rounded-xl shadow-sm border border-gray-100 h-full transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:border-accent/30 relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-accent/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-150 duration-500"></div>
 
-                                <div className="w-14 h-14 bg-primary/5 rounded-2xl flex items-center justify-center text-primary mb-6 group-hover:bg-accent group-hover:text-white transition-colors duration-300 relative z-10">
+                                <div className="w-14 h-14 bg-primary/5 rounded-2xl flex items-center justify-center text-accent mb-6 group-hover:bg-accent group-hover:text-white transition-colors duration-300 relative z-10">
                                     {iconMap[item.key] || iconMap.crossfit}
                                 </div>
 

@@ -286,7 +286,7 @@ export const translations = {
       ],
       followUs: "Volg ons",
       routeTitle: "Route & Parkeren",
-      routeDescription: "Met de auto: Gratis parkeergelegenheid voor de deur (alleen op plekken waar een bord met Gymbox voor hangt). Of parkeren langs de doorgaande weg (Keyserswey), of bij het grotere parkeerterrein naast Brouwer Tours."
+      routeDescription: "Met de auto: Gratis parkeergelegenheid voor de deur (alleen op plekken waar een bord met Gymbox voor hangt).\nOf parkeren langs de doorgaande weg (Keyserswey), of bij het grotere parkeerterrein naast Brouwer Tours."
     },
     overOns: {
       pageTitle: "Over ons",
@@ -399,6 +399,7 @@ export const translations = {
         { label: "Ongebruikt sportschoolabonnement", detail: "basic fitness", price: "€30/mnd" },
         { label: "Gymbox Group Coaching", detail: "max 12 personen • elke les gecoacht", price: "vanaf €105/mnd", highlight: true }
       ],
+      comparisonConclusion: "Je betaalt óf nu aan je gezondheid, óf later aan klachten, weinig energie en zorgkosten. Bij ons bouw je rustig en veilig aan een fitter leven",
       programsTitle: "Onze programma's",
       programs: [
         {
@@ -807,7 +808,7 @@ export const translations = {
       ],
       followUs: "Follow us",
       routeTitle: "Route & Parking",
-      routeDescription: "By car: Free parking in front of the door (only in spots marked with a Gymbox sign). Or park along the main road (Keyserswey), or at the larger parking area next to Brouwer Tours."
+      routeDescription: "By car: Free parking in front of the door (only in spots marked with a Gymbox sign).\nOr park along the main road (Keyserswey), or at the larger parking area next to Brouwer Tours."
     },
     overOns: {
       pageTitle: "About Us",
@@ -920,6 +921,7 @@ export const translations = {
         { label: "Unused gym membership", detail: "basic fitness", price: "€30/mo" },
         { label: "Gymbox Group Coaching", detail: "max 12 people • every class coached", price: "from €105/mo", highlight: true }
       ],
+      comparisonConclusion: "You either pay for your health now, or later in complaints, low energy, and healthcare costs. With us, you build a fitter life safely and steadily.",
       programsTitle: "Our Programs",
       programs: [
         {

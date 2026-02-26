@@ -11,7 +11,6 @@ export default function HeroSection({ content }: { content: Translations['hero']
     const { openPopup } = usePopup();
     return (
         <section className="relative min-h-[90vh] flex items-center py-20 bg-gray-900 text-white overflow-hidden">
-            {/* Background Image with Overlay */}
             <div className="absolute inset-0 z-0">
                 <Image
                     src={siteConfig.hero.image}
@@ -20,9 +19,9 @@ export default function HeroSection({ content }: { content: Translations['hero']
                     className="object-cover"
                     priority
                 />
-                <div className="absolute inset-0 bg-gray-900/40 z-10"></div>
+                <div className="absolute inset-0 bg-gray-900/20 z-10"></div>
                 {/* Gradient Overlay for extra readability on left side */}
-                <div className="absolute inset-0 z-20 bg-gradient-to-r from-gray-900/80 via-gray-900/40 to-transparent"></div>
+                <div className="absolute inset-0 z-20 bg-gradient-to-r from-gray-900/60 via-gray-900/20 to-transparent"></div>
             </div>
 
             <div className="container-custom relative z-30 h-full flex flex-col justify-center">

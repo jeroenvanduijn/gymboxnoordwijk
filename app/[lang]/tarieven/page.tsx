@@ -26,18 +26,18 @@ export default function Tarieven() {
 
       {/* Comparison Section */}
       <section className="section-padding bg-white">
-        <div className="container-custom max-w-4xl mx-auto">
+        <div className="container-custom max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-4 font-headings">{content.comparisonTitle}</h2>
           <p className="text-center text-gray-600 mb-10 text-lg">
             {content.comparisonSubtitle}
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             {content.comparisonItems.map((item: { label: string; detail: string; price: string; highlight?: boolean }, i: number) => {
               const ComparisonIcon = i === 0 ? Coffee : i === 1 ? MonitorPlay : i === 2 ? Dumbbell : Flame;
               return (
                 <div
                   key={i}
-                  className={`rounded-2xl p-6 sm:p-8 text-center transition-all duration-300 flex flex-col items-center justify-center relative ${item.highlight
+                  className={`rounded-2xl p-6 sm:p-8 lg:p-10 min-h-[320px] lg:min-h-[350px] text-center transition-all duration-300 flex flex-col items-center justify-center relative ${item.highlight
                     ? "bg-accent text-white shadow-xl ring-2 ring-accent scale-105"
                     : "bg-gray-50 text-gray-800 border border-gray-200 hover:shadow-md hover:-translate-y-1"
                     }`}
@@ -54,6 +54,11 @@ export default function Tarieven() {
               );
             })}
           </div>
+          {content.comparisonConclusion && (
+            <p className="text-center text-gray-600 mt-10 text-lg md:text-xl max-w-3xl mx-auto italic">
+              {content.comparisonConclusion}
+            </p>
+          )}
         </div>
       </section>
 
