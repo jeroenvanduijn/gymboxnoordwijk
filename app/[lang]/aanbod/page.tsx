@@ -3,6 +3,7 @@
 import { useTranslations } from "@/context/LanguageContext";
 import { usePopup } from "@/context/PopupContext";
 import Image from "next/image";
+import ScrollReveal from "@/components/ui/ScrollReveal";
 
 const iconMap: Record<string, React.ReactNode> = {
   kickstart: <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>,
@@ -21,50 +22,76 @@ export default function AanbodPage() {
   const { aanbod } = t;
 
   return (
-    <main className="pt-24">
+    <main className="pt-24 min-h-screen bg-gray-50">
       {/* Hero with background image */}
-      <section className="relative overflow-hidden text-white section-padding">
-        <Image
-          src="https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/hero-background-148.jpg"
-          alt="Gymbox training"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-accent/80"></div>
-        <div className="container-custom text-center max-w-3xl mx-auto relative z-10">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 font-headings text-white">{aanbod.pageTitle}</h1>
+      <section className="relative overflow-hidden text-white py-24 lg:py-32 bg-gray-900">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="https://8reapzspluqk4ou3.public.blob.vercel-storage.com/fotos/hero-background-148.jpg"
+            alt="Gymbox training"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gray-900/20 z-10"></div>
+          {/* Gradient Overlay for extra readability on left side */}
+          <div className="absolute inset-0 z-20 bg-gradient-to-r from-gray-900/80 via-gray-900/40 to-transparent"></div>
+        </div>
+
+        <div className="container-custom relative z-30 max-w-4xl mx-auto md:mx-0">
+          <ScrollReveal direction="left">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 font-headings tracking-tight text-white">{aanbod.pageTitle}</h1>
+          </ScrollReveal>
         </div>
       </section>
 
       {/* Programs Grid */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {aanbod.items.map((item, i) => (
-              <div key={i} className={`bg-white p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1 ${i === 0 ? "md:col-span-2 lg:col-span-3 bg-gradient-to-r from-primary to-primary-dark text-white border-0" : ""}`}>
-                <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-6 ${i === 0 ? "bg-white/20 text-white" : "bg-primary/10 text-primary"}`}>
-                  {iconMap[item.key] || iconMap.crossfit}
-                </div>
-                <h3 className={`text-xl font-bold mb-3 ${i === 0 ? "text-2xl text-white" : ""}`}>{item.title}</h3>
-                <p className={`leading-relaxed ${i === 0 ? "text-white/80 text-lg" : "text-gray-600"}`}>{item.description}</p>
-              </div>
+              <ScrollReveal key={i} delay={0.1 * (i % 3)} className={`${i === 0 ? "md:col-span-2 lg:col-span-3" : "h-full"}`}>
+                {i === 0 ? (
+                  <div className="group bg-gray-900 p-8 md:p-12 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 relative overflow-hidden border border-gray-800">
+                    <div className="absolute top-0 right-0 w-48 h-48 bg-accent/5 rounded-bl-full -mr-12 -mt-12 transition-transform group-hover:scale-150 duration-700"></div>
+
+                    <div className="w-16 h-16 bg-accent rounded-2xl flex items-center justify-center text-primary mb-6 shadow-lg relative z-10 hover:bg-white hover:text-accent transition-colors">
+                      {iconMap[item.key] || iconMap.crossfit}
+                    </div>
+                    <h3 className="text-3xl md:text-4xl font-bold mb-4 font-headings uppercase text-white relative z-10 tracking-tight">{item.title}</h3>
+                    <p className="leading-relaxed text-gray-300 text-lg md:text-xl max-w-3xl relative z-10">{item.description}</p>
+                  </div>
+                ) : (
+                  <div className="group bg-white p-8 rounded-xl shadow-sm border border-gray-100 h-full transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:border-accent/30 relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-24 h-24 bg-accent/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-150 duration-500"></div>
+
+                    <div className="w-14 h-14 bg-primary/5 rounded-2xl flex items-center justify-center text-accent mb-6 group-hover:bg-accent group-hover:text-white transition-colors duration-300 relative z-10">
+                      {iconMap[item.key] || iconMap.crossfit}
+                    </div>
+
+                    <h3 className="font-bold text-xl mb-3 font-headings uppercase group-hover:text-accent transition-colors relative z-10">{item.title}</h3>
+                    <p className="text-gray-600 relative z-10">{item.description}</p>
+                  </div>
+                )}
+              </ScrollReveal>
             ))}
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="section-padding bg-gray-50 text-center">
+      <section className="section-padding bg-primary text-white text-center">
         <div className="container-custom max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold mb-6 font-headings">{t.cta.readyTitle}</h2>
-          <p className="text-gray-600 text-lg mb-8">{t.cta.readyDescription}</p>
-          <button
-            onClick={openPopup}
-            className="bg-primary text-white font-bold py-4 px-8 rounded-lg hover:opacity-90 transition-all shadow-lg text-lg"
-          >
-            {t.cta.primaryText}
-          </button>
+          <ScrollReveal direction="up">
+            <h2 className="text-3xl font-bold mb-4 font-headings text-white">{t.cta.readyTitle}</h2>
+            <p className="text-lg text-white/90 mb-8">{t.cta.readyDescription}</p>
+            <button
+              onClick={openPopup}
+              className="bg-accent text-primary font-bold py-4 px-10 rounded-lg text-lg hover:bg-white transition-all shadow-lg transform hover:-translate-y-1 uppercase tracking-wide"
+            >
+              {t.cta.primaryText}
+            </button>
+          </ScrollReveal>
         </div>
       </section>
     </main>

@@ -147,8 +147,8 @@ export default function Tarieven() {
       {/* CTA */}
       <section className="section-padding bg-primary text-white">
         <div className="container-custom max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4 font-headings">{content.ctaTitle}</h2>
-          <p className="text-lg text-white/80 mb-8">{content.ctaDescription}</p>
+          <h2 className="text-3xl font-bold mb-4 font-headings text-white">{content.ctaTitle}</h2>
+          <p className="text-lg text-white mb-8">{content.ctaDescription}</p>
           <button
             onClick={openPopup}
             className="bg-accent text-white font-bold py-4 px-10 rounded-lg text-lg hover:opacity-90 transition-all shadow-lg"

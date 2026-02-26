@@ -519,6 +519,13 @@ export const translations = {
       ctaTitle: "Klaar om een keer mee te trainen?",
       ctaDescription: "Boek je drop-in en ervaar de Gymbox sfeer!"
     },
+    links: {
+      freeIntro: "Gratis Kennismaking",
+      kickstart: "28 Dagen Kickstart",
+      dropIn: "Boek een Drop-in",
+      whatsapp: "Whatsapp Ons",
+      schedule: "Bekijk Rooster"
+    }
   },
   en: {
     nav: {
@@ -1041,6 +1048,13 @@ export const translations = {
       ctaTitle: "Ready to train with us?",
       ctaDescription: "Book your drop-in and experience the Gymbox vibe!"
     },
+    links: {
+      freeIntro: "Free Introduction",
+      kickstart: "28 Day Kickstart",
+      dropIn: "Book a Drop-in",
+      whatsapp: "WhatsApp Us",
+      schedule: "Schedule"
+    }
   },
 };
 
