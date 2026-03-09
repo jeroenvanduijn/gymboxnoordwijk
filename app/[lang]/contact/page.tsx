@@ -1,40 +1,17 @@
 "use client";
 
-import { useState } from "react";
 import { useTranslations } from "@/context/LanguageContext";
 import { siteConfig } from "@/config/site";
 import Image from "next/image";
 import Link from "next/link";
 import { useParams } from "next/navigation";
+import Script from "next/script";
 
 export default function ContactPage() {
   const t = useTranslations();
   const { contact } = t;
   const params = useParams();
   const lang = params.lang as string;
-
-  // Contact form state
-  const [formData, setFormData] = useState({
-    email: "",
-    category: "general",
-    message: "",
-  });
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Contact form submitted:", formData);
-    setSubmitted(true);
-  };
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
-  ) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
 
   return (
     <main className="pt-24">
@@ -125,74 +102,28 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Right: Contact Form */}
+            {/* Right: Embedded Contact Form */}
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-2xl shadow-xl border border-gray-100">
                 <h2 className="text-2xl font-bold mb-6">{contact.formTitle}</h2>
-                {!submitted ? (
-                  <form onSubmit={handleSubmit} className="space-y-5">
-                    <div>
-                      <label htmlFor="contact-email" className="block text-sm font-semibold mb-2">
-                        {t.forms.email} *
-                      </label>
-                      <input
-                        id="contact-email"
-                        type="email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        required
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary outline-none transition-all"
-                        placeholder={contact.emailPlaceholder}
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="contact-category" className="block text-sm font-semibold mb-2">
-                        {contact.categoryLabel}
-                      </label>
-                      <select
-                        id="contact-category"
-                        name="category"
-                        value={formData.category}
-                        onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary outline-none transition-all bg-white"
-                      >
-                        <option value="general">{contact.categories.general}</option>
-                        <option value="membership">{contact.categories.membership}</option>
-                        <option value="schedule">{contact.categories.schedule}</option>
-                        <option value="pricing">{contact.categories.pricing}</option>
-                        <option value="other">{contact.categories.other}</option>
-                      </select>
-                    </div>
-                    <div>
-                      <label htmlFor="contact-message" className="block text-sm font-semibold mb-2">
-                        {contact.questionLabel}
-                      </label>
-                      <textarea
-                        id="contact-message"
-                        name="message"
-                        value={formData.message}
-                        onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                        required
-                        rows={5}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary outline-none transition-all resize-vertical"
-                        placeholder={contact.questionPlaceholder}
-                      />
-                    </div>
-                    <button
-                      type="submit"
-                      className="w-full bg-accent text-white font-bold py-4 rounded-lg hover:opacity-90 transition-all shadow-md text-lg"
-                    >
-                      {contact.sendMessage}
-                    </button>
-                  </form>
-                ) : (
-                  <div className="bg-green-50 p-8 rounded-xl text-center border border-green-100">
-                    <div className="text-5xl mb-4">✉️</div>
-                    <h3 className="text-2xl font-bold text-green-800 mb-3">{contact.messageSent}</h3>
-                    <p className="text-green-700">{contact.messageConfirm}</p>
-                  </div>
-                )}
+                <iframe
+                  src="https://links.gymops.nl/widget/form/SH9IuTsdFYTqVJPIuWqL"
+                  style={{ width: "100%", height: "511px", border: "none", borderRadius: "3px" }}
+                  id="inline-SH9IuTsdFYTqVJPIuWqL"
+                  data-layout='{"id":"INLINE"}'
+                  data-trigger-type="alwaysShow"
+                  data-trigger-value=""
+                  data-activation-type="alwaysActivated"
+                  data-activation-value=""
+                  data-deactivation-type="neverDeactivate"
+                  data-deactivation-value=""
+                  data-form-name="Contact Form Website"
+                  data-height="511"
+                  data-layout-iframe-id="inline-SH9IuTsdFYTqVJPIuWqL"
+                  data-form-id="SH9IuTsdFYTqVJPIuWqL"
+                  title="Contact Form Website"
+                ></iframe>
+                <Script src="https://links.gymops.nl/js/form_embed.js" strategy="lazyOnload" />
               </div>
             </div>
           </div>
