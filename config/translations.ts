@@ -286,7 +286,23 @@ export const translations = {
       ],
       followUs: "Volg ons",
       routeTitle: "Route & Parkeren",
-      routeDescription: "Met de auto: Gratis parkeergelegenheid voor de deur (alleen op plekken waar een bord met Gymbox voor hangt).\nOf parkeren langs de doorgaande weg (Keyserswey), of bij het grotere parkeerterrein naast Brouwer Tours."
+      routeDescription: "Met de auto: Gratis parkeergelegenheid voor de deur (alleen op plekken waar een bord met Gymbox voor hangt).\nOf parkeren langs de doorgaande weg (Keyserswey), of bij het grotere parkeerterrein naast Brouwer Tours.",
+      formTitle: "Stuur ons een bericht",
+      categoryLabel: "Ik heb een vraag over:",
+      categories: {
+        general: "Algemene vraag",
+        membership: "Lidmaatschap",
+        schedule: "Rooster & lessen",
+        pricing: "Tarieven",
+        other: "Anders"
+      },
+      questionLabel: "Je vraag",
+      questionPlaceholder: "Typ hier je vraag...",
+      emailPlaceholder: "je@email.nl",
+      sendMessage: "Verstuur Bericht",
+      walkInTitle: "Loop gerust eens binnen!",
+      walkInDescription: "Loop gerust eens binnen om de sfeer te proeven. De koffie staat klaar. ☕",
+      walkInCta: "Plan een Gratis Intro →"
     },
     overOns: {
       pageTitle: "Over ons",
@@ -815,7 +831,23 @@ export const translations = {
       ],
       followUs: "Follow us",
       routeTitle: "Route & Parking",
-      routeDescription: "By car: Free parking in front of the door (only in spots marked with a Gymbox sign).\nOr park along the main road (Keyserswey), or at the larger parking area next to Brouwer Tours."
+      routeDescription: "By car: Free parking in front of the door (only in spots marked with a Gymbox sign).\nOr park along the main road (Keyserswey), or at the larger parking area next to Brouwer Tours.",
+      formTitle: "Send us a message",
+      categoryLabel: "I have a question about:",
+      categories: {
+        general: "General question",
+        membership: "Membership",
+        schedule: "Schedule & classes",
+        pricing: "Pricing",
+        other: "Other"
+      },
+      questionLabel: "Your question",
+      questionPlaceholder: "Type your question here...",
+      emailPlaceholder: "you@email.com",
+      sendMessage: "Send Message",
+      walkInTitle: "Feel free to walk in!",
+      walkInDescription: "Feel free to stop by and experience the atmosphere. The coffee is ready. ☕",
+      walkInCta: "Book a Free Intro →"
     },
     overOns: {
       pageTitle: "About Us",

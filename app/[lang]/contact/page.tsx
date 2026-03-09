@@ -1,12 +1,40 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations } from "@/context/LanguageContext";
 import { siteConfig } from "@/config/site";
 import Image from "next/image";
+import Link from "next/link";
+import { useParams } from "next/navigation";
 
 export default function ContactPage() {
   const t = useTranslations();
   const { contact } = t;
+  const params = useParams();
+  const lang = params.lang as string;
+
+  // Contact form state
+  const [formData, setFormData] = useState({
+    email: "",
+    category: "general",
+    message: "",
+  });
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    console.log("Contact form submitted:", formData);
+    setSubmitted(true);
+  };
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
+  ) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
 
   return (
     <main className="pt-24">
@@ -73,7 +101,7 @@ export default function ContactPage() {
                   {contact.openingHoursTitle}
                 </h3>
                 <ul className="space-y-1">
-                  {contact.openingHours.map((line, i) => (
+                  {contact.openingHours.map((line: string, i: number) => (
                     <li key={i} className="text-gray-600 text-lg">{line}</li>
                   ))}
                 </ul>
@@ -97,31 +125,120 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Right: Route & Parking + Map */}
+            {/* Right: Contact Form */}
             <div className="space-y-8">
-              <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100">
-                <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-                  <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" /></svg>
-                  {contact.routeTitle}
-                </h3>
-                <p className="text-gray-600 leading-relaxed whitespace-pre-line">{contact.routeDescription}</p>
-              </div>
-
-              {/* Google Maps embed */}
-              <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-80">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1468!2d4.4334622!3d52.2162652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c09828819585%3A0xf33ed8ee8fe2e2af!2sGymbox%20Noordwijk!5e0!3m2!1snl!2snl!4v1"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Gymbox Noordwijk"
-                ></iframe>
+              <div className="bg-white p-8 rounded-2xl shadow-xl border border-gray-100">
+                <h2 className="text-2xl font-bold mb-6">{contact.formTitle}</h2>
+                {!submitted ? (
+                  <form onSubmit={handleSubmit} className="space-y-5">
+                    <div>
+                      <label htmlFor="contact-email" className="block text-sm font-semibold mb-2">
+                        {t.forms.email} *
+                      </label>
+                      <input
+                        id="contact-email"
+                        type="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        required
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary outline-none transition-all"
+                        placeholder={contact.emailPlaceholder}
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="contact-category" className="block text-sm font-semibold mb-2">
+                        {contact.categoryLabel}
+                      </label>
+                      <select
+                        id="contact-category"
+                        name="category"
+                        value={formData.category}
+                        onChange={handleChange}
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary outline-none transition-all bg-white"
+                      >
+                        <option value="general">{contact.categories.general}</option>
+                        <option value="membership">{contact.categories.membership}</option>
+                        <option value="schedule">{contact.categories.schedule}</option>
+                        <option value="pricing">{contact.categories.pricing}</option>
+                        <option value="other">{contact.categories.other}</option>
+                      </select>
+                    </div>
+                    <div>
+                      <label htmlFor="contact-message" className="block text-sm font-semibold mb-2">
+                        {contact.questionLabel}
+                      </label>
+                      <textarea
+                        id="contact-message"
+                        name="message"
+                        value={formData.message}
+                        onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                        required
+                        rows={5}
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary outline-none transition-all resize-vertical"
+                        placeholder={contact.questionPlaceholder}
+                      />
+                    </div>
+                    <button
+                      type="submit"
+                      className="w-full bg-accent text-white font-bold py-4 rounded-lg hover:opacity-90 transition-all shadow-md text-lg"
+                    >
+                      {contact.sendMessage}
+                    </button>
+                  </form>
+                ) : (
+                  <div className="bg-green-50 p-8 rounded-xl text-center border border-green-100">
+                    <div className="text-5xl mb-4">✉️</div>
+                    <h3 className="text-2xl font-bold text-green-800 mb-3">{contact.messageSent}</h3>
+                    <p className="text-green-700">{contact.messageConfirm}</p>
+                  </div>
+                )}
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Route & Parking + Map */}
+      <section className="section-padding bg-gray-50">
+        <div className="container-custom max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
+              <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" /></svg>
+                {contact.routeTitle}
+              </h3>
+              <p className="text-gray-600 leading-relaxed whitespace-pre-line">{contact.routeDescription}</p>
+            </div>
+
+            {/* Google Maps embed */}
+            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-80">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1468!2d4.4334622!3d52.2162652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c09828819585%3A0xf33ed8ee8fe2e2af!2sGymbox%20Noordwijk!5e0!3m2!1snl!2snl!4v1"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Gymbox Noordwijk"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Walk-in CTA */}
+      <section className="section-padding bg-white">
+        <div className="container-custom max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 font-headings">{contact.walkInTitle}</h2>
+          <p className="text-gray-600 text-lg mb-8">{contact.walkInDescription}</p>
+          <Link
+            href={`/${lang}/starten`}
+            className="inline-block bg-accent text-white font-bold py-4 px-8 rounded-lg hover:opacity-90 transition-all shadow-md text-lg"
+          >
+            {contact.walkInCta}
+          </Link>
         </div>
       </section>
     </main>
