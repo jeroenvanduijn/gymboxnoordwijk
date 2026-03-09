@@ -4,11 +4,9 @@ import type { NextRequest } from "next/server";
 const locales = ['nl', 'en'];
 const defaultLocale = 'nl';
 
-// Get the preferred locale
-function getLocale(request: NextRequest) {
-    const acceptLanguage = request.headers.get('accept-language');
-    if (acceptLanguage?.includes('en')) return 'en';
-    return 'nl';
+// Always default to Dutch
+function getLocale(_request: NextRequest) {
+    return defaultLocale;
 }
 
 export function middleware(request: NextRequest) {
