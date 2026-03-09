@@ -52,7 +52,8 @@ export const siteConfig: SiteConfig = {
         { label: "Tarieven", href: "/tarieven" },
         { label: "Drop-in", href: "/drop-in" }
       ]
-    }
+    },
+    { label: "Contact", href: "/contact" }
   ],
   hero: {
     variant: "results",
